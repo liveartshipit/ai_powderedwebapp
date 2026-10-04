@@ -34,6 +34,7 @@ jobs:
         if: github.event_name != 'push'
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
         run: node scripts/fetch-news.mjs
 
       - name: Commit data
