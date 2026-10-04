@@ -1,1 +1,117 @@
-{"updated":null,"model":null,"items":[]}
+{
+  "updated": "2026-10-04T07:49:27.262Z",
+  "model": null,
+  "source": "openai.com/news",
+  "items": [
+    {
+      "id": "/index/practical-guide-building-gpt-6",
+      "title": "A model guide for the GPT-6 family",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6",
+      "date": "2026-10-02T16:15:00.000Z",
+      "category": "Product",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/chatham-financial",
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "link": "https://openai.com/index/chatham-financial",
+      "date": "2026-10-02T00:00:00.000Z",
+      "category": "Company",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/the-eternal-complement",
+      "title": "The eternal complement",
+      "link": "https://openai.com/index/the-eternal-complement",
+      "date": "2026-10-01T17:00:00.000Z",
+      "category": "Intelligence Age",
+      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/albertsons-reimagining-retail",
+      "title": "How Albertsons Companies is reimagining retail from the inside out",
+      "link": "https://openai.com/index/albertsons-reimagining-retail",
+      "date": "2026-10-01T16:00:00.000Z",
+      "category": "Company",
+      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/the-den-family-social",
+      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "link": "https://openai.com/index/the-den-family-social",
+      "date": "2026-10-01T00:00:00.000Z",
+      "category": "Company",
+      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/disrupting-a-coordinated-model-distillation-campaign",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "date": "2026-09-30T10:30:00.000Z",
+      "category": "Security",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/helping-small-businesses-put-ai-to-work",
+      "title": "Helping small businesses put AI to work",
+      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "date": "2026-09-30T10:00:00.000Z",
+      "category": "Global Affairs",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/devday-2026-recap",
+      "title": "DevDay 2026 Recap",
+      "link": "https://openai.com/index/devday-2026-recap",
+      "date": "2026-09-29T10:00:00.000Z",
+      "category": "Company",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/introducing-gpt-6-1-sol",
+      "title": "Introducing GPT-6.1 Sol",
+      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "date": "2026-09-29T10:00:00.000Z",
+      "category": "Product",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    },
+    {
+      "id": "/index/introducing-dots",
+      "title": "Introducing dots",
+      "link": "https://openai.com/index/introducing-dots",
+      "date": "2026-09-29T00:00:00.000Z",
+      "category": "Product",
+      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "why": "",
+      "tags": [],
+      "ai": false
+    }
+  ]
+}
