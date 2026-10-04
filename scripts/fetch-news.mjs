@@ -43,18 +43,43 @@ async function fetchFeed() {
   throw new Error('No feed reachable');
 }
 
+// Free models, best candidates first: ones that support JSON output and don't
+// spend the token budget on hidden reasoning, then larger context windows.
 async function freeModels() {
   try {
     const r = await fetch('https://openrouter.ai/api/v1/models');
     const { data } = await r.json();
-    return data.filter(m => m.id.endsWith(':free')).map(m => m.id);
+    const score = m => {
+      const p = m.supported_parameters || [];
+      return (p.includes('structured_outputs') || p.includes('response_format') ? 2 : 0) + (p.includes('reasoning') ? 0 : 1);
+    };
+    return data
+      .filter(m => m.id.endsWith(':free') && (m.context_length || 0) >= 32000)
+      .sort((a, b) => score(b) - score(a) || (b.context_length || 0) - (a.context_length || 0))
+      .map(m => m.id);
   } catch { return []; }
+}
+
+// Pull the JSON array out of a model reply, tolerating fences, wrapper objects and trailing text.
+function parseArray(txt) {
+  txt = txt.replace(/```(?:json)?/g, '').trim();
+  try { const v = JSON.parse(txt); if (Array.isArray(v)) return v; const a = Object.values(v || {}).find(Array.isArray); if (a) return a; } catch {}
+  const start = txt.indexOf('[');
+  if (start < 0) throw new Error('no JSON array in reply');
+  for (let end = txt.lastIndexOf(']'); end > start; end = txt.lastIndexOf(']', end - 1)) {
+    try { return JSON.parse(txt.slice(start, end + 1)); } catch {}
+  }
+  throw new Error('could not parse JSON array from reply');
 }
 
 async function summarise(items) {
   if (!KEY) { console.warn('OPENROUTER_API_KEY missing — using feed text'); return { model: null, out: {} }; }
   const available = await freeModels();
-  const order = [...PREFERRED.filter(m => !available.length || available.includes(m)), ...available.filter(m => !PREFERRED.includes(m))].slice(0, 6);
+  // OPENROUTER_MODEL (repo variable, comma-separated) pins models to try first.
+  const pinned = (process.env.OPENROUTER_MODEL || '').split(',').map(s => s.trim()).filter(Boolean);
+  const wanted = [...pinned, ...PREFERRED.filter(m => !available.length || available.includes(m))];
+  const order = [...new Set([...wanted, ...available])].slice(0, 8);
+  console.log(`models to try: ${order.join(', ') || '(none)'}`);
   const prompt = `You write for "Worksmarto AI News", a news page for busy freelancers and founders.
 For EACH item return an object: {"id": same id, "summary": plain-English summary, max 45 words, no hype,
 "why": one line on why it matters to a freelancer or small business, max 20 words,
@@ -70,15 +95,19 @@ ${JSON.stringify(items.map(({ id, title, raw, feedCategory }) => ({ id, title, c
       const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
         method: 'POST',
         headers: { Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json', 'HTTP-Referer': 'https://news.worksmarto.com', 'X-Title': 'Worksmarto AI News' },
-        body: JSON.stringify({ model, temperature: 0.3, max_tokens: Math.min(250 * items.length + 200, 3000), messages: [{ role: 'user', content: prompt }] }),
+        body: JSON.stringify({ model, temperature: 0.3, max_tokens: 6000, reasoning: { effort: 'low', exclude: true }, messages: [{ role: 'user', content: prompt }] }),
+        signal: AbortSignal.timeout(120000),
       });
       const j = await r.json();
       if (!r.ok) { console.warn(`${model} -> ${r.status} ${JSON.stringify(j.error || j).slice(0, 200)}`); continue; }
-      let txt = j.choices?.[0]?.message?.content || '';
-      txt = txt.replace(/```json|```/g, '').trim();
-      const arr = JSON.parse(txt.slice(txt.indexOf('['), txt.lastIndexOf(']') + 1));
+      const choice = j.choices?.[0] || {};
+      const txt = choice.message?.content || '';
+      if (!txt.trim()) { console.warn(`${model} returned no text (finish_reason: ${choice.finish_reason || 'unknown'})`); continue; }
+      let arr;
+      try { arr = parseArray(txt); } catch (e) { console.warn(`${model} failed: ${e.message} (finish_reason: ${choice.finish_reason || 'unknown'}) reply starts: ${JSON.stringify(txt.slice(0, 160))}`); continue; }
       const out = Object.fromEntries(arr.filter(o => o && o.id).map(o => [o.id, o]));
       console.log(`summarised ${Object.keys(out).length}/${items.length} with ${model}`);
+      if (!Object.keys(out).length) continue;
       return { model, out };
     } catch (e) { console.warn(`${model} failed: ${e.message}`); }
   }
@@ -90,8 +119,9 @@ const clip = (s, n) => { const w = (s || '').split(' '); return w.length > n ? w
 const prev = JSON.parse(await readFile(DATA, 'utf8').catch(() => '{"items":[]}'));
 const known = new Map((prev.items || []).map(i => [i.id, i]));
 const feed = await fetchFeed();
-const fresh = feed.filter(i => !known.has(i.id)).slice(0, MAX_NEW);
-console.log(`${fresh.length} new item(s)`);
+// New items, plus earlier ones still showing feed text because summarising failed.
+const fresh = feed.filter(i => !known.has(i.id) || known.get(i.id).ai === false).slice(0, MAX_NEW);
+console.log(`${fresh.length} item(s) to summarise`);
 
 let model = prev.model || null;
 if (fresh.length) {
