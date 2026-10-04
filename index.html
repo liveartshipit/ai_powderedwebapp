@@ -3,6 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Google tag (gtag.js). Consent is denied by default: nothing is measured and no cookies are set until the visitor clicks Accept (see assets/site.js). -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZFN1DT0BP6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied' });
+  gtag('js', new Date());
+  try { if (localStorage.getItem('news-consent') === 'granted') { gtag('consent', 'update', { analytics_storage: 'granted' }); gtag('config', 'G-ZFN1DT0BP6', { cookie_domain: location.hostname }); window.__gaConfigured = true; } } catch (e) {}
+</script>
 <title>Worksmarto AI News — the day in AI, in two minutes</title>
 <meta name="description" content="The day's AI news — models, products, companies, AI stocks, research and policy — in plain English, with why it matters for freelancers and small businesses. Updated every morning.">
 <meta property="og:title" content="Worksmarto AI News">
@@ -18,7 +27,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=72bbc64">
+<link rel="stylesheet" href="assets/style.css?v=de97000-2">
 </head>
 <body>
 <a class="skip" href="#feed">Skip to news</a>
@@ -136,7 +145,7 @@
 </footer>
 
 <div class="toast" id="toast" role="status"></div>
-<script src="assets/site.js?v=72bbc64" defer></script>
-<script src="assets/app.js?v=72bbc64" defer></script>
+<script src="assets/site.js?v=de97000-2" defer></script>
+<script src="assets/app.js?v=de97000-2" defer></script>
 </body>
 </html>

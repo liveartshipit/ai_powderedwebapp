@@ -16,21 +16,14 @@
   $('#menu').onclick = () => { const open = $('#nav').classList.toggle('open'); $('#menu').setAttribute('aria-expanded', open); };
   $('#year').textContent = new Date().getFullYear();
 
-  /* Analytics: Google Analytics loads only after the visitor accepts. */
-  if (!/^G-[A-Z0-9]+$/.test(GA_ID)) return;
+  /* Analytics: the Google tag is in every page's <head> with consent denied by default
+     (so Google can detect it). Measurement starts only after the visitor accepts. */
+  if (!/^G-[A-Z0-9]+$/.test(GA_ID) || typeof window.gtag !== 'function') return;
   const KEY = 'news-consent';
-  let loaded = false;
-  const loadGA = () => {
-    if (loaded) return; loaded = true;
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { dataLayer.push(arguments); };
-    gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'granted' });
-    gtag('js', new Date());
+  const grant = () => {
+    gtag('consent', 'update', { analytics_storage: 'granted' });
     // Cookies stay on this subdomain, so a choice here never touches worksmarto.com's own consent/cookies.
-    gtag('config', GA_ID, { cookie_domain: location.hostname });
-    const s = document.createElement('script');
-    s.async = true; s.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
-    document.head.appendChild(s);
+    if (!window.__gaConfigured) { gtag('config', GA_ID, { cookie_domain: location.hostname }); window.__gaConfigured = true; }
   };
   const clearGA = () => {
     // Remove this site's Google Analytics cookies (set on this host only).
@@ -47,9 +40,8 @@
   document.body.appendChild(banner);
   const choose = v => {
     store.set(KEY, v); banner.hidden = true;
-    if (v === 'granted') loadGA();
-    else if (loaded) { gtag('consent', 'update', { analytics_storage: 'denied' }); clearGA(); }
-    else clearGA();
+    if (v === 'granted') grant();
+    else { gtag('consent', 'update', { analytics_storage: 'denied' }); clearGA(); }
   };
   banner.querySelector('.consent-yes').onclick = () => choose('granted');
   banner.querySelector('.consent-no').onclick = () => choose('denied');
@@ -64,6 +56,6 @@
   }
 
   const saved = store.get(KEY);
-  if (saved === 'granted') loadGA();
+  if (saved === 'granted') grant();
   else if (saved !== 'denied') banner.hidden = false;
 })();

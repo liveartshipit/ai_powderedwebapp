@@ -3,6 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Google tag (gtag.js). Consent is denied by default: nothing is measured and no cookies are set until the visitor clicks Accept (see assets/site.js). -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZFN1DT0BP6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', { ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied' });
+  gtag('js', new Date());
+  try { if (localStorage.getItem('news-consent') === 'granted') { gtag('consent', 'update', { analytics_storage: 'granted' }); gtag('config', 'G-ZFN1DT0BP6', { cookie_domain: location.hostname }); window.__gaConfigured = true; } } catch (e) {}
+</script>
 <title>Terms and Conditions — Worksmarto AI News</title>
 <meta name="description" content="Terms for using Worksmarto AI News (news.worksmarto.com), including AI-generated content and not-advice terms.">
 <meta name="theme-color" content="#0B64F4">
@@ -12,7 +21,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=72bbc64">
+<link rel="stylesheet" href="assets/style.css?v=de97000-2">
 </head>
 <body>
 <a class="skip" href="#content">Skip to content</a>
@@ -131,6 +140,6 @@
   <div class="wrap foot-base">© <span id="year">2026</span> Worksmarto. All rights reserved.</div>
 </footer>
 
-<script src="assets/site.js?v=72bbc64" defer></script>
+<script src="assets/site.js?v=de97000-2" defer></script>
 </body>
 </html>
