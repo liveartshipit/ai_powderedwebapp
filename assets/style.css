@@ -242,3 +242,18 @@ h1,h2,h3{font-family:var(--head);color:var(--ink)}
 .h-go{grid-column:2;grid-row:1/3;color:var(--blue);font-weight:700}
 .foot .dim a{color:#C9D1DC}
 @media (max-width:767px){.elsewhere-list{grid-template-columns:1fr}}
+
+/* Legal pages */
+.legal-page{background:var(--band);border-top:1px solid var(--line);padding:56px 0 72px}
+.legal{max-width:780px}
+.legal h1{font:700 clamp(34px,5vw,48px)/1.1 var(--head);margin:0 0 10px;letter-spacing:-.02em}
+.legal .updated{color:var(--muted);font:500 14px/1 var(--ui);margin:0 0 28px}
+.legal .lede{background:var(--surface);border:1px solid var(--line-strong);border-left:4px solid var(--blue);border-radius:12px;padding:18px 20px;font-size:17px;color:var(--ink)}
+.legal h2{font:700 22px/1.3 var(--head);margin:36px 0 10px}
+.legal p,.legal li{color:var(--ink);font-size:16px;line-height:1.7}
+.legal p{margin:0 0 14px}
+.legal ul{padding-left:20px;margin:0 0 14px}
+.legal li{margin-bottom:8px}
+.legal a{color:var(--blue)}
+.legal code{background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:14px}
+.legal .eyebrow{color:var(--blue)}

@@ -10,19 +10,6 @@
   const dayKey = d => new Date(d).toLocaleDateString('en-CA');
   const state = { items: [], sec: 'All', q: '', day: null, top: null };
 
-  /* Theme */
-  const root = document.documentElement;
-  try { const t = localStorage.getItem('news-theme'); if (t) root.dataset.theme = t; } catch {}
-  $('#theme').onclick = () => {
-    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    root.dataset.theme = dark ? 'light' : 'dark';
-    try { localStorage.setItem('news-theme', root.dataset.theme); } catch {}
-  };
-
-  /* Mobile menu */
-  $('#menu').onclick = () => { const open = $('#nav').classList.toggle('open'); $('#menu').setAttribute('aria-expanded', open); };
-  $('#year').textContent = new Date().getFullYear();
-
   let tt; const toast = m => { const t = $('#toast'); t.textContent = m; t.classList.add('on'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('on'), 1800); };
 
   const ago = iso => {
