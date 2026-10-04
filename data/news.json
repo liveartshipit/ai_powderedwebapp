@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T07:49:27.262Z",
-  "model": null,
+  "updated": "2026-10-04T08:05:17.433Z",
+  "model": "qwen/qwen3.8-27b:free",
   "source": "openai.com/news",
   "items": [
     {
@@ -9,10 +9,14 @@
       "link": "https://openai.com/index/practical-guide-building-gpt-6",
       "date": "2026-10-02T16:15:00.000Z",
       "category": "Product",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "A practical guide covering how startups can select GPT-6 models, adjust reasoning effort, refine prompts and skills, coordinate tools, and prepare workflows for production use.",
+      "why": "Helps freelancers and small teams pick the right GPT-6 model and set up production workflows.",
+      "tags": [
+        "gpt-6",
+        "model-selection",
+        "workflows"
+      ],
+      "ai": true
     },
     {
       "id": "/index/chatham-financial",
@@ -20,21 +24,29 @@
       "link": "https://openai.com/index/chatham-financial",
       "date": "2026-10-02T00:00:00.000Z",
       "category": "Company",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign capital markets workflows, reducing trade validation time from 30 minutes to under 4 minutes.",
+      "why": "Shows how AI can compress repetitive financial workflows for small firms.",
+      "tags": [
+        "finance",
+        "codex",
+        "workflow-automation"
+      ],
+      "ai": true
     },
     {
       "id": "/index/the-eternal-complement",
       "title": "The eternal complement",
       "link": "https://openai.com/index/the-eternal-complement",
       "date": "2026-10-01T17:00:00.000Z",
-      "category": "Intelligence Age",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "category": "Research",
+      "summary": "An essay arguing that advanced AI may matter most for the routine work behind breakthrough ideas, and that execution could shape the next economy and pace of progress.",
+      "why": "Frames AI as a force multiplier for the execution work freelancers do daily.",
+      "tags": [
+        "ai-economy",
+        "execution",
+        "productivity"
+      ],
+      "ai": true
     },
     {
       "id": "/index/albertsons-reimagining-retail",
@@ -42,10 +54,14 @@
       "link": "https://openai.com/index/albertsons-reimagining-retail",
       "date": "2026-10-01T16:00:00.000Z",
       "category": "Company",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "Albertsons Companies uses ChatGPT Enterprise and the OpenAI API to help internal teams work faster and improve the grocery shopping experience for millions of customers.",
+      "why": "Demonstrates how enterprise AI tools can streamline operations in large organizations.",
+      "tags": [
+        "retail",
+        "chatgpt-enterprise",
+        "api"
+      ],
+      "ai": true
     },
     {
       "id": "/index/the-den-family-social",
@@ -53,32 +69,44 @@
       "link": "https://openai.com/index/the-den-family-social",
       "date": "2026-10-01T00:00:00.000Z",
       "category": "Company",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "The Den, a family social club, uses ChatGPT Work to free up 10-15 hours weekly. Grant applications now take 2 hours instead of 3 days; liquor-license materials take 3 hours instead of 4 days.",
+      "why": "A concrete example of how a small business cuts admin time with AI.",
+      "tags": [
+        "small-business",
+        "chatgpt-work",
+        "admin"
+      ],
+      "ai": true
     },
     {
       "id": "/index/disrupting-a-coordinated-model-distillation-campaign",
       "title": "Disrupting a coordinated model-distillation campaign",
       "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
       "date": "2026-09-30T10:30:00.000Z",
-      "category": "Security",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "category": "Safety",
+      "summary": "OpenAI describes how it disrupted a coordinated campaign aimed at extracting protected model reasoning and outlines steps to strengthen defenses against adversarial distillation attacks.",
+      "why": "Signals that model IP protection is becoming a real operational concern.",
+      "tags": [
+        "security",
+        "model-distillation",
+        "adversarial"
+      ],
+      "ai": true
     },
     {
       "id": "/index/helping-small-businesses-put-ai-to-work",
       "title": "Helping small businesses put AI to work",
       "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "date": "2026-09-30T10:00:00.000Z",
-      "category": "Global Affairs",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "category": "Policy",
+      "summary": "OpenAI is partnering with America's SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "why": "Free local training and a report on small-team AI use are directly useful.",
+      "tags": [
+        "small-business",
+        "training",
+        "sbdc"
+      ],
+      "ai": true
     },
     {
       "id": "/index/devday-2026-recap",
@@ -86,10 +114,14 @@
       "link": "https://openai.com/index/devday-2026-recap",
       "date": "2026-09-29T10:00:00.000Z",
       "category": "Company",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "A recap of more than 20 announcements from OpenAI DevDay 2026, covering GPT-6 Astra, ChatGPT, Codex, APIs, security updates, and new tools for builders.",
+      "why": "A single source for the latest developer-facing tools and API changes.",
+      "tags": [
+        "devday",
+        "api",
+        "announcements"
+      ],
+      "ai": true
     },
     {
       "id": "/index/introducing-gpt-6-1-sol",
@@ -97,10 +129,14 @@
       "link": "https://openai.com/index/introducing-gpt-6-1-sol",
       "date": "2026-09-29T10:00:00.000Z",
       "category": "Product",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "GPT-6.1 Sol offers near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra's standard API input and output token prices.",
+      "why": "A cheaper model with strong capability is a cost win for API-dependent projects.",
+      "tags": [
+        "gpt-6",
+        "api-pricing",
+        "coding"
+      ],
+      "ai": true
     },
     {
       "id": "/index/introducing-dots",
@@ -108,10 +144,14 @@
       "link": "https://openai.com/index/introducing-dots",
       "date": "2026-09-29T00:00:00.000Z",
       "category": "Product",
-      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "why": "",
-      "tags": [],
-      "ai": false
+      "summary": "Dots by OpenAI are proactive assistants that keep working across complex projects and everyday tasks, designed to help users stay in control while work moves forward.",
+      "why": "Autonomous task handling could reduce the need to babysit AI workflows.",
+      "tags": [
+        "dots",
+        "automation",
+        "assistants"
+      ],
+      "ai": true
     }
   ]
 }
