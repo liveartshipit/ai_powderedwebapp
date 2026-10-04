@@ -15,6 +15,10 @@
     try { localStorage.setItem('news-theme', root.dataset.theme); } catch {}
   };
 
+  /* Mobile menu */
+  $('#menu').onclick = () => { const open = $('#nav').classList.toggle('open'); $('#menu').setAttribute('aria-expanded', open); };
+  $('#year').textContent = new Date().getFullYear();
+
   let tt; const toast = m => { const t = $('#toast'); t.textContent = m; t.classList.add('on'); clearTimeout(tt); tt = setTimeout(() => t.classList.remove('on'), 1800); };
 
   const ago = iso => {
@@ -41,7 +45,7 @@
       <aside class="why">
         <h2>Why it matters to you</h2>
         <p>${esc(l.why || 'Read the full announcement for details and timing.')}</p>
-        <a class="btn" href="${esc(l.link)}" target="_blank" rel="noopener">Read on openai.com</a>
+        <a class="btn" href="${esc(l.link)}" target="_blank" rel="noopener">Read on openai.com »</a>
       </aside>`;
   }
 
@@ -97,7 +101,8 @@
       <h3><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
       <p>${esc(i.summary)}</p>
       ${i.why ? `<p class="w"><b>Why it matters:</b> ${esc(i.why)}</p>` : ''}
-      <div class="story-foot">${(i.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}<button class="share" data-link="${esc(i.link)}" data-title="${esc(i.title)}">Share</button></div>
+      <div class="tags">${(i.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('')}</div>
+      <div class="story-foot"><a class="more" href="${esc(i.link)}" target="_blank" rel="noopener">Read More →</a><button class="share" data-link="${esc(i.link)}" data-title="${esc(i.title)}">Share</button></div>
     </article>`;
   $('#feed').onclick = async e => {
     const b = e.target.closest('.share'); if (!b) return;
@@ -111,7 +116,7 @@
   $('#feed').innerHTML = '<div class="skel"></div><div class="skel" style="margin-top:14px"></div>';
   fetch('data/news.json?v=' + Date.now()).then(r => r.json()).then(d => {
     state.items = (d.items || []).sort((a, b) => b.date.localeCompare(a.date));
-    $('#stamp').innerHTML = d.updated ? `Updated <b>${ago(d.updated)}</b>, next edition 6:00 IST` : 'First edition publishes at 6:00 IST';
+    $('#stamp').innerHTML = d.updated ? `Updated <b>${ago(d.updated)}</b> · next edition 6:00 IST` : 'First edition publishes at 6:00 IST';
     if (d.model) $('#modelNote').textContent = `Summaries by ${d.model.replace(/:free$/, '')} via OpenRouter.`;
     renderAll();
   }).catch(() => {
