@@ -20,7 +20,7 @@ const FEEDS = [
   ['OpenAI', 'https://openai.com/news/rss.xml', 'Models'],
   ['Google DeepMind', 'https://deepmind.google/blog/rss.xml', 'Research'],
   ['Google AI', 'https://blog.google/technology/ai/rss/', 'Products'],
-  ['Microsoft AI', 'https://blogs.microsoft.com/ai/feed/', 'Products'],
+  ['Microsoft', 'https://blogs.microsoft.com/feed/', 'Products'],
   ['NVIDIA', 'https://blogs.nvidia.com/feed/', 'Companies'],
   ['Hugging Face', 'https://huggingface.co/blog/feed.xml', 'Models'],
   ['TechCrunch', 'https://techcrunch.com/category/artificial-intelligence/feed/', 'Companies'],

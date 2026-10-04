@@ -33,6 +33,8 @@
   };
   const isToday = iso => Date.now() - new Date(iso) < 36 * 3600e3;
   const weight = i => (IMPACT[i.impact] || IMPACT.fyi)[2];
+  // Market stories never lead; real AI developments do.
+  const rank = i => weight(i) * 2 - (i.section === 'Stocks & Markets' ? 3 : 0) + (i.forYou ? 0.5 : 0);
 
   /* Scroll reveal: cards rise in one by one as they enter the viewport */
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -73,7 +75,7 @@
   /* Top story: the highest-impact story from the latest day and a half */
   function pickTop() {
     const pool = state.items.filter(i => isToday(i.date));
-    return (pool.length ? pool : state.items.slice(0, 5)).slice().sort((a, b) => weight(b) - weight(a) || b.date.localeCompare(a.date))[0] || null;
+    return (pool.length ? pool : state.items.slice(0, 8)).slice().sort((a, b) => rank(b) - rank(a) || b.date.localeCompare(a.date))[0] || null;
   }
   function renderLead() {
     const l = state.top;
@@ -85,7 +87,7 @@
       <div class="reveal">
         <p class="lead-kicker">${impactBadge(l)}${secBadge(l.section)}<span>${esc(l.source || '')} · ${ago(l.date)}</span></p>
         ${l.hook ? `<p class="lead-hook">${esc(l.hook)}</p>` : ''}
-        <h1><a href="${esc(l.link)}" target="_blank" rel="noopener">${esc(l.title)}</a></h1>
+        <h1${l.title.length > 70 ? ' class="long"' : ''}><a href="${esc(l.link)}" target="_blank" rel="noopener">${esc(l.title)}</a></h1>
         <p class="sum">${esc(l.summary)}</p>
       </div>
       <aside class="why reveal">
@@ -145,13 +147,13 @@
     list.forEach(i => (groups[dayKey(i.date)] ||= []).push(i));
     $('#feed').innerHTML = Object.entries(groups).map(([k, items]) => {
       const d = new Date(k + 'T12:00');
-      items.sort((a, b) => weight(b) - weight(a) || b.date.localeCompare(a.date));
+      items.sort((a, b) => rank(b) - rank(a) || b.date.localeCompare(a.date));
       return `<div class="day"><div class="day-label"><b>${d.toLocaleDateString(undefined, { day: 'numeric', month: 'short' })}</b><span>${d.toLocaleDateString(undefined, { weekday: 'long' })}</span></div>
         <div class="stories">${items.map(story).join('')}</div></div>`;
     }).join('');
     reveal($('#feed'));
   }
-  const story = i => `<article class="story reveal impact-${esc(i.impact || 'fyi')}">
+  const story = i => `<article class="story reveal is-${esc(i.impact || 'fyi')}">
       <div class="story-top">${impactBadge(i)}${isToday(i.date) ? '<span class="new">New</span>' : ''}</div>
       <div class="story-meta">${secBadge(i.section)}<span>${esc(i.source || '')}${i.source ? ' · ' : ''}${ago(i.date)}</span></div>
       ${i.hook ? `<p class="hook">${esc(i.hook)}</p>` : ''}
