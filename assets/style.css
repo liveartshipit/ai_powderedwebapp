@@ -231,3 +231,14 @@ h1,h2,h3{font-family:var(--head);color:var(--ink)}
   .lead-hook{font-size:17px}
   .kicker-label{margin-top:28px}
 }
+
+/* Elsewhere in AI: plain headline list */
+.elsewhere{margin-top:48px}
+.elsewhere-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.elsewhere-list a{display:grid;grid-template-columns:1fr auto;gap:4px 12px;align-items:center;text-decoration:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 18px;transition:border-color .2s,transform .2s}
+.elsewhere-list a:hover{border-color:var(--blue);transform:translateY(-2px)}
+.h-src{grid-column:1;font:600 12px/1.3 var(--ui);color:var(--muted)}
+.h-title{grid-column:1;font:600 16px/1.35 var(--head);color:var(--title)}
+.h-go{grid-column:2;grid-row:1/3;color:var(--blue);font-weight:700}
+.foot .dim a{color:#C9D1DC}
+@media (max-width:767px){.elsewhere-list{grid-template-columns:1fr}}

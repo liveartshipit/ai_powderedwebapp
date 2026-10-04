@@ -5,7 +5,7 @@
   const YOU = 'Tools for You';
   // v1 stories used OpenAI-only categories.
   const LEGACY = { 'Product': 'Products', 'API & Developers': 'Products', 'Company': 'Companies', 'Safety': 'Policy & Safety', 'Policy': 'Policy & Safety', 'Research': 'Research' };
-  const IMPACT = { big: ['Big story', 3], notable: ['Insightful', 2], fyi: ['', 1] };
+  const IMPACT = { big: 3, notable: 2, fyi: 1 }; // used for ordering only, never shown
   const dot = s => `var(--s-${SECTIONS[s] || 'companies'})`;
   const dayKey = d => new Date(d).toLocaleDateString('en-CA');
   const state = { items: [], sec: 'All', q: '', day: null, top: null };
@@ -32,7 +32,7 @@
     return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
   };
   const isToday = iso => Date.now() - new Date(iso) < 36 * 3600e3;
-  const weight = i => (IMPACT[i.impact] || IMPACT.fyi)[1];
+  const weight = i => IMPACT[i.impact] || IMPACT.fyi;
   // Market stories never lead; real AI developments do.
   const rank = i => weight(i) * 2 - (i.section === 'Stocks & Markets' ? 3 : 0) + (i.forYou ? 0.5 : 0);
 
@@ -59,7 +59,6 @@
     requestAnimationFrame(sweep);
   };
 
-  const impactBadge = i => { const [label] = IMPACT[i.impact] || IMPACT.fyi; return label ? `<span class="impact impact-${esc(i.impact)}">${label}</span>` : ''; };
   const secBadge = s => `<span class="sec" style="--dot:${dot(s)}"><i></i>${esc(s)}</span>`;
 
   /* Today's brief */
@@ -85,7 +84,7 @@
     }
     $('#lead').innerHTML = `
       <div class="reveal">
-        <p class="lead-kicker">${impactBadge(l)}${secBadge(l.section)}<span>${esc(l.source || '')} · ${ago(l.date)}</span></p>
+        <p class="lead-kicker">${secBadge(l.section)}<span>${esc(l.source || '')} · ${ago(l.date)}</span></p>
         ${l.hook ? `<p class="lead-hook">${esc(l.hook)}</p>` : ''}
         <h1${l.title.length > 70 ? ' class="long"' : ''}><a href="${esc(l.link)}" target="_blank" rel="noopener">${esc(l.title)}</a></h1>
         <p class="sum">${esc(l.summary)}</p>
@@ -153,9 +152,8 @@
     }).join('');
     reveal($('#feed'));
   }
-  const story = i => `<article class="story reveal is-${esc(i.impact || 'fyi')}">
-      <div class="story-top">${impactBadge(i)}${isToday(i.date) ? '<span class="new">New</span>' : ''}</div>
-      <div class="story-meta">${secBadge(i.section)}<span>${esc(i.source || '')}${i.source ? ' · ' : ''}${ago(i.date)}</span></div>
+  const story = i => `<article class="story reveal">
+      <div class="story-meta">${secBadge(i.section)}${isToday(i.date) ? '<span class="new">New</span>' : ''}<span>${esc(i.source || '')}${i.source ? ' · ' : ''}${ago(i.date)}</span></div>
       ${i.hook ? `<p class="hook">${esc(i.hook)}</p>` : ''}
       <h3><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
       <p class="sum">${esc(i.summary)}</p>
@@ -171,6 +169,14 @@
     try { if (navigator.share) await navigator.share(data); else { await navigator.clipboard.writeText(data.url); toast('Link copied'); } } catch {}
   };
 
+  /* Elsewhere in AI: publisher headlines exactly as published, linked to the source */
+  function renderHeadlines(list) {
+    if (!list?.length) return;
+    $('#elsewhere-list').innerHTML = list.map(h => `<li class="reveal"><a href="${esc(h.link)}" target="_blank" rel="noopener"><span class="h-src">${esc(h.source)} · ${ago(h.date)}</span><span class="h-title">${esc(h.title)}</span><span class="h-go" aria-hidden="true">→</span></a></li>`).join('');
+    $('#elsewhere').hidden = false;
+    reveal(document);
+  }
+
   function renderAll() { renderLead(); renderPulse(); renderChips(); renderFeed(); reveal(document); }
 
   /* Load */
@@ -183,6 +189,7 @@
     if (d.model) $('#modelNote').textContent = `Summaries by ${d.model.replace(/:free$/, '')} via OpenRouter.`;
     renderBrief(d.brief);
     renderAll();
+    renderHeadlines(d.headlines);
   }).catch(() => {
     $('#stamp').textContent = 'Couldn’t load the latest edition';
     $('#feed').innerHTML = '<div class="empty"><h3>The news file didn’t load.</h3><p>Refresh the page. If it keeps happening, the daily update may have failed.</p></div>';

@@ -1,7 +1,7 @@
 // Worksmarto AI News — daily updater. Node 20+, zero dependencies.
-// Pulls AI news from public RSS/Atom feeds, has a free OpenRouter model write a hook,
-// summary, "why it matters" and takeaway for each NEW story (batched requests), adds a
-// short daily brief, and writes data/news.json.
+// Safe mode: AI-written hooks, summaries and takeaways only for OFFICIAL company sources
+// (company blogs, SEC EDGAR filings). News publishers appear as their own headline + link
+// only ("Elsewhere in AI"), never rewritten. Adds a short daily brief; writes data/news.json.
 import { readFile, writeFile } from 'node:fs/promises';
 
 const DATA = new URL('../data/news.json', import.meta.url);
@@ -15,21 +15,30 @@ const MAX_AGE_DAYS = 4;     // ignore feed items older than this (first run / sl
 const SECTIONS = ['Models', 'Products', 'Companies', 'Stocks & Markets', 'Research', 'Policy & Safety'];
 const IMPACT = ['big', 'notable', 'fyi'];
 
-// name, url, default section (a hint only; the model decides)
-const FEEDS = [
+// Official sources: AI summaries allowed. [name, url, default section (a hint; the model decides)]
+const OFFICIAL = [
   ['OpenAI', 'https://openai.com/news/rss.xml', 'Models'],
   ['Google DeepMind', 'https://deepmind.google/blog/rss.xml', 'Research'],
   ['Google AI', 'https://blog.google/technology/ai/rss/', 'Products'],
   ['Microsoft', 'https://blogs.microsoft.com/feed/', 'Products'],
   ['NVIDIA', 'https://blogs.nvidia.com/feed/', 'Companies'],
   ['Hugging Face', 'https://huggingface.co/blog/feed.xml', 'Models'],
-  ['TechCrunch', 'https://techcrunch.com/category/artificial-intelligence/feed/', 'Companies'],
-  ['The Verge', 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml', 'Products'],
-  ['VentureBeat', 'https://venturebeat.com/category/ai/feed/', 'Companies'],
-  ['MIT Technology Review', 'https://www.technologyreview.com/topic/artificial-intelligence/feed', 'Research'],
-  ['Ars Technica', 'https://arstechnica.com/ai/feed/', 'Policy & Safety'],
-  ['Yahoo Finance', 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=NVDA,MSFT,GOOGL,META,AMD,TSM,AVGO,PLTR&region=US&lang=en-US', 'Stocks & Markets'],
+  ['AWS Machine Learning', 'https://aws.amazon.com/blogs/machine-learning/feed/', 'Products'],
 ];
+// SEC EDGAR 8-K filings (US public data) for Stocks & Markets. [ticker, display name]
+const EDGAR = [['NVDA', 'NVIDIA'], ['MSFT', 'Microsoft'], ['GOOGL', 'Alphabet'], ['META', 'Meta'], ['AMZN', 'Amazon'], ['AMD', 'AMD'], ['AVGO', 'Broadcom'], ['PLTR', 'Palantir']];
+// SEC asks automated clients to identify themselves with a contact email (repo variable SEC_CONTACT_EMAIL).
+const SEC_UA = `Worksmarto AI News ${process.env.SEC_CONTACT_EMAIL || 'https://news.worksmarto.com'}`;
+// News publishers: shown as their own headline + source + link only. No AI, no rewriting.
+const PUBLISHERS = [
+  ['TechCrunch', 'https://techcrunch.com/category/artificial-intelligence/feed/'],
+  ['The Verge', 'https://www.theverge.com/rss/ai-artificial-intelligence/index.xml'],
+  ['VentureBeat', 'https://venturebeat.com/category/ai/feed/'],
+  ['Ars Technica', 'https://arstechnica.com/ai/feed/'],
+];
+const HEADLINES_KEEP = 16;  // headlines shown in "Elsewhere in AI"
+const HEADLINES_PER_SOURCE = 4;
+const ALLOWED = new Set([...OFFICIAL.map(f => f[0]), 'SEC EDGAR']);
 // Preferred free models, tried first when available. OPENROUTER_MODEL (repo variable) overrides.
 const PREFERRED = ['qwen/qwen3.8-27b:free'];
 const KEY = process.env.OPENROUTER_API_KEY;
@@ -50,9 +59,9 @@ const words = s => new Set(s.toLowerCase().replace(/[^a-z0-9.]+/g, ' ').replace(
 const nums = S => [...S].filter(w => /\d/.test(w)).sort().join();
 const similar = (a, b) => { const A = words(a), B = words(b); if (nums(A) !== nums(B)) return false; const min = Math.min(A.size, B.size); if (min < 2) return false; let n = 0; for (const w of A) if (B.has(w)) n++; return n / min >= (min < 4 ? 1 : 0.8); };
 
-async function fetchFeed([source, url, hint]) {
+async function fetchFeed([source, url, hint], ua = 'Worksmarto-AI-News/2.0 (+https://news.worksmarto.com)') {
   try {
-    const r = await fetch(url, { headers: { 'User-Agent': 'Worksmarto-AI-News/2.0 (+https://news.worksmarto.com)', Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8' }, signal: AbortSignal.timeout(20000) });
+    const r = await fetch(url, { headers: { 'User-Agent': ua, Accept: 'application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8' }, signal: AbortSignal.timeout(20000) });
     if (!r.ok) { console.warn(`feed ${source} -> ${r.status}`); return []; }
     const xml = await r.text();
     const rss = [...xml.matchAll(/<item[\s>][\s\S]*?<\/item>/gi)].map(m => m[0]);
@@ -67,6 +76,16 @@ async function fetchFeed([source, url, hint]) {
     console.log(`feed ${source}: ${items.length} items`);
     return items;
   } catch (e) { console.warn(`feed ${source} failed: ${e.message}`); return []; }
+}
+
+// Recent 8-K filings for one company, titled from the filing's own item list.
+async function fetchEdgar([ticker, name]) {
+  const url = `https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=${ticker}&type=8-K&dateb=&owner=include&count=5&output=atom`;
+  const items = await fetchFeed(['SEC EDGAR', url, 'Stocks & Markets'], SEC_UA);
+  return items.map(i => {
+    const parts = [...i.raw.matchAll(/Item \d+\.\d+:\s*([^<]+?)(?=\s*Item \d+\.\d+:|$)/g)].map(m => m[1].trim()).filter(t => !/Financial Statements and Exhibits/i.test(t));
+    return { ...i, company: name, ticker, title: `${name} files 8-K${parts.length ? ': ' + parts.slice(0, 2).join('; ') : ''}`, raw: `${name} (${ticker}) SEC Form 8-K current report. ${i.raw}`.slice(0, 600) };
+  });
 }
 
 // Free models, best candidates first: JSON-capable, non-reasoning, larger context.
@@ -185,7 +204,10 @@ const known = new Map((prev.items || []).map(i => {
 }));
 const skipped = new Set(prev.skipped || []);
 
-const all = (await Promise.all(FEEDS.map(fetchFeed))).flat();
+// Drop stories stored from sources that are no longer summarised (news publishers etc.).
+for (const [id, i] of known) if (!ALLOWED.has(i.source || 'OpenAI')) known.delete(id);
+
+const all = [...(await Promise.all(OFFICIAL.map(f => fetchFeed(f)))).flat(), ...(await Promise.all(EDGAR.map(fetchEdgar))).flat()];
 const cutoff = Date.now() - MAX_AGE_DAYS * 864e5;
 const perSource = {};
 const fresh = [];
@@ -223,7 +245,7 @@ function story(i, s) {
     section: SECTIONS.includes(s?.section) ? s.section : i.hint,
     hook: s?.hook || '', summary: s?.summary || clip(i.raw, 40), why: s?.why || '', takeaway: s?.takeaway || '',
     impact: IMPACT.includes(s?.impact) ? s.impact : 'fyi', forYou: Boolean(s?.forYou),
-    company: s?.company || '', ticker: /^[A-Z.]{1,6}$/.test(s?.ticker || '') ? s.ticker : '',
+    company: s?.company || i.company || '', ticker: /^[A-Z.]{1,6}$/.test(s?.ticker || '') ? s.ticker : (i.ticker || ''),
     tags: Array.isArray(s?.tags) ? s.tags.slice(0, 3).map(String) : [],
     readMins: readMins(i.raw), ...(s ? {} : { raw: i.raw }), ai: Boolean(s?.summary), v: s ? SCHEMA : 1,
   };
@@ -238,5 +260,17 @@ if (KEY && queue.length) {
   if (pool.length) daily = (await brief(pool)) || daily;
 }
 
-await writeFile(DATA, JSON.stringify({ updated: new Date().toISOString(), model, brief: daily, items, skipped: [...skipped].slice(-500) }, null, 2) + '\n');
+// "Elsewhere in AI": publisher headlines exactly as published, with source and link.
+const fresh_h = (await Promise.all(PUBLISHERS.map(f => fetchFeed([f[0], f[1], ''])))).flat()
+  .map(({ source, title, link, date }) => ({ source, title, link, date }));
+const per = {};
+const headlines = [...fresh_h, ...(prev.headlines || [])]
+  .filter(h => Date.parse(h.date) > Date.now() - 3 * 864e5)
+  .sort((a, b) => b.date.localeCompare(a.date))
+  .filter((h, n, arr) => arr.findIndex(x => x.link === h.link || similar(x.title, h.title)) === n)
+  .filter(h => (per[h.source] = (per[h.source] || 0) + 1) <= HEADLINES_PER_SOURCE)
+  .slice(0, HEADLINES_KEEP);
+console.log(`${headlines.length} publisher headlines`);
+
+await writeFile(DATA, JSON.stringify({ updated: new Date().toISOString(), model, brief: daily, items, headlines, skipped: [...skipped].slice(-500) }, null, 2) + '\n');
 console.log(`wrote ${items.length} items (${items.filter(i => i.ai).length} with AI summaries)`);

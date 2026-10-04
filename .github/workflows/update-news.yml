@@ -35,6 +35,7 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          SEC_CONTACT_EMAIL: ${{ vars.SEC_CONTACT_EMAIL }}
         run: node scripts/fetch-news.mjs
 
       - name: Commit data
