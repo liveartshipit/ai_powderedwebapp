@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T08:05:17.433Z",
-  "model": "qwen/qwen3.8-27b:free",
+  "updated": "2026-10-04T08:13:34.249Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "source": "openai.com/news",
   "items": [
     {
@@ -150,6 +150,156 @@
         "dots",
         "automation",
         "assistants"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/how-we-will-do-better-for-australia",
+      "title": "How we will do better for Australia",
+      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "date": "2026-09-28T19:00:00.000Z",
+      "category": "Company",
+      "summary": "OpenAI apologized for incidents involving Australian government websites and outlined stronger safeguards and support to help strengthen Australia's cyber defenses.",
+      "why": "Matters for trust and compliance if you serve Australian clients.",
+      "tags": [
+        "australia",
+        "cybersecurity",
+        "policy"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/towards-safety-cases-for-frontier-ai-training",
+      "title": "Towards safety cases for frontier AI training",
+      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "date": "2026-09-28T19:00:00.000Z",
+      "category": "Safety",
+      "summary": "OpenAI released early guidelines for safety cases in frontier AI training, covering technical safeguards, operational practices, and misalignment investigations.",
+      "why": "Helps developers understand safety standards for advanced AI models.",
+      "tags": [
+        "safety",
+        "frontier-ai",
+        "guidelines"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/lenfest-ai-collaborative-expansion",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "date": "2026-09-28T07:00:00.000Z",
+      "category": "Company",
+      "summary": "OpenAI is expanding the Lenfest AI program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "why": "Offers funding and software credits for collaborative AI projects.",
+      "tags": [
+        "funding",
+        "collaborative",
+        "fellowship"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/basis-tax-workbook-with-astra",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "date": "2026-09-28T00:00:00.000Z",
+      "category": "Product",
+      "summary": "GPT-6 Astra completed a complex 50-tab tax workbook twice as fast as GPT-5.6 Sol, boosting confidence in real-world application.",
+      "why": "Speeds up complex tax tasks, saving time for professionals.",
+      "tags": [
+        "productivity",
+        "tax",
+        "ai-models"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/form/codex-originals",
+      "title": "Are you a Codex Original?",
+      "link": "https://openai.com/form/codex-originals",
+      "date": "2026-09-28T00:00:00.000Z",
+      "category": "Company",
+      "summary": "OpenAI is collecting real stories from builders, tinkerers, researchers, and creators using Codex to do incredible things for the Codex Originals program.",
+      "why": "Opportunity to showcase your project to the Codex community.",
+      "tags": [
+        "community",
+        "codex",
+        "stories"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/proaction",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "link": "https://openai.com/index/proaction",
+      "date": "2026-09-25T19:00:00.000Z",
+      "category": "Company",
+      "summary": "Proaction boosted sales by 60% and saved over 75 hours using Codex and GPT models to build fleet management faster.",
+      "why": "Shows how AI can boost sales and save time.",
+      "tags": [
+        "case-study",
+        "sales",
+        "automation"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/two-years-of-openai-academy",
+      "title": "Two years of OpenAI Academy",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "date": "2026-09-23T16:00:00.000Z",
+      "category": "Company",
+      "summary": "OpenAI is marking two years of OpenAI Academy, a program dedicated to bringing AI skills to more communities.",
+      "why": "Provides access to AI training for community skill-building.",
+      "tags": [
+        "education",
+        "academy",
+        "community"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "date": "2026-09-23T13:00:00.000Z",
+      "category": "Policy",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "why": "Matters for global cybersecurity and international policy.",
+      "tags": [
+        "ukraine",
+        "cybersecurity",
+        "policy"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/sam-altman-un-security-council-remarks",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "date": "2026-09-23T12:00:00.000Z",
+      "category": "Policy",
+      "summary": "OpenAI CEO Sam Altman addressed the UN Security Council, discussing AI safety, human control, and international cooperation.",
+      "why": "Important for understanding future global AI regulations.",
+      "tags": [
+        "policy",
+        "regulation",
+        "un"
+      ],
+      "ai": true
+    },
+    {
+      "id": "/index/ringg",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "link": "https://openai.com/index/ringg",
+      "date": "2026-09-23T12:00:00.000Z",
+      "category": "Product",
+      "summary": "Ringg powers multilingual AI agents across voice, chat, WhatsApp, and web using GPT-5.6, cutting costs by 90% compared to GPT-4.1.",
+      "why": "Lowers customer support costs while handling multilingual queries.",
+      "tags": [
+        "customer-support",
+        "ai-agents",
+        "cost-saving"
       ],
       "ai": true
     }
