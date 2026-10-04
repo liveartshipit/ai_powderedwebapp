@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Worksmarto AI News — OpenAI news in two minutes a day</title>
-<meta name="description" content="Every OpenAI announcement, summarised in plain English with why it matters for freelancers and small businesses. Updated daily.">
+<title>Worksmarto AI News — the day in AI, in two minutes</title>
+<meta name="description" content="The day's AI news — models, products, companies, AI stocks, research and policy — in plain English, with why it matters for freelancers and small businesses. Updated every morning.">
 <meta property="og:title" content="Worksmarto AI News">
-<meta property="og:description" content="OpenAI news in two minutes a day. Plain-English summaries, updated every morning.">
+<meta property="og:description" content="The day in AI, in two minutes. Plain-English summaries with a takeaway for your work, updated every morning.">
 <meta property="og:url" content="https://news.worksmarto.com/">
 <meta name="theme-color" content="#0B64F4">
 <link rel="icon" href="https://worksmarto.com/wp-content/uploads/2026/04/cropped-ChatGPT-Image-Apr-2-2026-12_05_09-PM-1.png">
@@ -20,11 +20,11 @@
 
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="https://worksmarto.com/" aria-label="Worksmarto home">
-      <img src="https://worksmarto.com/wp-content/uploads/2026/04/cropped-ChatGPT-Image-Apr-2-2026-12_05_09-PM-1.png" alt="" width="36" height="36">
-      <span>Worksmarto</span>
+    <a class="logo" href="./" aria-label="Worksmarto AI News home">
+      <img src="https://worksmarto.com/wp-content/uploads/2026/04/cropped-ChatGPT-Image-Apr-2-2026-12_05_09-PM-1.png" alt="" width="38" height="38">
+      <span class="logo-word">Worksmarto</span>
+      <span class="logo-tag">NEWS</span>
     </a>
-    <span class="badge">AI News</span>
     <nav class="nav" id="nav" aria-label="Worksmarto">
       <a href="https://architect.worksmarto.com/">Architect</a>
       <a href="https://worksmarto.com/">Home</a>
@@ -42,13 +42,30 @@
 <main>
   <section class="hero">
     <div class="wrap">
-      <p class="eyebrow">OpenAI news in two minutes a day · <span id="stamp">Loading today’s edition</span></p>
+      <p class="eyebrow">The day in AI, in two minutes · <span id="stamp">Loading today’s edition</span></p>
+      <div class="brief reveal" id="brief" hidden></div>
+      <p class="kicker-label">Top story</p>
       <div class="lead" id="lead" aria-live="polite"></div>
     </div>
   </section>
 
   <section class="band">
     <div class="wrap">
+
+      <div class="section-head">
+        <h2>Latest Stories</h2>
+        <p>Models, products, companies, AI stocks, research and policy — each with a takeaway for your work.</p>
+      </div>
+      <section class="tools" aria-label="Filter news">
+        <label class="search">
+          <span class="sr">Search news</span>
+          <input id="q" type="search" placeholder="Search announcements" autocomplete="off">
+        </label>
+        <div class="chips" id="chips" role="group" aria-label="Section"></div>
+      </section>
+
+      <section id="feed" class="feed" tabindex="-1"></section>
+
       <section class="pulse" aria-label="News activity over the last 30 days">
         <div class="pulse-head">
           <h2>Last 30 days</h2>
@@ -57,19 +74,6 @@
         <svg id="pulseSvg" viewBox="0 0 600 90" preserveAspectRatio="none" role="img" aria-label="Activity chart"></svg>
         <div class="pulse-days" id="pulseDays"></div>
       </section>
-
-      <div class="section-head">
-        <h2>Latest Stories</h2>
-      </div>
-      <section class="tools" aria-label="Filter news">
-        <label class="search">
-          <span class="sr">Search news</span>
-          <input id="q" type="search" placeholder="Search announcements" autocomplete="off">
-        </label>
-        <div class="chips" id="chips" role="group" aria-label="Category"></div>
-      </section>
-
-      <section id="feed" class="feed" tabindex="-1"></section>
     </div>
   </section>
 
@@ -90,12 +94,13 @@
 <footer class="foot">
   <div class="wrap foot-in">
     <div>
-      <a class="brand light" href="https://worksmarto.com/">
-        <img src="https://worksmarto.com/wp-content/uploads/2026/04/cropped-ChatGPT-Image-Apr-2-2026-12_05_09-PM-1.png" alt="" width="32" height="32">
-        <span>Worksmarto</span>
+      <a class="logo light" href="https://worksmarto.com/">
+        <img src="https://worksmarto.com/wp-content/uploads/2026/04/cropped-ChatGPT-Image-Apr-2-2026-12_05_09-PM-1.png" alt="" width="34" height="34">
+        <span class="logo-word">Worksmarto</span>
+        <span class="logo-tag">NEWS</span>
       </a>
       <p>AI Workflow Automation &amp; Productivity Tools for Freelancers and Startups.</p>
-      <p class="dim">Summaries are written by an AI model from OpenAI’s public news feed and may contain mistakes, so check the original before you act on anything. Worksmarto AI News is independent and not affiliated with or endorsed by OpenAI. Article titles and links belong to their publisher.</p>
+      <p class="dim">Summaries are written by an AI model from public news feeds and may contain mistakes, so check the original before you act on anything. Nothing here is financial advice. Worksmarto AI News is independent and not affiliated with the companies or publishers it covers; article titles and links belong to their publishers.</p>
       <p class="dim" id="modelNote"></p>
     </div>
     <nav aria-label="Explore">
