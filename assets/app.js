@@ -5,7 +5,7 @@
   const YOU = 'Tools for You';
   // v1 stories used OpenAI-only categories.
   const LEGACY = { 'Product': 'Products', 'API & Developers': 'Products', 'Company': 'Companies', 'Safety': 'Policy & Safety', 'Policy': 'Policy & Safety', 'Research': 'Research' };
-  const IMPACT = { big: ['🔥', 'Big story', 3], notable: ['⚡', 'Notable', 2], fyi: ['💡', 'Worth knowing', 1] };
+  const IMPACT = { big: ['Big story', 3], notable: ['Insightful', 2], fyi: ['', 1] };
   const dot = s => `var(--s-${SECTIONS[s] || 'companies'})`;
   const dayKey = d => new Date(d).toLocaleDateString('en-CA');
   const state = { items: [], sec: 'All', q: '', day: null, top: null };
@@ -32,7 +32,7 @@
     return new Date(iso).toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
   };
   const isToday = iso => Date.now() - new Date(iso) < 36 * 3600e3;
-  const weight = i => (IMPACT[i.impact] || IMPACT.fyi)[2];
+  const weight = i => (IMPACT[i.impact] || IMPACT.fyi)[1];
   // Market stories never lead; real AI developments do.
   const rank = i => weight(i) * 2 - (i.section === 'Stocks & Markets' ? 3 : 0) + (i.forYou ? 0.5 : 0);
 
@@ -59,7 +59,7 @@
     requestAnimationFrame(sweep);
   };
 
-  const impactBadge = i => { const [icon, label] = IMPACT[i.impact] || IMPACT.fyi; return `<span class="impact impact-${esc(i.impact || 'fyi')}"><span aria-hidden="true">${icon}</span> ${label}</span>`; };
+  const impactBadge = i => { const [label] = IMPACT[i.impact] || IMPACT.fyi; return label ? `<span class="impact impact-${esc(i.impact)}">${label}</span>` : ''; };
   const secBadge = s => `<span class="sec" style="--dot:${dot(s)}"><i></i>${esc(s)}</span>`;
 
   /* Today's brief */
@@ -126,7 +126,7 @@
     const tabs = ['All', ...Object.keys(SECTIONS), YOU].filter(s => s === 'All' || state.items.some(i => inSec(i, s)));
     $('#chips').innerHTML = tabs.map(s => {
       const n = state.items.filter(i => inSec(i, s)).length;
-      const mark = s === 'All' ? '' : s === YOU ? '<i class="star" aria-hidden="true">★</i>' : '<i></i>';
+      const mark = s === 'All' ? '' : '<i></i>';
       return `<button class="chip" style="--dot:${s === YOU ? 'var(--s-you)' : dot(s)}" aria-pressed="${state.sec === s}" data-sec="${esc(s)}">${mark}${esc(s)}<span class="n">${n}</span></button>`;
     }).join('');
   }
