@@ -12,6 +12,7 @@ const MAX_REDO = 20;        // stored stories re-summarised per run (failed befo
 const BATCH = 10;           // stories per model request
 const PER_SOURCE = 3;       // max new stories per source per run, so no site dominates
 const MAX_AGE_DAYS = 4;     // ignore feed items older than this (first run / slow feeds)
+const FILING_AGE_DAYS = 10; // SEC filings are rarer, so look further back
 const SECTIONS = ['Models', 'Products', 'Companies', 'Stocks & Markets', 'Research', 'Policy & Safety'];
 const IMPACT = ['big', 'notable', 'fyi'];
 
@@ -137,7 +138,7 @@ async function ask(prompt, want, accept) {
         method: 'POST',
         headers: { Authorization: `Bearer ${KEY}`, 'Content-Type': 'application/json', 'HTTP-Referer': 'https://news.worksmarto.com', 'X-Title': 'Worksmarto AI News' },
         body: JSON.stringify({ model, temperature: 0.4, max_tokens: 7000, reasoning: { effort: 'low', exclude: true }, messages: [{ role: 'user', content: prompt }] }),
-        signal: AbortSignal.timeout(150000),
+        signal: AbortSignal.timeout(240000),
       });
       const j = await r.json();
       if (!r.ok) { console.warn(`${model} -> ${r.status} ${JSON.stringify(j.error || j).slice(0, 200)}`); continue; }
@@ -208,11 +209,11 @@ const skipped = new Set(prev.skipped || []);
 for (const [id, i] of known) if (!ALLOWED.has(i.source || 'OpenAI')) known.delete(id);
 
 const all = [...(await Promise.all(OFFICIAL.map(f => fetchFeed(f)))).flat(), ...(await Promise.all(EDGAR.map(fetchEdgar))).flat()];
-const cutoff = Date.now() - MAX_AGE_DAYS * 864e5;
+const cutoff = Date.now() - MAX_AGE_DAYS * 864e5, filingCutoff = Date.now() - FILING_AGE_DAYS * 864e5;
 const perSource = {};
 const fresh = [];
 for (const i of all.sort((a, b) => b.date.localeCompare(a.date))) {
-  if (known.has(i.id) || skipped.has(i.id) || Date.parse(i.date) < cutoff) continue;
+  if (known.has(i.id) || skipped.has(i.id) || Date.parse(i.date) < (i.source === 'SEC EDGAR' ? filingCutoff : cutoff)) continue;
   if (fresh.some(f => f.id === i.id || similar(f.title, i.title)) || [...known.values()].some(k => similar(k.title, i.title))) continue;
   if ((perSource[i.source] || 0) >= PER_SOURCE) continue;
   perSource[i.source] = (perSource[i.source] || 0) + 1;
