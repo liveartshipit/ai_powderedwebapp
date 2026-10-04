@@ -257,3 +257,13 @@ h1,h2,h3{font-family:var(--head);color:var(--ink)}
 .legal a{color:var(--blue)}
 .legal code{background:var(--surface);border:1px solid var(--line);border-radius:5px;padding:1px 6px;font-size:14px}
 .legal .eyebrow{color:var(--blue)}
+
+/* Analytics consent banner */
+.consent{position:fixed;left:16px;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:50;max-width:720px;margin:0 auto;display:flex;flex-wrap:wrap;gap:14px 20px;align-items:center;justify-content:space-between;background:var(--surface);color:var(--ink);border:1px solid var(--line-strong);border-radius:14px;padding:16px 18px;box-shadow:0 14px 34px rgba(13,20,26,.18)}
+.consent[hidden]{display:none}
+.consent p{margin:0;flex:1 1 320px;font-size:14px;line-height:1.55}
+.consent a{color:var(--blue)}
+.consent-btns{display:flex;gap:8px}
+.consent .btn,.consent .btn-outline{padding:10px 20px;font-size:14px}
+.cookie-link{background:none;border:0;padding:0;color:inherit;font:inherit;text-decoration:underline;cursor:pointer}
+.cookie-link:hover{color:#fff}
