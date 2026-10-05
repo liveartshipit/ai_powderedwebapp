@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '30 0 * * *'   # 00:30 UTC = 06:00 IST, every day
     - cron: '15 2 * * *'   # 02:15 UTC = 07:45 IST backup: GitHub sometimes delays or skips scheduled runs; a second run just finds nothing new
+    - cron: '5 4 * * *'    # TEMP test 04:05 UTC (remove after confirming schedules fire)
+    - cron: '20 4 * * *'   # TEMP test 04:20 UTC
   workflow_dispatch:        # "Run workflow" button for manual runs
   push:
     branches: [main]
