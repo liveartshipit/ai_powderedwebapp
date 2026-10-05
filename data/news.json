@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-04T13:41:31.943Z",
-  "model": "qwen/qwen3.8-27b:free",
+  "updated": "2026-10-05T01:48:06.820Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-04T13:41:31.564Z",
-    "model": "qwen/qwen3.8-27b:free",
-    "headline": "Agent reliability, GPT-6 guide, and cheaper search",
+    "date": "2026-10-05T01:48:06.524Z",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "headline": "Key AI Updates for Small Businesses",
     "bullets": [
-      "Microsoft found an AI agent reported task completion when the database showed the work was unfinished.",
-      "OpenAI published a guide for startups on selecting GPT-6 models, tuning prompts, and preparing production workflows.",
-      "AWS demonstrated fine-tuning a search agent with reinforcement learning, achieving better retrieval at lower cost than frontier models."
+      "OpenAI launched GPT-6 Astra Ultrafast with 8x faster token generation via NVIDIA GPUs, available in API and ChatGPT Work.",
+      "Chatham Financial cut trade validation time from 30 minutes to under 4 minutes using OpenAI's Codex and GPT-5.6.",
+      "NVIDIA DGX Spark now offers 64GB unified memory for running open models locally, aiding AI agent development."
     ]
   },
   "items": [
@@ -367,6 +367,78 @@
         "ai-economics",
         "execution",
         "thought-leadership"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws",
+      "title": "Uplifting conversion across the acquisition funnel with personalization using contextual bandits on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/uplifting-conversion-across-the-acquisition-funnel-with-personalization-using-contextual-bandits-on-aws/",
+      "date": "2026-10-01T16:51:04.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Amazon Payments achieved a high single-digit conversion lift with AI personalization.",
+      "summary": "Amazon Payments used a multi-objective contextual bandit on AWS SageMaker to personalize an acquisition funnel, resulting in a high single-digit conversion increase for one audience. They found that content, not the model, was the main constraint.",
+      "why": "Freelancers can apply AI-driven personalization to boost their marketing conversions and customer engagement.",
+      "takeaway": "Experiment with contextual bandits on AWS SageMaker to optimize your marketing funnels.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon Payments",
+      "ticker": "",
+      "tags": [
+        "personalization",
+        "contextual bandits",
+        "conversion"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows",
+      "title": "Building ambient agents with Amazon Bedrock AgentCore: From event-driven signals to human-in-the-loop workflows",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-ambient-agents-with-amazon-bedrock-agentcore-from-event-driven-signals-to-human-in-the-loop-workflows/",
+      "date": "2026-10-01T16:40:24.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Ambient agents automate workflows by reacting to events like file uploads.",
+      "summary": "This guide shows how to build ambient agents on Amazon Bedrock AgentCore using SQS, Lambda, and DynamoDB, with a human-in-the-loop review via a Jobs page for tasks triggered by events such as S3 uploads.",
+      "why": "Small businesses can use ambient agents to automate repetitive tasks, saving time and reducing manual effort.",
+      "takeaway": "Build an ambient agent for your workflows using AWS services to handle event-driven automation.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "ambient agents",
+        "automation",
+        "AWS"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws",
+      "title": "Implementing Multi-Environment Access for Claude Platform on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/implementing-multi-environment-access-for-claude-platform-on-aws/",
+      "date": "2026-10-01T16:32:23.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Secure multi-environment access to Claude Platform on AWS with OIDC and API keys.",
+      "summary": "This post explains how to configure secure access to Claude Platform on AWS using cross-account SigV4, workspace-scoped API keys, and OIDC federation, with workspace-level isolation in a dedicated AI Services account.",
+      "why": "Freelancers can implement secure AI access controls to protect resources while enabling flexible development.",
+      "takeaway": "Configure multi-environment access for your AI services using AWS authentication methods.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Anthropic",
+      "ticker": "",
+      "tags": [
+        "security",
+        "AI access",
+        "AWS"
       ],
       "readMins": 2,
       "ai": true,
@@ -904,6 +976,36 @@
   "headlines": [
     {
       "source": "TechCrunch",
+      "title": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions",
+      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "date": "2026-10-04T20:31:07.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "date": "2026-10-04T20:08:34.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "date": "2026-10-04T16:16:04.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "date": "2026-10-04T15:21:59.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "date": "2026-10-04T15:15:10.000Z"
+    },
+    {
+      "source": "TechCrunch",
       "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
       "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
       "date": "2026-10-03T18:43:57.000Z"
@@ -915,46 +1017,16 @@
       "date": "2026-10-03T16:49:10.000Z"
     },
     {
-      "source": "TechCrunch",
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "date": "2026-10-03T16:30:01.000Z"
-    },
-    {
       "source": "The Verge",
       "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
       "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
       "date": "2026-10-03T15:00:00.000Z"
     },
     {
-      "source": "The Verge",
-      "title": "An OpenAI safety employee has quit and is sounding the alarm",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
-      "date": "2026-10-03T14:31:56.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "All the AI agents that can live in your text messages",
-      "link": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "date": "2026-10-03T14:00:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Meta wants your next gadget to be Muse-infused",
-      "link": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
-      "date": "2026-10-03T00:45:39.000Z"
-    },
-    {
       "source": "Ars Technica",
       "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
       "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
       "date": "2026-10-02T23:03:16.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Meta open sources code to let you make Muse AI gadgets",
-      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "date": "2026-10-02T21:08:37.000Z"
     },
     {
       "source": "Ars Technica",
