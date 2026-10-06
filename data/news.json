@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-06T04:41:38.601Z",
+  "updated": "2026-10-06T06:44:15.560Z",
   "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-06T04:41:38.238Z",
+    "date": "2026-10-06T06:44:15.227Z",
     "model": "dots-studio/dots-3-note-preview:free",
-    "headline": "AI news for freelancers and founders",
+    "headline": "AI Updates for Small Business",
     "bullets": [
       "Z.ai's GLM 5.3, a 753B-parameter mixture-of-experts model, is now on Amazon Bedrock with OpenAI-compatible APIs and prompt caching.",
-      "Anthropic's Claude Opus 5.5 and Sonnet 5.5 are available on Amazon Bedrock in AWS GovCloud for regulated projects.",
-      "OpenAI introduced a visual ad format inside ChatGPT with measurement, attribution, and brand-safety options."
+      "Anthropic's Claude Opus 5.5 and Sonnet 5.5 are on Amazon Bedrock in AWS GovCloud, usable with Claude Code for compliant coding.",
+      "OpenAI launched a visual ad format inside ChatGPT, adding measurement tools, attribution partnerships, and brand-suitability options."
     ]
   },
   "items": [
@@ -151,6 +151,30 @@
         "amazon quick",
         "user roles",
         "aws cli"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore",
+      "title": "Evaluating multi-agent systems for explainability and helpfulness with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-multi-agent-systems-for-explainability-and-helpfulness-with-amazon-bedrock-agentcore/",
+      "date": "2026-10-05T15:50:01.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Can AI agents truly explain their decisions reliably?",
+      "summary": "AWS introduced Amazon Bedrock AgentCore Evaluations to assess multi-agent systems for tool selection, constraint adherence, and decision explainability, featuring built-in and custom evaluators.",
+      "why": "Enables small teams to build trustworthy AI agents that justify actions, enhancing client confidence.",
+      "takeaway": "Explore Amazon Bedrock AgentCore for evaluating your AI projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "ai",
+        "evaluation",
+        "multi-agent"
       ],
       "readMins": 2,
       "ai": true,
