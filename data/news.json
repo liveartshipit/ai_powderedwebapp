@@ -1,17 +1,41 @@
 {
-  "updated": "2026-10-06T06:44:15.560Z",
-  "model": "dots-studio/dots-3-note-preview:free",
+  "updated": "2026-10-06T09:02:50.312Z",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
   "brief": {
-    "date": "2026-10-06T06:44:15.227Z",
-    "model": "dots-studio/dots-3-note-preview:free",
-    "headline": "AI Updates for Small Business",
+    "date": "2026-10-06T09:02:50.060Z",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "headline": "Key AI updates for freelancers and small businesses",
     "bullets": [
-      "Z.ai's GLM 5.3, a 753B-parameter mixture-of-experts model, is now on Amazon Bedrock with OpenAI-compatible APIs and prompt caching.",
-      "Anthropic's Claude Opus 5.5 and Sonnet 5.5 are on Amazon Bedrock in AWS GovCloud, usable with Claude Code for compliant coding.",
-      "OpenAI launched a visual ad format inside ChatGPT, adding measurement tools, attribution partnerships, and brand-suitability options."
+      "GLM 5.3, a 753B‑parameter mixture‑of‑experts model, is now on Amazon Bedrock via OpenAI‑compatible APIs with prompt caching.",
+      "OpenAI launched a visual ad format inside ChatGPT, plus measurement tools, attribution partnerships, and brand‑suitability options for advertisers.",
+      "OpenAI plans to add text watermarks for EU provenance compliance, detailing placement, detection, and early researcher access."
     ]
   },
   "items": [
+    {
+      "id": "huggingface.co/blog/tiiuae/falcon-emirati",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "date": "2026-10-06T06:44:39.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "A new LLM masters Emirati Arabic dialect and cultural nuance.",
+      "summary": "Hugging Face blog announces Falcon-Emirati, a language model trained to understand Emirati Arabic dialect and cultural nuances.",
+      "why": "Helps freelancers create content or serve customers in Emirati Arabic, improving local relevance and communication.",
+      "takeaway": "Explore Falcon-Emirati on Hugging Face for Arabic‑language projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "llm",
+        "arabic",
+        "huggingface"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock",
       "title": "Introducing GLM 5.3 on Amazon Bedrock",
