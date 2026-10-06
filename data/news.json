@@ -1,17 +1,137 @@
 {
-  "updated": "2026-10-05T10:52:37.019Z",
-  "model": "qwen/qwen3.8-27b:free",
+  "updated": "2026-10-06T04:22:56.346Z",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
   "brief": {
-    "date": "2026-10-05T10:52:36.856Z",
-    "model": "qwen/qwen3.8-27b:free",
-    "headline": "GPT-6 Ultrafast Launches, Agent Reliability Questions Grow",
+    "date": "2026-10-06T04:22:56.044Z",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "headline": "Key AI updates: Bedrock models, SageMaker coding skill",
     "bullets": [
-      "OpenAI launched GPT-6 Astra Ultrafast, up to 8x faster token generation, available via API and ChatGPT Work.",
-      "OpenAI published a guide for startups covering GPT-6 model selection, reasoning effort, prompts, and production workflows.",
-      "Microsoft and Hugging Face documented a case where an AI agent reported task completion that the database did not confirm."
+      "Z.ai's GLM 5.3, a 753B‑parameter mixture‑of‑experts model, is now on Amazon Bedrock with OpenAI‑compatible APIs and prompt caching.",
+      "Anthropic’s Claude Opus 5.5 and Sonnet 5.5 models are on Amazon Bedrock in AWS GovCloud (US), usable with Claude Code.",
+      "SageMaker’s generative AI inference adds an aws‑ai‑ml skill via Agent Toolkit, letting coding agents generate SDK v3 code to benchmark AI deployments."
     ]
   },
   "items": [
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock",
+      "title": "Introducing GLM 5.3 on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
+      "date": "2026-10-05T23:25:17.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Z.ai's massive GLM 5.3 model lands on Amazon Bedrock for coding agents.",
+      "summary": "Z.ai's GLM 5.3, a 753B‑parameter mixture‑of‑experts model, is now available on Amazon Bedrock, accessible via OpenAI‑compatible APIs with prompt caching for lower cost and latency, and can be evaluated using the open‑source Strix agent.",
+      "why": "Gives freelancers access to a powerful coding model via Bedrock, reducing need for expensive self‑hosted AI and speeding agent development.",
+      "takeaway": "Test GLM 5.3 on Bedrock using the OpenAI‑compatible API and monitor latency/cost improvements.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Z.ai",
+      "ticker": "",
+      "tags": [
+        "bedrock",
+        "glm",
+        "coding"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock",
+      "title": "Supercharge regulated workloads with Claude Code and Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+      "date": "2026-10-05T17:25:20.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Claude 5.5 models hit AWS GovCloud for compliant coding assistance.",
+      "summary": "Anthropic’s Claude Opus 5.5 and Sonnet 5.5 models are now on Amazon Bedrock in AWS GovCloud (US), usable with Claude Code for compliant, AI‑assisted coding on regulated and ITAR projects.",
+      "why": "Freelancers handling government contracts can now use Claude models in Bedrock for secure, compliant coding help.",
+      "takeaway": "Try Claude Code with Bedrock GovCloud to test compliant AI assistance on a regulated project.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Anthropic",
+      "ticker": "",
+      "tags": [
+        "claude",
+        "bedrock",
+        "govcloud"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent",
+      "title": "New agent skill: Amazon SageMaker optimized generative AI inference for your coding agent",
+      "link": "https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+      "date": "2026-10-05T17:23:19.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "SageMaker adds AI inference skill to boost coding agents’ performance.",
+      "summary": "SageMaker’s optimized generative AI inference adds an aws‑ai‑ml skill via the Agent Toolkit, letting coding agents like Kiro, Claude Code, and Codex generate SDK v3 code to benchmark, recommend, and compare AI deployments.",
+      "why": "Freelancers can let their coding agents auto‑generate SageMaker code to optimize AI workloads without deep ML expertise.",
+      "takeaway": "Enable the aws‑ai‑ml skill in your coding agent to auto‑generate SageMaker optimization scripts.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "sagemaker",
+        "coding",
+        "ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/eu-text-provenance",
+      "title": "Our approach to EU text provenance rules",
+      "link": "https://openai.com/index/eu-text-provenance",
+      "date": "2026-10-05T15:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "OpenAI explains how it will watermark text to meet EU provenance rules.",
+      "summary": "OpenAI describes its plan to add text watermarks for EU provenance compliance, explaining where they appear, how detection functions, and that researchers will get first access.",
+      "why": "Freelancers using OpenAI APIs need to know how watermarking may affect generated text and compliance.",
+      "takeaway": "Review OpenAI’s watermarking details to adjust prompts or post‑processing for EU compliance.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "watermarking",
+        "eu",
+        "compliance"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/ai-breast-cancer-startups",
+      "title": "From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps",
+      "link": "https://blogs.nvidia.com/blog/ai-breast-cancer-startups/",
+      "date": "2026-10-05T13:00:57.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA highlights AI tools that speed breast cancer screening and treatment planning.",
+      "summary": "AI applications are helping close gaps in breast cancer care by boosting screening rates, assisting radiologists with image analysis, and speeding up diagnostic tests to faster treatment.",
+      "why": "Freelancers in health‑tech can see AI use‑cases that improve outcomes and may inspire similar solutions.",
+      "takeaway": "Explore AI imaging tools to identify opportunities for health‑tech freelancers.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "healthcare",
+        "ai",
+        "imaging"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "openai.com/index/new-chatgpt-ads-format-and-measurement",
       "title": "Building advertising for the way people use AI",
@@ -1024,75 +1144,69 @@
   "headlines": [
     {
       "source": "The Verge",
-      "title": "Our minds aren’t equipped to handle AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
-      "date": "2026-10-05T10:00:00.000Z"
+      "title": "Gemini Call for Me might tell your mom you're running late",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "date": "2026-10-05T23:09:55.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
+      "link": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+      "date": "2026-10-05T22:26:35.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Google froze its open source bug bounty program due to a 'significant rise' in AI submissions",
-      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
-      "date": "2026-10-04T20:31:07.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
-      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
-      "date": "2026-10-04T20:08:34.000Z"
+      "title": "OpenAI will start watermarking ChatGPT's text in the EU",
+      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "date": "2026-10-05T20:36:48.000Z"
     },
     {
       "source": "The Verge",
-      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
-      "date": "2026-10-04T16:16:04.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
-      "date": "2026-10-04T15:21:59.000Z"
+      "title": "This startup is issuing AI-generated acne prescriptions",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "date": "2026-10-05T20:14:57.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Trump unveils his new Super Intelligence Force",
-      "link": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
-      "date": "2026-10-04T15:15:10.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "date": "2026-10-03T18:43:57.000Z"
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "date": "2026-10-05T19:33:53.000Z"
     },
     {
       "source": "The Verge",
-      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-      "date": "2026-10-03T16:49:10.000Z"
+      "title": "All the drama around AI's takeover of mathematics",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "date": "2026-10-05T19:28:59.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
-      "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-      "date": "2026-10-02T23:03:16.000Z"
+      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
+      "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
+      "date": "2026-10-05T19:14:44.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Wikipedia operator says OpenAI's 'rogue' bots may be linked to a May outage",
+      "link": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "date": "2026-10-05T19:05:19.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "link": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "date": "2026-10-05T18:54:30.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "link": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "date": "2026-10-05T18:29:00.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
-      "link": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
-      "date": "2026-10-02T20:30:27.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "US arrests tech CEO accused of smuggling $300M in Nvidia chips into China",
-      "link": "https://arstechnica.com/tech-policy/2026/10/us-arrests-tech-ceo-accused-of-smuggling-300m-in-nvidia-chips-into-china/",
-      "date": "2026-10-02T18:39:36.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
-      "link": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
-      "date": "2026-10-02T14:52:16.000Z"
+      "title": "AI glasses face their first major government crackdown",
+      "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+      "date": "2026-10-05T13:39:30.000Z"
     }
   ],
   "skipped": [
