@@ -1,7 +1,7 @@
 // Shared by every page: colour theme, mobile menu, footer year, analytics consent.
 (() => {
   // Google Analytics 4 Measurement ID. Leave empty to turn analytics (and the banner) off.
-  const GA_ID = 'G-ZFN1DT0BP6';
+  const GA_ID = 'G-TXLDEDTX8S';
 
   const $ = s => document.querySelector(s);
   const root = document.documentElement;
