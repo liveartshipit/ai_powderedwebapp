@@ -182,9 +182,28 @@ ${JSON.stringify(items.map(({ id, title, source, hint, raw }) => ({ id, source, 
   return { model, map };
 }
 
+// Brief candidates: most important first (impact, then reader relevance, then newest),
+// at most 2 per source so one busy feed (e.g. AWS) can't fill the whole brief.
+const IMPACT_RANK = { big: 0, notable: 1, fyi: 2 };
+function rankForBrief(list, max = 12, perSource = 2) {
+  const ranked = [...list].sort((a, b) =>
+    (IMPACT_RANK[a.impact] ?? 2) - (IMPACT_RANK[b.impact] ?? 2) ||
+    Number(b.forYou) - Number(a.forYou) ||
+    b.date.localeCompare(a.date));
+  const count = {}, out = [];
+  for (const i of ranked) {
+    if ((count[i.source] || 0) >= perSource) continue;
+    count[i.source] = (count[i.source] || 0) + 1;
+    out.push(i);
+    if (out.length >= max) break;
+  }
+  return out;
+}
+
 async function brief(items) {
   const prompt = `Write today's 3-bullet brief for "Worksmarto AI News" (readers: freelancers, founders, small businesses).
-Each bullet: max 22 words, plain English, the most important AI developments from the stories below, no hype, no emojis, only facts given.
+Stories are listed most important first. Pick the 3 that matter most to readers, each about a different company where possible.
+Each bullet: max 22 words, plain English, no hype, no emojis, only facts given.
 Respond with ONLY JSON: {"headline": "max 9 words", "bullets": ["three", "short", "strings"]}
 
 STORIES:
@@ -257,7 +276,7 @@ const items = [...known.values()].sort((a, b) => b.date.localeCompare(a.date)).s
 let daily = prev.brief || null;
 if (KEY && queue.length) {
   const recent = items.filter(i => i.ai && Date.parse(i.date) > Date.now() - 2 * 864e5);
-  const pool = (recent.length >= 3 ? recent : items.filter(i => i.ai)).slice(0, 15);
+  const pool = rankForBrief(recent.length >= 3 ? recent : items.filter(i => i.ai));
   if (pool.length) daily = (await brief(pool)) || daily;
 }
 
