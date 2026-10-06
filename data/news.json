@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-06T04:22:56.346Z",
-  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "updated": "2026-10-06T04:41:38.601Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-06T04:22:56.044Z",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
-    "headline": "Key AI updates: Bedrock models, SageMaker coding skill",
+    "date": "2026-10-06T04:41:38.238Z",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "headline": "AI news for freelancers and founders",
     "bullets": [
-      "Z.ai's GLM 5.3, a 753B‑parameter mixture‑of‑experts model, is now on Amazon Bedrock with OpenAI‑compatible APIs and prompt caching.",
-      "Anthropic’s Claude Opus 5.5 and Sonnet 5.5 models are on Amazon Bedrock in AWS GovCloud (US), usable with Claude Code.",
-      "SageMaker’s generative AI inference adds an aws‑ai‑ml skill via Agent Toolkit, letting coding agents generate SDK v3 code to benchmark AI deployments."
+      "Z.ai's GLM 5.3, a 753B-parameter mixture-of-experts model, is now on Amazon Bedrock with OpenAI-compatible APIs and prompt caching.",
+      "Anthropic's Claude Opus 5.5 and Sonnet 5.5 are available on Amazon Bedrock in AWS GovCloud for regulated projects.",
+      "OpenAI introduced a visual ad format inside ChatGPT with measurement, attribution, and brand-safety options."
     ]
   },
   "items": [
@@ -79,6 +79,78 @@
         "sagemaker",
         "coding",
         "ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion",
+      "title": "Making Amazon Quick enterprise-ready: Automated, auditable cross-account resource promotion",
+      "link": "https://aws.amazon.com/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+      "date": "2026-10-05T15:56:28.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Automate cross-account promotion for AI resources with built-in audit trails.",
+      "summary": "This guide explains how to automate the promotion of Amazon Quick resources from development to production accounts using an idempotent, auditable MCP server on Amazon Bedrock AgentCore.",
+      "why": "Reduces deployment errors and saves time, allowing focus on building AI features instead of manual tasks.",
+      "takeaway": "Read the post to implement automated resource promotion in your workflow.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "",
+      "tags": [
+        "aws",
+        "automation",
+        "amazon quick"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases",
+      "title": "Agentic retrieval with LangChain and Amazon Bedrock Knowledge Bases",
+      "link": "https://aws.amazon.com/blogs/machine-learning/agentic-retrieval-with-langchain-and-amazon-bedrock-knowledge-bases/",
+      "date": "2026-10-05T15:53:56.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Improve RAG performance for complex questions with agentic retrieval.",
+      "summary": "This tutorial demonstrates building a RAG application using LangChain and Amazon Bedrock, highlighting how agentic retrieval better handles multi-part questions compared to single-shot retrieval.",
+      "why": "Enables better AI responses for customer queries, improving service quality.",
+      "takeaway": "Experiment with agentic retrieval in your next RAG project.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "",
+      "tags": [
+        "rag",
+        "langchain",
+        "amazon bedrock"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick",
+      "title": "Downgrading user roles in Amazon Quick",
+      "link": "https://aws.amazon.com/blogs/machine-learning/downgrading-user-roles-in-amazon-quick/",
+      "date": "2026-10-05T15:51:38.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Need to downgrade user roles in Amazon Quick? Here's how without losing assets.",
+      "summary": "This guide provides two methods to safely downgrade user roles in Amazon Quick, preserving asset ownership during the process.",
+      "why": "Helps manage team access securely, important for small businesses scaling user roles.",
+      "takeaway": "Review the CLI method for role downgrades in your team.",
+      "impact": "fyi",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "",
+      "tags": [
+        "amazon quick",
+        "user roles",
+        "aws cli"
       ],
       "readMins": 2,
       "ai": true,
