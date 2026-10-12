@@ -1,17 +1,113 @@
 {
-  "updated": "2026-10-12T11:20:12.601Z",
-  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "updated": "2026-10-12T17:24:03.542Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-12T09:20:38.498Z",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
-    "headline": "Key AI updates for freelancers and small businesses",
+    "date": "2026-10-12T17:24:03.287Z",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "headline": "AI News Brief for Small Business",
     "bullets": [
-      "OpenAI released GPT-6.1 Sol, offering near-Astra performance for coding and professional work at one-fifth the standard API token price.",
-      "Amazon Bedrock added more model options, faster serverless agents with built‑in evaluation, and automatic knowledge‑base sync via enterprise connectors in September 2026.",
-      "Hugging Face released Falcon-Emirati, a language model trained to understand Emirati Arabic dialect and cultural nuances."
+      "Microsoft expands Azure Maia AI system to multi-gigawatt scale, with Maia 200 live and Maia 300 planned for 2027.",
+      "NVIDIA opens Vera Rubin architecture to help scale AI factories worldwide through partnerships and open-source contributions.",
+      "AWS offers guide for deploying decision models using llama.cpp on SageMaker, supporting CPU or GPU for OpenAI-compatible outputs."
     ]
   },
   "items": [
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai",
+      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+      "date": "2026-10-12T15:51:46.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Deploy decision models efficiently using llama.cpp on AWS SageMaker.",
+      "summary": "AWS provides a technical guide on deploying decision models with llama.cpp on SageMaker, enabling OpenAI-compatible completions and probability outputs on CPU or GPU.",
+      "why": "Freelancers can deploy AI models without managing infrastructure, saving time and costs.",
+      "takeaway": "Read the AWS guide to set up llama.cpp on SageMaker.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "aws",
+        "sagemaker",
+        "llama.cpp"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers",
+      "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
+      "link": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
+      "date": "2026-10-12T15:50:14.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Scale AI inference across multiple GPU nodes with Ray on AWS.",
+      "summary": "AWS offers a guide on deploying large language models across multiple nodes using Ray containers on EKS, simplifying setup with pre-built solutions.",
+      "why": "Enables efficient scaling of AI models, reducing infrastructure management for startups.",
+      "takeaway": "Explore Ray LLM containers for multi-node deployment.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "aws",
+        "eks",
+        "ray"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
+      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
+      "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
+      "date": "2026-10-12T15:00:25.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA opens Vera Rubin architecture to scale AI factories worldwide.",
+      "summary": "At OCP Summit, NVIDIA announced partnerships and contributions to open-source Vera Rubin architecture for scaling AI infrastructure efficiently.",
+      "why": "Could lead to more affordable AI tools for small businesses through better infrastructure.",
+      "takeaway": "Watch for NVIDIA's open standards in AI hardware.",
+      "impact": "big",
+      "forYou": false,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "nvidia",
+        "vera-rubin",
+        "ai-factories"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments",
+      "title": "Microsoft to expand Azure Maia system to multi-gigawatt deployments",
+      "link": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "date": "2026-10-12T13:01:29.000Z",
+      "source": "Microsoft",
+      "section": "Products",
+      "hook": "Microsoft scales Azure Maia for multi-gigawatt AI deployments by 2027.",
+      "summary": "Microsoft announces expansion of Azure Maia system to multi-gigawatt scale, with Maia 200 in production and Maia 300 planned for 2027.",
+      "why": "Could improve AI service performance and availability for small businesses using Azure.",
+      "takeaway": "Monitor Microsoft Azure updates for AI infrastructure changes.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "tags": [
+        "microsoft",
+        "azure-maia",
+        "ai-inference"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026",
       "title": "ICYMI: What landed for AI builders in September 2026",
@@ -1528,15 +1624,45 @@
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "Will the HomeView be Apple’s first smart home success?",
-      "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "date": "2026-10-11T21:14:40.000Z"
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "date": "2026-10-12T17:19:14.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Meta has some Wonder Full new AI models",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+      "date": "2026-10-12T17:00:00.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "date": "2026-10-11T19:00:00.000Z"
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "date": "2026-10-12T15:31:19.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "link": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "date": "2026-10-12T15:27:59.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+      "link": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "date": "2026-10-12T14:00:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
+      "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "date": "2026-10-12T13:00:00.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+      "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "date": "2026-10-12T12:43:10.000Z"
     },
     {
       "source": "The Verge",
@@ -1545,34 +1671,10 @@
       "date": "2026-10-11T18:33:56.000Z"
     },
     {
-      "source": "TechCrunch",
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "link": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "date": "2026-10-11T16:52:33.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "These execs think voice AI hasn't reached its ChatGPT moment yet",
-      "link": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-      "date": "2026-10-11T14:00:00.000Z"
-    },
-    {
       "source": "The Verge",
       "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
       "date": "2026-10-11T11:00:00.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "date": "2026-10-10T22:10:17.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
-      "date": "2026-10-10T18:52:07.000Z"
     },
     {
       "source": "Ars Technica",
