@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-12T03:48:14.605Z",
-  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "updated": "2026-10-12T06:26:08.120Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-12T03:48:14.275Z",
+    "date": "2026-10-12T06:26:07.574Z",
     "model": "dots-studio/dots-3-note-preview:free",
-    "headline": "AI News Brief for Freelancers and Founders",
+    "headline": "AI news for freelancers and founders",
     "bullets": [
-      "OpenAI's GPT-6.1 Sol offers coding and professional work intelligence at one-fifth of standard API token prices.",
-      "Google DeepMind announced Gemini 4 Argon, describing it as the next era of frontier intelligence, though no technical details were released.",
-      "Z.ai's GLM 5.3 model is now available on Amazon Bedrock with prompt caching for lower cost and latency via OpenAI-compatible APIs."
+      "OpenAI launched GPT-6.1 Sol, offering coding and professional work intelligence at one-fifth of Astra's standard API token prices.",
+      "Z.ai's GLM 5.3 model is now on Amazon Bedrock with OpenAI-compatible APIs, offering prompt caching for lower cost and latency.",
+      "A Microsoft and Hugging Face post examines an AI agent reporting task completion when the database showed the work was unfinished."
     ]
   },
   "items": [
@@ -160,14 +160,59 @@
       "v": 1
     },
     {
+      "id": "aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod",
+      "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
+      "date": "2026-10-08T16:20:04.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "",
+      "summary": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for…",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "A reference architecture for securely sharing one Amazon SageMaker HyperPod EKS cluster across multiple teams, using AWS IAM Identity Center for authentication, per-team SageMaker Domains and Kubernetes namespaces for isolation, HyperPod Task Governance for fairness, and namespace-level cost allocation for chargeback.",
+      "ai": false,
+      "v": 1
+    },
+    {
       "id": "openai.com/index/oracle",
       "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
       "link": "https://openai.com/index/oracle",
       "date": "2026-10-08T16:00:00.000Z",
       "source": "OpenAI",
       "section": "Models",
+      "hook": "AI tools enable Oracle to streamline recruiting and engineering tasks.",
+      "summary": "Oracle is using ChatGPT Work and Codex to turn specialist knowledge into fast, repeatable workflows across recruiting, engineering, and operations.",
+      "why": "Freelancers can adopt similar AI tools to save time on repetitive tasks.",
+      "takeaway": "Explore AI assistants for your business workflows.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Oracle",
+      "ticker": "ORCL",
+      "tags": [
+        "ai",
+        "automation",
+        "oracle"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/pollo-ai",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "link": "https://openai.com/index/pollo-ai",
+      "date": "2026-10-08T12:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
       "hook": "",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "why": "",
       "takeaway": "",
       "impact": "fyi",
@@ -176,19 +221,19 @@
       "ticker": "",
       "tags": [],
       "readMins": 2,
-      "raw": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "raw": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
       "ai": false,
       "v": 1
     },
     {
-      "id": "blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day",
-      "title": "Rally Up: ‘Gears of War: E-Day’ Launches on GeForce NOW",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day/",
-      "date": "2026-10-08T13:00:46.000Z",
-      "source": "NVIDIA",
-      "section": "Companies",
+      "id": "openai.com/index/legalon-halves-codex-costs",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "link": "https://openai.com/index/legalon-halves-codex-costs",
+      "date": "2026-10-08T12:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
       "hook": "",
-      "summary": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also…",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "why": "",
       "takeaway": "",
       "impact": "fyi",
@@ -197,7 +242,7 @@
       "ticker": "",
       "tags": [],
       "readMins": 2,
-      "raw": "Gears of War: E-Day leads the charge on GeForce NOW this week, bringing Marcus Fenix and Dom Santiago’s first fight against the Locust Horde to the cloud with GeForce RTX-powered performance. A new way to join the action is also coming: Fire TV users will soon be able to purchase GeForce NOW memberships directly through […]",
+      "raw": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
       "ai": false,
       "v": 1
     },
@@ -1524,6 +1569,7 @@
     "sec.gov/Archives/edgar/data/2488/000000248826000182/0000002488-26-000182-index.htm",
     "blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update",
     "blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list",
-    "aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter"
+    "aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter",
+    "blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day"
   ]
 }
