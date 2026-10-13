@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T09:28:26.088Z",
+  "updated": "2026-10-13T11:06:50.084Z",
   "model": "apodex/apodex-1.1-mini:free",
   "brief": {
     "date": "2026-10-13T06:17:23.325Z",
@@ -1671,6 +1671,12 @@
   ],
   "headlines": [
     {
+      "source": "The Verge",
+      "title": "Character.AI files for bankruptcy",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "date": "2026-10-13T10:32:23.000Z"
+    },
+    {
       "source": "Ars Technica",
       "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
       "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
@@ -1735,12 +1741,6 @@
       "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
       "date": "2026-10-11T18:33:56.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-      "date": "2026-10-11T11:00:00.000Z"
     }
   ],
   "skipped": [
