@@ -1,17 +1,227 @@
 {
-  "updated": "2026-10-13T11:06:50.084Z",
+  "updated": "2026-10-14T05:18:23.596Z",
   "model": "apodex/apodex-1.1-mini:free",
   "brief": {
-    "date": "2026-10-13T06:17:23.325Z",
-    "model": "apodex/apodex-1.1-mini:free",
-    "headline": "Microsoft, NVIDIA, AWS: AI Chip and Model Updates",
+    "date": "2026-10-14T05:18:23.088Z",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "headline": "AI Infrastructure and Access News",
     "bullets": [
-      "Microsoft expands Azure Maia system to multi-gigawatt deployments, with Maia 200 in production and Maia 300 planned for 2027.",
-      "NVIDIA opens Vera Rubin architecture at OCP Summit to help partners scale AI infrastructure efficiently through open-source contributions.",
-      "AWS now lets users run OpenAI GPT-6 models via cross-Region inference from Southeast Asian regions like Singapore and Jakarta."
+      "Microsoft expands Azure Maia AI system to multi-gigawatt scale, with Maia 200 in production and Maia 300 planned for 2027.",
+      "NVIDIA opens Vera Rubin architecture to help scale AI factories worldwide through open-source partnerships.",
+      "AWS now allows cross-Region inference for OpenAI GPT-6 models from Southeast Asian regions including Singapore and Jakarta."
     ]
   },
   "items": [
+    {
+      "id": "deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "date": "2026-10-14T02:00:14.000Z",
+      "source": "Google DeepMind",
+      "section": "Research",
+      "hook": "",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments",
+      "title": "Building agents that transact with Anchor Browser and AgentCore payments",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+      "date": "2026-10-13T20:10:33.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "",
+      "summary": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet…",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "Learn how the AWS Generative AI Innovation Center Partner Agent Factory and Anchor Browser built AI agents that autonomously pay for x402-protected web resources and APIs. Amazon Bedrock AgentCore payments checks budgets, signs transactions, and retries requests without exposing wallet credentials to the agent runtime.",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "date": "2026-10-13T19:43:07.000Z",
+      "source": "Google DeepMind",
+      "section": "Research",
+      "hook": "",
+      "summary": "",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements",
+      "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+      "link": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
+      "date": "2026-10-13T17:17:25.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "",
+      "summary": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post shows two ways to activate MPPO entitlements in AWS License Manager: a lightweight script…",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "Managing AI model access across dozens or hundreds of AWS accounts creates friction when each account must accept AWS Marketplace Private Pricing Offers individually. This post shows two ways to activate MPPO entitlements in AWS License Manager: a lightweight script for a one-time fix, and CDK automation for ongoing event-driven processing.",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "date": "2026-10-13T17:05:48.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "",
+      "summary": "",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock",
+      "title": "Natural language security queries at Orca Security using Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+      "date": "2026-10-13T16:03:31.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "",
+      "summary": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage architecture and the results: 90% lower query cost, 93% fewer input tokens, and 75% lower…",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "Orca Security built Discovery AI, a natural language query agent on Amazon Bedrock that converts plain-English questions into Sonar queries. The post shares the multi-stage architecture and the results: 90% lower query cost, 93% fewer input tokens, and 75% lower latency than the initial baseline.",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "deepmind.google/blog/gemini-4-argon-for-robotics",
+      "title": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "date": "2026-10-13T16:01:58.000Z",
+      "source": "Google DeepMind",
+      "section": "Research",
+      "hook": "",
+      "summary": "",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "date": "2026-10-13T16:00:00.000Z",
+      "source": "Google AI",
+      "section": "Products",
+      "hook": "",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "date": "2026-10-13T12:00:49.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "",
+      "summary": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and…",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI compute, RTX Spark delivers the full stack of NVIDIA RTX and […]",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "openai.com/index/higgsfield-longer-videos-voice",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "date": "2026-10-13T12:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "ai": false,
+      "v": 1
+    },
     {
       "id": "blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
       "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
@@ -1671,76 +1881,76 @@
   ],
   "headlines": [
     {
-      "source": "The Verge",
-      "title": "Character.AI files for bankruptcy",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-      "date": "2026-10-13T10:32:23.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
-      "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
-      "date": "2026-10-12T20:59:50.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
-      "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-      "date": "2026-10-12T18:21:36.000Z"
+      "source": "TechCrunch",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "date": "2026-10-13T23:13:31.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-      "date": "2026-10-12T17:56:56.000Z"
+      "title": "Cerebras CEO says we're nearing a future where everyone has a personal AI assistant at home",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "date": "2026-10-13T23:05:34.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "date": "2026-10-13T23:00:00.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "date": "2026-10-13T22:36:59.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "date": "2026-10-13T20:45:25.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Shopify opens its catalog up to more AI agents",
+      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "date": "2026-10-13T19:42:42.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
+      "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
+      "date": "2026-10-13T19:00:48.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Russia was not ready for the data center war it started with Ukraine",
-      "link": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
-      "date": "2026-10-12T17:52:36.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-      "date": "2026-10-12T17:19:14.000Z"
+      "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+      "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+      "date": "2026-10-13T18:23:33.000Z"
     },
     {
       "source": "The Verge",
-      "title": "Meta has some Wonder Full new AI models",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-      "date": "2026-10-12T17:00:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
-      "link": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
-      "date": "2026-10-12T15:45:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
-      "link": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
-      "date": "2026-10-12T15:31:19.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "date": "2026-10-12T13:00:00.000Z"
+      "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
+      "link": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
+      "date": "2026-10-13T18:00:00.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
-      "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
-      "date": "2026-10-12T12:43:10.000Z"
+      "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+      "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+      "date": "2026-10-13T17:00:39.000Z"
     },
     {
-      "source": "The Verge",
-      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-      "date": "2026-10-11T18:33:56.000Z"
+      "source": "Ars Technica",
+      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+      "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
+      "date": "2026-10-13T16:00:02.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "They war-gamed dimming the Sun. It went even worse than you think.",
+      "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
+      "date": "2026-10-13T15:17:59.000Z"
     }
   ],
   "skipped": [
