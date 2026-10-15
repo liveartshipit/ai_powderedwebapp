@@ -1,17 +1,185 @@
 {
-  "updated": "2026-10-14T09:05:07.402Z",
-  "model": "liquid/lfm-2.5-2.6b:free",
+  "updated": "2026-10-15T05:03:55.090Z",
+  "model": "nvidia/nemotron-3-super-120b-a12b:free",
   "brief": {
-    "date": "2026-10-14T09:05:06.973Z",
-    "model": "liquid/lfm-2.5-2.6b:free",
-    "headline": "Top AI news for freelancers and small businesses",
+    "date": "2026-10-15T05:03:54.890Z",
+    "model": "nvidia/nemotron-3-super-120b-a12b:free",
+    "headline": "Key AI updates for freelancers and small businesses",
     "bullets": [
-      "ShipStation launched Deckhand, an AI assistant that resolves IT queries from screenshots.",
-      "NVIDIA commits $250 million to expand its UK AI ecosystem for enterprises and startups.",
-      "Liquid AI released LFM2.5-24B-A2B, enabling efficient private agents on consumer hardware."
+      "AWS partner introduces agents that process payments via Anchor Browser without exposing user credentials.",
+      "ShipStation Global built Deckhand, an AI IT help desk on Amazon Bedrock AgentCore that resolves queries from screenshots.",
+      "Amp shows AI agents using GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT handle non‑coding workflows."
     ]
   },
   "items": [
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore",
+      "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "date": "2026-10-14T16:24:07.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Create self‑learning document processors with Bedrock AgentCore—no manual templates needed.",
+      "summary": "Amazon Bedrock AgentCore lets you build an intelligent document processing system that classifies, extracts, validates, and improves over time, handling new formats without manual template configuration.",
+      "why": "Freelancers can automate invoice or contract processing, saving hours each week without coding custom parsers.",
+      "takeaway": "Try building a Bedrock AgentCore IDP prototype using the AWS blog guide.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "document processing",
+        "bedrock",
+        "agentcore"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/allenai/hiro-acev2",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "link": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "date": "2026-10-14T16:12:42.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "New AI model simulates extreme weather at 3 km resolution cheaply.",
+      "summary": "HiRO-ACEv2 is an AI model that simulates extreme weather patterns at 3‑kilometer resolution, delivering high detail while reducing computational cost.",
+      "why": "Freelancers in agriculture, insurance, or media can access detailed weather forecasts without expensive compute.",
+      "takeaway": "Explore the HiRO-ACEv2 model on Hugging Face for weather‑related projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "weather simulation",
+        "model",
+        "huggingface"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore",
+      "title": "Generate presentations with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
+      "date": "2026-10-14T13:58:43.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Turn enterprise docs into PowerPoint slides in under 90 seconds using Bedrock AgentCore.",
+      "summary": "The guide shows how to build an AI agent system with Bedrock AgentCore that creates grounded PowerPoint presentations from enterprise documents using retrieval‑augmented generation and guardrails.",
+      "why": "Freelancers can quickly generate client‑ready decks from reports, cutting prep time dramatically.",
+      "takeaway": "Follow the AWS tutorial to build a presentation‑generating agent with Bedrock AgentCore.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "presentation generation",
+        "bedrock",
+        "agentcore"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock",
+      "title": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+      "date": "2026-10-14T13:53:33.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Tamnoon’s AI agent cuts critical cloud exposures by over 90% in 90 days using Bedrock.",
+      "summary": "Tamnoon built Tami, an agentic cloud remediation orchestrator on Amazon Bedrock that autonomously investigates and fixes security findings, reducing critical exposure 90%+ in 90 days with no production issues.",
+      "why": "Freelancers managing cloud workloads can adopt similar AI remediation to cut security risks without large teams.",
+      "takeaway": "Review Tamnoon’s approach to see how Bedrock agents automate cloud security fixes.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Tamnoon",
+      "ticker": "",
+      "tags": [
+        "cloud security",
+        "bedrock",
+        "remediation"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/amp-beyond-coding",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "link": "https://openai.com/index/amp-beyond-coding",
+      "date": "2026-10-14T12:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "Amp extends AI agents from coding to broader tasks using OpenAI’s latest models.",
+      "summary": "Amp demonstrates how AI agents powered by GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT can handle non‑coding workflows.",
+      "why": "Freelancers can delegate research, drafting, or data tasks to agents, freeing time for core work.",
+      "takeaway": "Try Amp with OpenAI models to automate non‑coding tasks in your workflow.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "ai agents",
+        "openai",
+        "amp"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/sentinelone",
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "link": "https://openai.com/index/sentinelone",
+      "date": "2026-10-14T12:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "SentinelOne uses OpenAI Daybreak to slash malware analysis time from weeks to hours.",
+      "summary": "With OpenAI Daybreak, SentinelOne reduces malware analysis from weeks to hours, enabling analysts to investigate more threats.",
+      "why": "Freelancers offering security services can deliver faster malware reports, improving client turnaround.",
+      "takeaway": "Watch for OpenAI‑powered security tools that speed up threat analysis.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "SentinelOne",
+      "ticker": "S",
+      "tags": [
+        "malware analysis",
+        "sentinelone",
+        "openai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/third-moment-research",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "link": "https://openai.com/index/third-moment-research",
+      "date": "2026-10-14T07:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "Third Moment Research runs 10,000 AI agents continuously for over a day using GPT‑6 models.",
+      "summary": "Using GPT‑6 Astra, GPT‑6.1 Sol, Codex, and Daybreak, the lab runs agents that operate for 36+ hours, improving with use.",
+      "why": "Freelancers can see how long‑running agent swarms scale tasks like testing or data processing.",
+      "takeaway": "Monitor long‑duration agent experiments to gauge scalability for your projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Third Moment Research",
+      "ticker": "",
+      "tags": [
+        "agent swarms",
+        "openai",
+        "research"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "blogs.nvidia.com/blog/uk-ecosystem-deployment",
       "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
@@ -2032,75 +2200,75 @@
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
-      "date": "2026-10-13T23:13:31.000Z"
+      "title": "Figma announces new features to define how agents work on its platform",
+      "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "date": "2026-10-15T04:30:00.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Cerebras CEO says we're nearing a future where everyone has a personal AI assistant at home",
-      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-      "date": "2026-10-13T23:05:34.000Z"
+      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "date": "2026-10-15T01:01:32.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-      "link": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
-      "date": "2026-10-13T23:00:00.000Z"
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "date": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "McKinsey is making job applicants spar with a fake AI client",
+      "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "date": "2026-10-14T22:53:31.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Cerebras CEO pushes back on AI doomsday warnings",
-      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-      "date": "2026-10-13T22:36:59.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-      "date": "2026-10-13T20:45:25.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Shopify opens its catalog up to more AI agents",
-      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-      "date": "2026-10-13T19:42:42.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Xbox is officially embracing the chaos of AI-powered game ports",
-      "link": "https://www.theverge.com/news/1010406/xbox-labs-game-decompiling-emulation-exploration",
-      "date": "2026-10-13T19:00:48.000Z"
+      "title": "Flock CEO says its microphones detect 'just gunshots' — its website says different",
+      "link": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "date": "2026-10-14T21:30:33.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-      "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-      "date": "2026-10-13T18:23:33.000Z"
+      "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
+      "link": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+      "date": "2026-10-14T21:15:56.000Z"
     },
     {
       "source": "The Verge",
-      "title": "I don’t miss the camera on the Ray-Ban Meta Audio glasses",
-      "link": "https://www.theverge.com/tech/1009128/ray-ban-meta-audio-glasses-review-smart-glasses-headphones-wearables",
-      "date": "2026-10-13T18:00:00.000Z"
+      "title": "Eight states sue OpenAI, saying ChatGPT isn't safe for kids",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "date": "2026-10-14T21:11:28.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "The AI race is back on",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "date": "2026-10-14T19:06:03.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Now that Character.AI is going bankrupt, what happens to all of its users' data?",
+      "link": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+      "date": "2026-10-14T18:47:54.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Google wants to host your personal vibe-coded apps in the Play Store",
-      "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-      "date": "2026-10-13T17:00:39.000Z"
+      "title": "Researchers use AI to design proteins that cut up other proteins",
+      "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+      "date": "2026-10-14T17:10:15.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
-      "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-      "date": "2026-10-13T16:00:02.000Z"
+      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "date": "2026-10-14T16:41:49.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "They war-gamed dimming the Sun. It went even worse than you think.",
-      "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-      "date": "2026-10-13T15:17:59.000Z"
+      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+      "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+      "date": "2026-10-14T12:55:06.000Z"
     }
   ],
   "skipped": [
