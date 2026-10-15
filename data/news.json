@@ -1,17 +1,41 @@
 {
-  "updated": "2026-10-15T05:03:55.090Z",
-  "model": "nvidia/nemotron-3-super-120b-a12b:free",
+  "updated": "2026-10-15T07:31:36.948Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-15T05:03:54.890Z",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
-    "headline": "Key AI updates for freelancers and small businesses",
+    "date": "2026-10-15T07:31:36.468Z",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "headline": "Worksmarto AI News: Agent Payments, IT Desk, UK Compute",
     "bullets": [
-      "AWS partner introduces agents that process payments via Anchor Browser without exposing user credentials.",
+      "AWS partner introduces agents that handle payments without exposing credentials, allowing businesses to automate transactions safely.",
       "ShipStation Global built Deckhand, an AI IT help desk on Amazon Bedrock AgentCore that resolves queries from screenshots.",
-      "Amp shows AI agents using GPT‑6 Astra, Ultrafast, GPT‑Live‑1, and Sign in with ChatGPT handle non‑coding workflows."
+      "NVIDIA is expanding its UK AI ecosystem with a five-year, $250 million compute commitment supporting enterprises and startups."
     ]
   },
   "items": [
+    {
+      "id": "blogs.nvidia.com/blog/nordics-technology-ecosystem",
+      "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "date": "2026-10-15T05:00:12.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "How advanced computing is transforming the Nordic tech landscape.",
+      "summary": "Nordic countries lead Europe in unicorn startups and are building a major technology ecosystem with computing advancements.",
+      "why": "Small businesses can find new partners and investors in the thriving Nordic AI ecosystem.",
+      "takeaway": "Research Nordic startups for potential AI collaborations.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "NVIDIA",
+      "ticker": "",
+      "tags": [
+        "nordics",
+        "ai",
+        "ecosystem"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore",
       "title": "Build self-improving document processing using Amazon Bedrock AgentCore",
@@ -109,6 +133,30 @@
       "v": 2
     },
     {
+      "id": "aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart",
+      "title": "Deploy and evaluate models with Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
+      "date": "2026-10-14T13:14:36.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Easily deploy and test AI models with SageMaker JumpStart.",
+      "summary": "AWS tutorial on deploying models via SageMaker JumpStart, running performance tests, and cleaning up endpoints.",
+      "why": "Freelancers can quickly prototype AI services using pre-built models, saving time and costs.",
+      "takeaway": "Try deploying a model on SageMaker JumpStart to evaluate its performance.",
+      "impact": "fyi",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "aws",
+        "sagemaker",
+        "machine learning"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
       "id": "openai.com/index/amp-beyond-coding",
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "link": "https://openai.com/index/amp-beyond-coding",
@@ -181,6 +229,30 @@
       "v": 2
     },
     {
+      "id": "openai.com/index/block-ai-powered-security",
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "link": "https://openai.com/index/block-ai-powered-security",
+      "date": "2026-10-14T07:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "Block uses OpenAI to speed up security threat responses.",
+      "summary": "Block implements AI-powered security with OpenAI, enabling faster threat investigation and patch proposals.",
+      "why": "Small businesses can adopt similar AI tools to enhance their security posture.",
+      "takeaway": "Explore AI security solutions like OpenAI for your organization.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Block",
+      "ticker": "SQ",
+      "tags": [
+        "block",
+        "ai",
+        "security"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
       "id": "blogs.nvidia.com/blog/uk-ecosystem-deployment",
       "title": "From Enterprise to Earthshot: UK’s Ecosystem Moves From Ambition to Application With NVIDIA",
       "link": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
@@ -247,6 +319,30 @@
         "security",
         "on-device",
         "fraud"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "title": "The EU’s next chapter in AI is agentic",
+      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "date": "2026-10-14T00:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "Agentic AI adoption is growing in the EU; here's why it matters.",
+      "summary": "OpenAI analysis shows increasing agentic AI use in EU businesses, with potential for more value.",
+      "why": "Freelancers in the EU should consider agentic AI to offer innovative services.",
+      "takeaway": "Learn about agentic AI tools to integrate into your workflow.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "agentic ai",
+        "eu",
+        "adoption"
       ],
       "readMins": 2,
       "ai": true,
