@@ -1,13 +1,14 @@
 {
-  "updated": "2026-10-16T04:56:50.115Z",
-  "model": "liquid/lfm-2.5-2.6b:free",
+  "updated": "2026-10-16T07:14:52.637Z",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-16T04:56:49.797Z",
-    "model": "liquid/lfm-2.5-2.6b:free",
-    "headline": "Hugging Face scales pretraining to 2.8 trillion tokens",
+    "date": "2026-10-16T07:14:52.244Z",
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "headline": "Worksmarto AI News: Today's Top Stories",
     "bullets": [
-      "NVIDIA launches RTX Spark PC for AI agents",
-      "OpenAI creates contract analysis tool with law firm"
+      "OpenAI and law firm Sullivan & Cromwell launched Agreement Analyzer, which flags problems in draft contracts.",
+      "NVIDIA announced RTX Spark, a Windows PC built for creators and AI agents.",
+      "AWS launched Trust in Depth, a system for autonomous AI agents with verification safeguards."
     ]
   },
   "items": [
@@ -252,6 +253,30 @@
       "v": 2
     },
     {
+      "id": "blogs.nvidia.com/blog/ec-scientific-computing-pledge",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "link": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "date": "2026-10-15T10:00:12.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA opens AI compute and training to European scientists and startups",
+      "summary": "NVIDIA is expanding access to AI computing, training materials, and collaboration tools for European researchers, startups, and small labs working on science and climate projects.",
+      "why": "Small science-focused businesses can use NVIDIA’s infrastructure and learning resources without buying their own hardware.",
+      "takeaway": "Explore NVIDIA’s free learning resources and compute access if your work involves scientific AI.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "nvidia",
+        "compute",
+        "europe"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
       "id": "blogs.nvidia.com/blog/nordics-technology-ecosystem",
       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
       "link": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
@@ -318,6 +343,30 @@
         "multimodal",
         "open weight",
         "AI model"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/flux-3",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "link": "https://huggingface.co/blog/flux-3",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Hugging Face adds FLUX.3 image generation to its Diffusers library",
+      "summary": "Hugging Face has added FLUX.3, an image generation model, to its Diffusers library, simplifying use for developers building AI image apps.",
+      "why": "Freelancers and small teams can integrate a capable image model without managing complex infrastructure.",
+      "takeaway": "Try FLUX.3 through Hugging Face Diffusers for image generation in client or internal projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "flux",
+        "image",
+        "diffusers"
       ],
       "readMins": 2,
       "ai": true,
