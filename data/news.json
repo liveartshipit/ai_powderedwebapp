@@ -1,17 +1,256 @@
 {
-  "updated": "2026-10-15T08:35:53.233Z",
-  "model": "dots-studio/dots-3-note-preview:free",
+  "updated": "2026-10-16T04:56:50.115Z",
+  "model": "liquid/lfm-2.5-2.6b:free",
   "brief": {
-    "date": "2026-10-15T07:31:36.468Z",
-    "model": "dots-studio/dots-3-note-preview:free",
-    "headline": "Worksmarto AI News: Agent Payments, IT Desk, UK Compute",
+    "date": "2026-10-16T04:56:49.797Z",
+    "model": "liquid/lfm-2.5-2.6b:free",
+    "headline": "Hugging Face scales pretraining to 2.8 trillion tokens",
     "bullets": [
-      "AWS partner introduces agents that handle payments without exposing credentials, allowing businesses to automate transactions safely.",
-      "ShipStation Global built Deckhand, an AI IT help desk on Amazon Bedrock AgentCore that resolves queries from screenshots.",
-      "NVIDIA is expanding its UK AI ecosystem with a five-year, $250 million compute commitment supporting enterprises and startups."
+      "NVIDIA launches RTX Spark PC for AI agents",
+      "OpenAI creates contract analysis tool with law firm"
     ]
   },
   "items": [
+    {
+      "id": "huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "date": "2026-10-16T01:44:47.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Massive scaling pushes open data pipelines to unprecedented size.",
+      "summary": "Hugging Face reports a pretraining effort reaching 2.8 trillion tokens and launches an open data generation pipeline.",
+      "why": "Freelancers can tap massive open datasets to train custom models, lowering development costs and accelerating project timelines.",
+      "takeaway": "Explore open pretraining resources to build domain‑specific models quickly.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "pretraining",
+        "opendata",
+        "scale"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "date": "2026-10-15T20:34:01.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "IBM unveils Granite Switch 4.1, unifying chat, decision‑making, and speech in a single API.",
+      "summary": "IBM releases Granite Switch 4.1, a unified model handling conversation, reasoning, and voice tasks.",
+      "why": "Small businesses can adopt multi‑modal AI services without integrating separate systems, saving time and cost.",
+      "takeaway": "Evaluate Granite Switch 4.1 APIs for adding conversational or analytical features to existing projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "IBM",
+      "ticker": "IBM",
+      "tags": [
+        "multimodal",
+        "unified",
+        "enterprise"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/introducing-the-rosalind-academic-plan",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "date": "2026-10-15T19:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "OpenAI introduces GPT‑Rosalind, giving academic labs free access to advanced language capabilities.",
+      "summary": "OpenAI launches the Rosalind Academic Plan, providing eligible research labs with GPT‑Rosalind for scientific work.",
+      "why": "Researchers can accelerate experiments without licensing fees, boosting productivity in labs and startups.",
+      "takeaway": "Explore eligibility criteria and sign up for academic teams to trial the model immediately.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "academic",
+        "research",
+        "open-source"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart",
+      "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+      "link": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+      "date": "2026-10-15T17:43:35.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Meta’s Muse Spark Open model becomes part of Amazon SageMaker JumpStart, ready for instant deployment.",
+      "summary": "Amazon SageMaker adds Meta’s open‑weight Muse Spark model, enabling quick inference via JumpStart.",
+      "why": "Freelancers can embed code generation or analysis tools without building infrastructure from scratch.",
+      "takeaway": "Test the new endpoint in your SageMaker environment to try real‑time inference.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon Web Services",
+      "ticker": "AMZN",
+      "tags": [
+        "open-weight",
+        "deployment",
+        "sagemaker"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "date": "2026-10-15T17:00:23.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA announces RTX Spark, a Windows PC designed for creators and AI agents, with worldwide launch events.",
+      "summary": "NVIDIA announces RTX Spark, a Windows PC built for creators and AI agents, accompanied by global launch events.",
+      "why": "Creators can run local AI workloads on consumer hardware, reducing reliance on cloud services.",
+      "takeaway": "Research RTX Spark specifications and consider acquiring hardware for offline AI workflows.",
+      "impact": "big",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "hardware",
+        "agents",
+        "local-ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "date": "2026-10-15T16:08:03.000Z",
+      "source": "Google DeepMind",
+      "section": "Research",
+      "hook": "Google DeepMind uses Antigravity to speed up discovery of new antimicrobial peptides.",
+      "summary": "DeepMind applies Antigravity to find novel antimicrobial peptides faster than traditional methods.",
+      "why": "Faster peptide discovery could lead to new drugs, benefiting biotech startups and health tech ventures.",
+      "takeaway": "Monitor Antigravity updates for potential off‑the‑shelf modeling solutions.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Google DeepMind",
+      "ticker": "GOOGL",
+      "tags": [
+        "drug-discovery",
+        "antimicrobial",
+        "research"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control",
+      "title": "Trust in Depth: Giving agents more autonomy without losing control",
+      "link": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+      "date": "2026-10-15T15:05:35.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "AWS releases Trust in Depth, a framework helping AI agents operate autonomously while staying controllable.",
+      "summary": "AWS introduces Trust in Depth, a system that enables autonomous agent action with verification safeguards.",
+      "why": "Autonomous agents can handle routine tasks more reliably, increasing overall workflow efficiency.",
+      "takeaway": "Experiment with Trust in Depth in your workflow to improve agent reliability.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon Web Services",
+      "ticker": "AMZN",
+      "tags": [
+        "agency",
+        "control",
+        "trust"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/nemotron-3-5-super-vl",
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "date": "2026-10-15T15:00:24.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA expands its Nemotron line with Super VL and Bolt models, moving efficiency from data centers to desktops.",
+      "summary": "NVIDIA launches Super VL and Bolt variants of the Nemotron family, emphasizing high efficiency for desktop deployment.",
+      "why": "Powerful LLMs can now run on modest GPUs, cutting cloud compute expenses for freelancers.",
+      "takeaway": "Try the new Bolt models in your own NVIDIA GPU setup for faster, cheaper inference.",
+      "impact": "big",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "neuro-symbolic",
+        "edge",
+        "super-vl"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update",
+      "title": "Dial Up the Cloud: NVIDIA DLSS 4.5 Controls Arrive on GeForce NOW",
+      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-enshrouded-update/",
+      "date": "2026-10-15T13:00:59.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "GeForce NOW gets DLSS 4.5, letting users adjust visual quality and performance on cloud gaming sessions.",
+      "summary": "DLSS 4.5 arrives on GeForce NOW, expanding user control over graphics settings during streaming.",
+      "why": "Streamers can optimize rendering without needing high‑end hardware, making presentation easier.",
+      "takeaway": "Update your GeForce NOW subscription to enable DLSS 4.5 for smoother playback.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "gaming",
+        "cloud",
+        "dlss"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "title": "Teaching students to think and learn through questions",
+      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "date": "2026-10-15T13:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "OpenAI rolls out Study Mode to prompt students with questions, fostering deeper learning in classrooms.",
+      "summary": "OpenAI introduces Study Mode, which poses questions to guide student problem solving and critical thinking.",
+      "why": "Small businesses can adopt interactive AI tutoring tools to boost team learning and retention.",
+      "takeaway": "Pilot Study Mode in internal training sessions to enhance knowledge sharing among staff.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "education",
+        "learning",
+        "study-mode"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "blogs.nvidia.com/blog/nordics-technology-ecosystem",
       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
@@ -31,6 +270,54 @@
         "nordics",
         "ai",
         "ecosystem"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/sullivan-cromwell",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "link": "https://openai.com/index/sullivan-cromwell",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "Legal teams now get AI‑powered contract scanners from OpenAI.",
+      "summary": "Sullivan and Cromwell partnered with OpenAI to create Agreement Analyzer, an AI system that flags problems in draft contracts.",
+      "why": "Freelancers can use similar AI tools to speed up contract reviews and reduce legal costs.",
+      "takeaway": "Try an open‑source contract analyzer to automatically scan your drafts.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Sullivan & Cromwell",
+      "ticker": "",
+      "tags": [
+        "legal ai",
+        "contract analysis",
+        "freelance"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/meta-muse-spark-open",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "link": "https://huggingface.co/blog/meta-muse-spark-open",
+      "date": "2026-10-15T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Meta launches Muse Spark Open, a free massive multimodal model.",
+      "summary": "Hugging Face reports the launch of Muse Spark Open, an open‑weight frontier multimodal mixture‑of‑experts model from Meta.",
+      "why": "Small businesses can run these efficient models locally, cutting cloud expenses and preserving data privacy.",
+      "takeaway": "Explore the Muse Spark Open API to experiment with local inference.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Meta",
+      "ticker": "META",
+      "tags": [
+        "multimodal",
+        "open weight",
+        "AI model"
       ],
       "readMins": 2,
       "ai": true,
@@ -2296,33 +2583,63 @@
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "Figma announces new features to define how agents work on its platform",
-      "link": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "date": "2026-10-15T04:30:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "link": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "date": "2026-10-15T01:01:32.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
-      "link": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
-      "date": "2026-10-15T00:00:00.000Z"
+      "title": "When it came to Cal AI's viral success, a small army of influencers paid off",
+      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "date": "2026-10-15T23:44:56.000Z"
     },
     {
       "source": "The Verge",
-      "title": "McKinsey is making job applicants spar with a fake AI client",
-      "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-      "date": "2026-10-14T22:53:31.000Z"
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "date": "2026-10-15T22:43:23.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+      "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
+      "date": "2026-10-15T22:35:55.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "The tech backlash is now in theaters",
+      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
+      "date": "2026-10-15T21:39:52.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Trump posts AI-edited photo to brag about White House restoration work",
+      "link": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+      "date": "2026-10-15T21:09:33.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Flock CEO says its microphones detect 'just gunshots' — its website says different",
-      "link": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
-      "date": "2026-10-14T21:30:33.000Z"
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "date": "2026-10-15T20:04:53.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "date": "2026-10-15T19:55:25.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "date": "2026-10-15T19:14:26.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+      "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "date": "2026-10-15T15:43:24.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
+      "link": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
+      "date": "2026-10-15T15:12:58.000Z"
     },
     {
       "source": "Ars Technica",
@@ -2331,40 +2648,10 @@
       "date": "2026-10-14T21:15:56.000Z"
     },
     {
-      "source": "The Verge",
-      "title": "Eight states sue OpenAI, saying ChatGPT isn't safe for kids",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-      "date": "2026-10-14T21:11:28.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "The AI race is back on",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-      "date": "2026-10-14T19:06:03.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Now that Character.AI is going bankrupt, what happens to all of its users' data?",
-      "link": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
-      "date": "2026-10-14T18:47:54.000Z"
-    },
-    {
       "source": "Ars Technica",
       "title": "Researchers use AI to design proteins that cut up other proteins",
       "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
       "date": "2026-10-14T17:10:15.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
-      "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-      "date": "2026-10-14T16:41:49.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-      "date": "2026-10-14T12:55:06.000Z"
     }
   ],
   "skipped": [
