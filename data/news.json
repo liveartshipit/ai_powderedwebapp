@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-17T04:54:33.361Z",
-  "model": "dots-studio/dots-3-note-preview:free",
+  "updated": "2026-10-17T07:01:47.225Z",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-17T04:54:32.915Z",
-    "model": "dots-studio/dots-3-note-preview:free",
-    "headline": "AI News for Small Business",
+    "date": "2026-10-17T07:01:46.879Z",
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "headline": "Today's AI News for Freelancers and Founders",
     "bullets": [
-      "Stack Overflow for Agents saw tenfold signup growth after adding a ChatGPT plugin.",
-      "Hugging Face launched Beam, an open-weight AI model with 501 billion parameters for customization and deployment.",
-      "NVIDIA introduced Super VL and Bolt variants of the Nemotron family for high-efficiency desktop deployment."
+      "Hugging Face released Beam, a 501 billion parameter open model for customization and deployment.",
+      "Stack Overflow for Agents signups tripled after launching a ChatGPT plugin.",
+      "NVIDIA announced RTX Spark, a Windows PC built for creators and AI agents."
     ]
   },
   "items": [
@@ -151,6 +151,30 @@
         "open model",
         "501b",
         "hugging face"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/benefit-street-partners",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "link": "https://openai.com/index/benefit-street-partners",
+      "date": "2026-10-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "A loan team uses OpenAI Codex to review credit agreements faster.",
+      "summary": "Benefit Street Partners uses OpenAI Codex to build tools that compare loan valuations and analyze credit agreements, speeding up code review and follow-ups.",
+      "why": "Shows how small teams can use AI coding tools to speed up document review and repetitive work.",
+      "takeaway": "Try an AI coding assistant to automate document review in your own workflow.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "codex",
+        "fintech",
+        "productivity"
       ],
       "readMins": 2,
       "ai": true,
