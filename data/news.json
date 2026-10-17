@@ -1,17 +1,89 @@
 {
-  "updated": "2026-10-16T08:30:34.079Z",
-  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "updated": "2026-10-17T04:54:33.361Z",
+  "model": "dots-studio/dots-3-note-preview:free",
   "brief": {
-    "date": "2026-10-16T07:14:52.244Z",
-    "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "Worksmarto AI News: Today's Top Stories",
+    "date": "2026-10-17T04:54:32.915Z",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "headline": "AI News for Small Business",
     "bullets": [
-      "OpenAI and law firm Sullivan & Cromwell launched Agreement Analyzer, which flags problems in draft contracts.",
-      "NVIDIA announced RTX Spark, a Windows PC built for creators and AI agents.",
-      "AWS launched Trust in Depth, a system for autonomous AI agents with verification safeguards."
+      "Stack Overflow for Agents saw tenfold signup growth after adding a ChatGPT plugin.",
+      "Hugging Face launched Beam, an open-weight AI model with 501 billion parameters for customization and deployment.",
+      "NVIDIA introduced Super VL and Bolt variants of the Nemotron family for high-efficiency desktop deployment."
     ]
   },
   "items": [
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore",
+      "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+      "date": "2026-10-16T20:48:16.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Silent AI agent failures? A new framework catches quality erosion early.",
+      "summary": "AWS published a guide on a nine-stage framework for evaluating AI agents, built with Amazon Bedrock AgentCore, to identify silent quality regressions in production.",
+      "why": "Freelancers using AI agents can apply this framework to maintain service quality and avoid client dissatisfaction from hidden errors.",
+      "takeaway": "Implement staged evaluations for your AI projects to prevent silent failures.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "ai agents",
+        "evaluation",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/itau-generative-ai",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "link": "https://openai.com/index/itau-generative-ai",
+      "date": "2026-10-16T19:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Companies",
+      "hook": "How a Brazilian bank is deploying AI across its entire customer base.",
+      "summary": "Itaú bank is implementing a generative AI strategy with a conversational interface and governance platform to serve customers and staff in Brazil's highly regulated financial sector.",
+      "why": "Freelancers in finance can learn from Itaú's AI approach, which emphasizes governance and broad application in a regulated environment.",
+      "takeaway": "Adopt AI tools with clear governance to enhance customer service.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "Itaú",
+      "ticker": "",
+      "tags": [
+        "generative ai",
+        "banking",
+        "governance"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws",
+      "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+      "date": "2026-10-16T15:23:10.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Reflection Beam: an open model for AI agents on AWS infrastructure.",
+      "summary": "AWS published a guide on deploying Reflection Beam, an open-weight AI model designed for agentic coding and long tasks, using Amazon SageMaker or HyperPod for scalable infrastructure.",
+      "why": "Freelancers in AI development can leverage this open model for building autonomous coding agents with AWS deployment options.",
+      "takeaway": "Explore deploying Reflection Beam on AWS for your agentic coding projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Reflection AI",
+      "ticker": "",
+      "tags": [
+        "open-weight",
+        "agentic coding",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
@@ -31,6 +103,54 @@
         "pretraining",
         "opendata",
         "scale"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/stack-overflow-chatgpt-plugin",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "date": "2026-10-16T00:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Products",
+      "hook": "Stack Overflow's AI plugin triples signups with Codex help.",
+      "summary": "Stack Overflow for Agents, developed by two engineers using Codex, saw up to tenfold growth in agent signups after launching a ChatGPT plugin.",
+      "why": "Freelancers can learn that integrating AI plugins can rapidly scale user adoption for developer tools.",
+      "takeaway": "Integrate AI features like chatbots to accelerate user acquisition.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Stack Overflow",
+      "ticker": "",
+      "tags": [
+        "chatgpt plugin",
+        "growth",
+        "codex"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/reflection-beam",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "link": "https://huggingface.co/blog/reflection-beam",
+      "date": "2026-10-16T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Own and scale a 501B parameter AI model with Beam.",
+      "summary": "Hugging Face introduced Beam, a large open-weight AI model with 501 billion parameters, available for customization and deployment.",
+      "why": "Freelancers requiring powerful AI models can use Beam for custom solutions without licensing costs.",
+      "takeaway": "Download and experiment with Beam for your AI projects.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Reflection AI",
+      "ticker": "",
+      "tags": [
+        "open model",
+        "501b",
+        "hugging face"
       ],
       "readMins": 2,
       "ai": true,
@@ -2632,9 +2752,63 @@
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "When it came to Cal AI's viral success, a small army of influencers paid off",
-      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "date": "2026-10-15T23:44:56.000Z"
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "date": "2026-10-16T21:22:28.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
+      "date": "2026-10-16T20:59:01.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+      "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+      "date": "2026-10-16T20:20:07.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "date": "2026-10-16T17:52:24.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "date": "2026-10-16T16:30:00.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "date": "2026-10-16T16:30:00.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+      "date": "2026-10-16T15:41:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+      "date": "2026-10-16T15:00:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Meta’s new terms may allow it to train AI on news sites for free",
+      "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "date": "2026-10-16T14:02:40.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
+      "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
+      "date": "2026-10-16T14:00:59.000Z"
     },
     {
       "source": "The Verge",
@@ -2647,60 +2821,6 @@
       "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
       "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
       "date": "2026-10-15T22:35:55.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "The tech backlash is now in theaters",
-      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-      "date": "2026-10-15T21:39:52.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Trump posts AI-edited photo to brag about White House restoration work",
-      "link": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
-      "date": "2026-10-15T21:09:33.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "date": "2026-10-15T20:04:53.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "date": "2026-10-15T19:55:25.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "date": "2026-10-15T19:14:26.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-      "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-      "date": "2026-10-15T15:43:24.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-      "link": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-      "date": "2026-10-15T15:12:58.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-      "link": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-      "date": "2026-10-14T21:15:56.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Researchers use AI to design proteins that cut up other proteins",
-      "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
-      "date": "2026-10-14T17:10:15.000Z"
     }
   ],
   "skipped": [
