@@ -1,17 +1,41 @@
 {
-  "updated": "2026-10-17T08:02:41.120Z",
+  "updated": "2026-10-18T04:58:18.266Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-17T07:01:46.879Z",
+    "date": "2026-10-18T04:58:18.115Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "Today's AI News for Freelancers and Founders",
+    "headline": "AI news for freelancers, founders, and small businesses",
     "bullets": [
-      "Hugging Face released Beam, a 501 billion parameter open model for customization and deployment.",
-      "Stack Overflow for Agents signups tripled after launching a ChatGPT plugin.",
-      "NVIDIA announced RTX Spark, a Windows PC built for creators and AI agents."
+      "AWS publishes a nine-stage framework to evaluate AI agents and catch production quality regressions.",
+      "NVIDIA and partners release RTX Spark laptops with Blackwell graphics starting at $2,399.",
+      "Itaú Bank is implementing generative AI for customers and staff in Brazil's regulated financial sector."
     ]
   },
   "items": [
+    {
+      "id": "blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "date": "2026-10-17T21:00:13.000Z",
+      "source": "NVIDIA",
+      "section": "Products",
+      "hook": "New Windows laptops run AI locally, starting at $2,399.",
+      "summary": "NVIDIA and partners including ASUS, Dell, HP, Lenovo, Microsoft and MSI are releasing RTX Spark laptops with Blackwell graphics and up to 128GB of memory. Prices start at $2,399 for devices focused on local AI, creation and gaming.",
+      "why": "Freelancers doing design, video or coding can run AI tools locally without relying on cloud subscriptions.",
+      "takeaway": "Compare RTX Spark laptop specs if your work needs local AI performance.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "nvidia",
+        "laptops",
+        "ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore",
       "title": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
@@ -2776,6 +2800,36 @@
   "headlines": [
     {
       "source": "TechCrunch",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "date": "2026-10-17T21:31:32.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "date": "2026-10-17T20:21:19.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "date": "2026-10-17T18:48:08.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "date": "2026-10-17T15:04:36.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Websites are closing their doors to AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "date": "2026-10-17T13:00:00.000Z"
+    },
+    {
+      "source": "TechCrunch",
       "title": "Replit is no longer working with Anthropic, CEO says",
       "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "date": "2026-10-16T21:22:28.000Z"
@@ -2791,24 +2845,6 @@
       "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
       "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
       "date": "2026-10-16T20:20:07.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "date": "2026-10-16T17:52:24.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "date": "2026-10-16T16:30:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-      "date": "2026-10-16T16:30:00.000Z"
     },
     {
       "source": "Ars Technica",
@@ -2833,18 +2869,6 @@
       "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
       "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
       "date": "2026-10-16T14:00:59.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "date": "2026-10-15T22:43:23.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-      "date": "2026-10-15T22:35:55.000Z"
     }
   ],
   "skipped": [
