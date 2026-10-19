@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T08:20:13.209Z",
+  "updated": "2026-10-19T05:06:04.487Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
     "date": "2026-10-18T04:58:18.115Z",
@@ -2800,6 +2800,30 @@
   "headlines": [
     {
       "source": "TechCrunch",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "date": "2026-10-18T20:37:40.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "date": "2026-10-18T18:28:10.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "date": "2026-10-18T16:30:00.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "date": "2026-10-18T16:25:19.000Z"
+    },
+    {
+      "source": "TechCrunch",
       "title": "Meta removes language that raised scraping and AI training concerns",
       "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "date": "2026-10-17T21:31:32.000Z"
@@ -2809,12 +2833,6 @@
       "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
       "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "date": "2026-10-17T20:21:19.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "date": "2026-10-17T18:48:08.000Z"
     },
     {
       "source": "The Verge",
@@ -2827,12 +2845,6 @@
       "title": "Websites are closing their doors to AI agents",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
       "date": "2026-10-17T13:00:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "date": "2026-10-16T21:22:28.000Z"
     },
     {
       "source": "Ars Technica",
@@ -2857,18 +2869,6 @@
       "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
       "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
       "date": "2026-10-16T15:00:00.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Meta’s new terms may allow it to train AI on news sites for free",
-      "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-      "date": "2026-10-16T14:02:40.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-      "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
-      "date": "2026-10-16T14:00:59.000Z"
     }
   ],
   "skipped": [
