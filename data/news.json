@@ -1,17 +1,41 @@
 {
-  "updated": "2026-10-20T07:39:03.722Z",
+  "updated": "2026-10-20T08:53:07.203Z",
   "model": "minimax/minimax-m3.1-flash:free",
   "brief": {
-    "date": "2026-10-20T07:39:03.448Z",
+    "date": "2026-10-20T08:53:06.922Z",
     "model": "minimax/minimax-m3.1-flash:free",
-    "headline": "Practical AI updates for builders and small businesses",
+    "headline": "AI tools gain broader access and capabilities",
     "bullets": [
-      "Amazon Bedrock now supports structured JSON outputs and strict tool use for every Anthropic Claude model.",
-      "Microsoft says disclosed AI safety incidents show organizations need stronger controls over insiders using powerful agentic systems.",
-      "OpenAI is expanding ChatGPT evaluations for low-resource languages, including software engineering, SQLite and COBOL migration."
+      "Amazon Bedrock now supports structured JSON outputs and strict tool use across every Anthropic Claude model.",
+      "New Amazon SageMaker AI customers can access SageMaker Studio with familiar sign-in options and $100 in AWS Free Tier credits.",
+      "OpenAI is improving ChatGPT for low-resource programming languages through evaluations covering software engineering, SQLite and COBOL migration."
     ]
   },
   "items": [
+    {
+      "id": "blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice",
+      "title": "Advancing digital sovereignty with greater control and choice",
+      "link": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "date": "2026-10-20T08:20:02.000Z",
+      "source": "Microsoft",
+      "section": "Products",
+      "hook": "Sovereignty controls are becoming central as cloud AI enters essential services.",
+      "summary": "Microsoft says leaders in government, critical infrastructure, and regulated industries want greater control as advanced cloud and AI capabilities expand into public services and essential systems.",
+      "why": "Businesses may need clearer control over where sensitive data and AI workloads operate, especially in regulated sectors.",
+      "takeaway": "Review data-location and control options for cloud-based AI tools.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "tags": [
+        "cloud ai",
+        "sovereignty",
+        "regulation"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
       "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
@@ -199,6 +223,30 @@
         "vllm",
         "inference",
         "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm",
+      "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "link": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/",
+      "date": "2026-10-19T16:03:23.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Reusing conversation context could make multi-turn AI agents substantially more responsive.",
+      "summary": "AWS describes a vLLM technique that transfers KV cache data between prefill and decode nodes, reducing time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on EC2 P5en instances.",
+      "why": "Freelancers building conversational agents could offer faster responses while managing infrastructure costs and user experience.",
+      "takeaway": "Test KV cache transfer when building multi-turn agent applications.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "vllm",
+        "ai agents",
+        "latency"
       ],
       "readMins": 2,
       "ai": true,
