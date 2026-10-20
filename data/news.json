@@ -1,17 +1,230 @@
 {
-  "updated": "2026-10-19T09:18:41.410Z",
-  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "updated": "2026-10-20T05:08:09.603Z",
+  "model": "minimax/minimax-m3.1-flash:free",
   "brief": {
-    "date": "2026-10-18T04:58:18.115Z",
-    "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "AI news for freelancers, founders, and small businesses",
+    "date": "2026-10-20T05:08:09.361Z",
+    "model": "minimax/minimax-m3.1-flash:free",
+    "headline": "AI tools, safety controls and Germany’s industrial roadmap",
     "bullets": [
-      "AWS publishes a nine-stage framework to evaluate AI agents and catch production quality regressions.",
-      "NVIDIA and partners release RTX Spark laptops with Blackwell graphics starting at $2,399.",
-      "Itaú Bank is implementing generative AI for customers and staff in Brazil's regulated financial sector."
+      "Amazon Bedrock now supports schema-compliant outputs for every Anthropic Claude model through two runtime endpoints.",
+      "Microsoft says disclosed AI safety incidents show why organizations need stronger controls for insiders using powerful agentic systems.",
+      "Germany’s chancellor and NVIDIA’s CEO discussed a national industrial AI roadmap covering automotive, gaming systems and workstations."
     ]
   },
   "items": [
+    {
+      "id": "blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center",
+      "title": "Spain-Based Startups Advance Regional Innovation With Barcelona Supercomputing Center",
+      "link": "https://blogs.nvidia.com/blog/spain-startups-barcelona-supercomputing-center/",
+      "date": "2026-10-20T05:00:00.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "Sovereign compute could open Barcelona's startup pipeline",
+      "summary": "The Barcelona Supercomputing Center has fully opened its AI Factory Accelerator Programme, giving regional startups access to sovereign computing, technical support and training. Participating companies are also eligible for NVIDIA Inception membership.",
+      "why": "Startups can use local infrastructure and support to develop AI products without relying entirely on foreign computing providers.",
+      "takeaway": "Check whether Barcelona’s accelerator matches your startup’s compute or training needs.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "sovereign-ai",
+        "startups",
+        "compute"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "date": "2026-10-19T23:32:19.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Reliable JSON could eliminate a frustrating layer of app plumbing",
+      "summary": "Amazon Bedrock now supports schema-compliant structured outputs for every Anthropic Claude model through two runtime endpoints. Developers can use JSON Schema output and strict tool use without custom parsing, retries or post-processing.",
+      "why": "Freelancers building AI workflows can reduce errors and engineering time when Claude applications need predictable data formats.",
+      "takeaway": "Test a Claude workflow that currently depends on custom JSON cleanup.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "claude",
+        "bedrock",
+        "structured-output"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "link": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
+      "date": "2026-10-19T22:39:24.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "New users can try SageMaker without the usual AWS setup barrier",
+      "summary": "New Amazon SageMaker AI customers can enter a configured SageMaker Studio environment through familiar sign-in options. Most do not need an advanced AWS account or credit card and receive $100 in AWS Free Tier credits.",
+      "why": "The simplified entry process lowers the barrier for freelancers testing machine-learning tools for clients or internal projects.",
+      "takeaway": "Create a SageMaker account and explore the free-tier studio tools.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "sagemaker",
+        "aws",
+        "cloud-ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review",
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+      "date": "2026-10-19T21:14:44.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "AWS’s model catalog is expanding while deployment gets simpler",
+      "summary": "Amazon SageMaker JumpStart added more than 100 models from 30 providers during the first three quarters of 2026. Its updates include a simplified Model Hub, preconfigured deployment options and Hugging Face links.",
+      "why": "A broader model catalog and easier deployment can shorten the path from an AI prototype to a working client project.",
+      "takeaway": "Compare JumpStart’s new model and deployment options for your next project.",
+      "impact": "fyi",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "sagemaker",
+        "model-catalog",
+        "deployment"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help",
+      "title": "Germany Wants to Lead the World in Industrial AI: How NVIDIA Will Help",
+      "link": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+      "date": "2026-10-19T19:27:08.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "Germany is positioning AI as an industrial strategy, not a tech fad",
+      "summary": "Germany’s chancellor and NVIDIA’s CEO discussed a national industrial AI roadmap. Their discussion covered NVIDIA’s existing relationships with German industries, including automotive, gaming systems and workstations.",
+      "why": "Industrial AI investment could create opportunities for specialists serving factories, automotive companies and other traditional businesses.",
+      "takeaway": "Watch for specific German industrial AI programs and sector partnerships.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "industrial-ai",
+        "germany",
+        "infrastructure"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production",
+      "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
+      "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+      "date": "2026-10-19T15:00:31.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "Media AI is moving toward sovereign clouds and coordinated security",
+      "summary": "The European Broadcasting Union is collaborating with NVIDIA to expand a sovereign framework using cloud infrastructure, open models and integration. The announcement was presented with Adobe, Bertelsmann and UFA.",
+      "why": "Media companies adopting agentic tools will need security and infrastructure that fit strict content and operational requirements.",
+      "takeaway": "Watch how EBU’s framework translates into tools for media businesses.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "media-ai",
+        "security",
+        "sovereign-ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider",
+      "title": "Securing the agentic insider",
+      "link": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "date": "2026-10-19T13:00:02.000Z",
+      "source": "Microsoft",
+      "section": "Policy & Safety",
+      "hook": "AI insiders may become a new security boundary",
+      "summary": "Microsoft says publicly disclosed AI safety incidents show how capable models have become and why organizations need stronger controls. The post focuses on securing risks posed by insiders interacting with powerful agentic systems.",
+      "why": "Businesses deploying autonomous agents need governance and access controls before those agents can affect sensitive work.",
+      "takeaway": "Review permissions, monitoring and escalation rules for your AI agents.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "tags": [
+        "ai-security",
+        "agents",
+        "governance"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/low-resource-programming-languages",
+      "title": "Advancing coding in low‑resource programming languages",
+      "link": "https://openai.com/index/low-resource-programming-languages",
+      "date": "2026-10-19T12:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "huggingface.co/blog/hf-torchneuron",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
+      "date": "2026-10-19T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Open models may be easier to run on alternative AI hardware",
+      "summary": "Hugging Face introduced TorchNeuron, intended to simplify running Hugging Face models on AWS Trainium chips.",
+      "why": "Teams seeking alternatives to leading GPU hardware may gain another option for deploying open models.",
+      "takeaway": "Evaluate TorchNeuron if Trainium costs or availability suit your workload.",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "trainium",
+        "open-models",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration",
       "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
@@ -2800,75 +3013,75 @@
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "link": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "date": "2026-10-18T20:37:40.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "A woman was arrested in Philly for blocking a delivery robot",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
-      "date": "2026-10-18T18:28:10.000Z"
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "link": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "date": "2026-10-20T01:27:03.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
-      "link": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
-      "date": "2026-10-18T16:30:00.000Z"
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "link": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "date": "2026-10-19T23:39:38.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Embedded AI evaluators won't be an easy solution, Hugging Face's policy chief says",
+      "link": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "date": "2026-10-19T22:49:27.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Microsoft says AI agents are like insider threats as 'frontier models can't be trusted'",
+      "link": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "date": "2026-10-19T22:04:28.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "The fossil fuel comeback is here",
+      "link": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report",
+      "date": "2026-10-19T21:48:01.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "CoreWeave's debt is becoming the whole AI industry's problem",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+      "date": "2026-10-19T21:28:20.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "date": "2026-10-19T20:21:53.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+      "date": "2026-10-19T16:59:22.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "date": "2026-10-19T14:45:43.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+      "link": "https://www.theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "date": "2026-10-19T14:30:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "date": "2026-10-19T13:58:41.000Z"
     },
     {
       "source": "Ars Technica",
       "title": "Anthropic gives outside AI watchdog “employee-like” access",
       "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
       "date": "2026-10-18T16:25:19.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "date": "2026-10-17T21:31:32.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "date": "2026-10-17T20:21:19.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Meta removes language that may have allowed it to scrape news sites",
-      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-      "date": "2026-10-17T15:04:36.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Websites are closing their doors to AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "date": "2026-10-17T13:00:00.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "date": "2026-10-16T20:59:01.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-      "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-      "date": "2026-10-16T20:20:07.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
-      "date": "2026-10-16T15:41:00.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "date": "2026-10-16T15:00:00.000Z"
     }
   ],
   "skipped": [
