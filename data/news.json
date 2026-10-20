@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-20T05:08:09.603Z",
+  "updated": "2026-10-20T07:39:03.722Z",
   "model": "minimax/minimax-m3.1-flash:free",
   "brief": {
-    "date": "2026-10-20T05:08:09.361Z",
+    "date": "2026-10-20T07:39:03.448Z",
     "model": "minimax/minimax-m3.1-flash:free",
-    "headline": "AI tools, safety controls and Germany’s industrial roadmap",
+    "headline": "Practical AI updates for builders and small businesses",
     "bullets": [
-      "Amazon Bedrock now supports schema-compliant outputs for every Anthropic Claude model through two runtime endpoints.",
-      "Microsoft says disclosed AI safety incidents show why organizations need stronger controls for insiders using powerful agentic systems.",
-      "Germany’s chancellor and NVIDIA’s CEO discussed a national industrial AI roadmap covering automotive, gaming systems and workstations."
+      "Amazon Bedrock now supports structured JSON outputs and strict tool use for every Anthropic Claude model.",
+      "Microsoft says disclosed AI safety incidents show organizations need stronger controls over insiders using powerful agentic systems.",
+      "OpenAI is expanding ChatGPT evaluations for low-resource languages, including software engineering, SQLite and COBOL migration."
     ]
   },
   "items": [
@@ -133,6 +133,78 @@
       "v": 2
     },
     {
+      "id": "aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock",
+      "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+      "date": "2026-10-19T16:49:19.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Extract key moments from long videos with structured, timestamped metadata.",
+      "summary": "TwelveLabs’ Pegasus 1.5 is available through Amazon Bedrock, turning long videos into timestamped JSON metadata. It adds video segmentation, image-referenced multimodal prompts, and processing for videos up to two hours long.",
+      "why": "Freelancers could automate video search, tagging, and clip discovery without building a custom video-analysis pipeline.",
+      "takeaway": "Test Pegasus 1.5 on a recurring editing or content-research workflow.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "video ai",
+        "bedrock",
+        "metadata"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
+      "date": "2026-10-19T16:23:22.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Deepgram moved offline speech transcription onto AWS Trainium2 for large-scale processing.",
+      "summary": "Deepgram ported its Nova-3 speech-to-text model to Trainium2 for offline batch transcription. AWS engineers helped optimize the Neuron stack, tune kernels, and build a data-parallel Rust runtime.",
+      "why": "Faster, more efficient batch transcription could improve the cost and speed of voice-based business tools.",
+      "takeaway": "Compare Trainium2 batch speech processing with your current transcription costs.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Deepgram",
+      "ticker": "",
+      "tags": [
+        "voice ai",
+        "trainium",
+        "transcription"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm",
+      "title": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
+      "link": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+      "date": "2026-10-19T16:05:17.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Research",
+      "hook": "A push-based cache transfer approach speeds up split LLM inference.",
+      "summary": "A NIXL connector transfers the KV cache between vLLM prefill and decode instances without keeping transfer coordination on the critical path. Benchmarks on EC2 P5en instances reported up to threefold better TTFT and 30% better TPOT.",
+      "why": "Faster inference could improve responsiveness and infrastructure efficiency for AI-powered client projects.",
+      "takeaway": "Watch whether push-based KV transfer becomes standard in production vLLM deployments.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "vLLM",
+      "ticker": "",
+      "tags": [
+        "vllm",
+        "inference",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
       "id": "blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production",
       "title": "NVIDIA Advances Agentic Security for Media, From European Public Service Broadcasting to Global Content Production",
       "link": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
@@ -187,19 +259,22 @@
       "date": "2026-10-19T12:00:00.000Z",
       "source": "OpenAI",
       "section": "Models",
-      "hook": "",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
+      "hook": "OpenAI is expanding ChatGPT’s capabilities in less widely represented programming languages.",
+      "summary": "OpenAI is working to improve ChatGPT across low-resource programming languages. The effort introduces new evaluations covering software engineering, SQLite, and COBOL migration.",
+      "why": "Broader language support could help freelancers maintain or modernize older business software and databases.",
+      "takeaway": "Check how ChatGPT performs on the languages used in your client projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
       "ticker": "",
-      "tags": [],
+      "tags": [
+        "coding",
+        "chatgpt",
+        "evaluation"
+      ],
       "readMins": 2,
-      "raw": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "huggingface.co/blog/hf-torchneuron",
