@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-21T07:43:01.571Z",
+  "updated": "2026-10-21T08:53:16.060Z",
   "model": "minimax/minimax-m3.1-flash:free",
   "brief": {
-    "date": "2026-10-21T07:43:01.236Z",
+    "date": "2026-10-21T08:53:15.562Z",
     "model": "minimax/minimax-m3.1-flash:free",
-    "headline": "AI tools gain practical traction for small businesses",
+    "headline": "AI tools, coding and security updates for businesses",
     "bullets": [
-      "A franchisee used ChatGPT Work to cut menu-repricing time by 95% and build a workflow that could free up $100,000 in cash flow.",
-      "AWS offers a Smartsheet MCP Server that lets agents read, update, and act on live work-management data via Amazon Quick and Kiro.",
-      "IBM Research’s ALTK-Evolve topped the τ²-bench leaderboard for customer-service tasks using learned memory instead of a frontier model."
+      "AWS offers a Smartsheet MCP Server so AI agents can read, update, and act on work-management data through Amazon Quick and Kiro.",
+      "OpenAI is improving ChatGPT’s performance in low-resource programming languages, adding evaluations for software engineering, SQLite, and COBOL migration.",
+      "Microsoft says publicly disclosed AI safety incidents show why organizations need stronger controls for insiders using powerful agentic systems."
     ]
   },
   "items": [
@@ -223,6 +223,78 @@
         "llm evaluation",
         "fairness",
         "ai safety"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws",
+      "title": "Securing AI agent identity with X.509 PKI on AWS",
+      "link": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
+      "date": "2026-10-20T16:03:48.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Give autonomous teammates verifiable identities before they call your tools.",
+      "summary": "AWS and Keyfactor EJBCA provide a reference architecture for verifying AI agents, restricting delegated access, and revoking compromised credentials across agent-to-agent and MCP tool calls.",
+      "why": "Small businesses can reduce identity and request-forgery risks when connecting AI agents to internal systems.",
+      "takeaway": "Evaluate cryptographic identity controls before deploying agents with production access.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "ai security",
+        "agent identity",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore",
+      "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+      "date": "2026-10-20T15:57:57.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "One gateway replaced scattered credentials across three major clouds.",
+      "summary": "Eon consolidated access to production investigation across AWS, Google Cloud, and Azure using Amazon Bedrock AgentCore, replacing tool-specific credentials and local MCP processes with one authenticated gateway.",
+      "why": "Unified access can make multi-cloud AI operations easier for small development teams to manage.",
+      "takeaway": "Test whether a centralized MCP gateway simplifies your cloud tool connections.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "mcp",
+        "multi-cloud",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore",
+      "title": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "link": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/",
+      "date": "2026-10-20T15:39:04.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Governed data can now reach agents without exposing sensitive fields.",
+      "summary": "Denodo and Amazon Bedrock Agentcore connect cloud and on-premises databases through a semantic layer that applies user identity, row-level permissions, and column-level controls when agents query business data.",
+      "why": "Freelancers can build agent workflows over client data while limiting access to permitted records and fields.",
+      "takeaway": "Define row and column permissions before connecting agents to customer data.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "",
+      "tags": [
+        "semantic layer",
+        "data governance",
+        "aws"
       ],
       "readMins": 2,
       "ai": true,
