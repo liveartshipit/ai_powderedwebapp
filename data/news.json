@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-21T05:09:58.871Z",
+  "updated": "2026-10-21T07:43:01.571Z",
   "model": "minimax/minimax-m3.1-flash:free",
   "brief": {
-    "date": "2026-10-21T05:09:58.518Z",
+    "date": "2026-10-21T07:43:01.236Z",
     "model": "minimax/minimax-m3.1-flash:free",
-    "headline": "Three AI developments useful for small businesses",
+    "headline": "AI tools gain practical traction for small businesses",
     "bullets": [
-      "A Schlotzsky’s and Cinnabon franchisee used ChatGPT Work to cut menu-repricing time by 95% and build a workflow that could free up $100,000.",
-      "AWS offers a Smartsheet MCP Server, letting AI agents read, update and act on live work-management data through Amazon Quick and Kiro.",
-      "OpenAI is improving ChatGPT for low-resource programming languages, with new evaluations covering software engineering, SQLite and COBOL migration."
+      "A franchisee used ChatGPT Work to cut menu-repricing time by 95% and build a workflow that could free up $100,000 in cash flow.",
+      "AWS offers a Smartsheet MCP Server that lets agents read, update, and act on live work-management data via Amazon Quick and Kiro.",
+      "IBM Research’s ALTK-Evolve topped the τ²-bench leaderboard for customer-service tasks using learned memory instead of a frontier model."
     ]
   },
   "items": [
@@ -127,6 +127,78 @@
         "supply chain",
         "ai agents",
         "amazon bedrock"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod",
+      "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
+      "date": "2026-10-20T17:48:27.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Fine-tuning lifted reasoning accuracy, while GRPO improved results further",
+      "summary": "AWS fine-tuned GPT-OSS-20B for multilingual reasoning on SageMaker HyperPod. Its experiments compared supervised fine-tuning with reinforcement learning using GRPO, finding SFT raised reasoning-language accuracy from 22% to 100% and GRPO added gains where headroom remained.",
+      "why": "The results offer small businesses a practical way to adapt open models for specialized, multilingual tasks.",
+      "takeaway": "Compare SFT and GRPO on a small task-specific evaluation set.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon Web Services",
+      "ticker": "",
+      "tags": [
+        "fine-tuning",
+        "open models",
+        "reasoning"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
+      "date": "2026-10-20T17:34:04.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Companies",
+      "hook": "Octave searched two billion regulated documents without crossing tenant boundaries",
+      "summary": "Octave built a multi-tenant AI foundation on Amazon Bedrock using Cohere Embed v4 and Amazon Bedrock AgentCore. Its Complaint Triage Assistant searches two billion regulated documents while keeping tenant work isolated.",
+      "why": "The architecture shows how smaller companies can build document-heavy AI services with strong tenant separation.",
+      "takeaway": "Evaluate tenant isolation and document retrieval before deploying a client-facing assistant.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Octave",
+      "ticker": "",
+      "tags": [
+        "multi-tenant",
+        "document search",
+        "bedrock"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry",
+      "title": "Discover tools at runtime with AWS Agent Registry",
+      "link": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
+      "date": "2026-10-20T16:22:24.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Agents can now find tools as their catalogs grow beyond hardcoded connections",
+      "summary": "AWS Agent Registry supports runtime discovery, instantiation, and execution of tools. An orchestrator can use semantic search to discover MCP servers and A2A agents instead of compiling every connection when the agent is built.",
+      "why": "Runtime discovery could make large tool catalogs easier for freelancers and small teams to maintain.",
+      "takeaway": "Test semantic tool discovery with a small set of interchangeable business integrations.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon Web Services",
+      "ticker": "",
+      "tags": [
+        "agents",
+        "tool discovery",
+        "aws"
       ],
       "readMins": 2,
       "ai": true,
@@ -295,6 +367,78 @@
         "acquisition",
         "life sciences",
         "drug development"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/hf-torchtpu",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "link": "https://huggingface.co/blog/hf-torchtpu",
+      "date": "2026-10-20T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Hugging Face is bringing PyTorch workloads more naturally to TPUs",
+      "summary": "Hugging Face introduced TorchTPU, a project focused on native PyTorch support for TPU workloads.",
+      "why": "Native TPU support could give AI developers another hardware option for running PyTorch models.",
+      "takeaway": "Watch TorchTPU compatibility details and supported PyTorch features.",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "pytorch",
+        "tpu",
+        "open source"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/anylanguagemodel-1-0",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "date": "2026-10-20T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Products",
+      "hook": "A year of local models culminates in a unified Apple-focused release",
+      "summary": "Hugging Face released AnyLanguageModel 1.0, marking one year of work on local models for Apple platforms.",
+      "why": "Improved local model support may help creators run AI on their own Apple devices.",
+      "takeaway": "Check which Apple devices, models, and system requirements are supported.",
+      "impact": "fyi",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "local ai",
+        "apple",
+        "models"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/mps-pytorch-2-15",
+      "title": "MPS in PyTorch 2.15",
+      "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "date": "2026-10-20T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Products",
+      "hook": "PyTorch 2.15 expands what developers can run through Apple Metal",
+      "summary": "Hugging Face highlighted MPS support in PyTorch 2.15, extending the framework's capabilities on Apple hardware.",
+      "why": "Better MPS support could make local AI development more practical for teams using Apple machines.",
+      "takeaway": "Verify model and operation support before upgrading to PyTorch 2.15.",
+      "impact": "fyi",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "pytorch",
+        "apple",
+        "local ai"
       ],
       "readMins": 2,
       "ai": true,
