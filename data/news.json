@@ -1,17 +1,281 @@
 {
-  "updated": "2026-10-21T08:53:16.060Z",
+  "updated": "2026-10-22T05:14:37.226Z",
   "model": "minimax/minimax-m3.1-flash:free",
   "brief": {
-    "date": "2026-10-21T08:53:15.562Z",
+    "date": "2026-10-22T05:14:36.816Z",
     "model": "minimax/minimax-m3.1-flash:free",
-    "headline": "AI tools, coding and security updates for businesses",
+    "headline": "Practical AI moves closer to everyday business",
     "bullets": [
-      "AWS offers a Smartsheet MCP Server so AI agents can read, update, and act on work-management data through Amazon Quick and Kiro.",
-      "OpenAI is improving ChatGPT’s performance in low-resource programming languages, adding evaluations for software engineering, SQLite, and COBOL migration.",
-      "Microsoft says publicly disclosed AI safety incidents show why organizations need stronger controls for insiders using powerful agentic systems."
+      "AWS describes a framework using Strands Agents, local Ollama models, and Amazon Bedrock to route work by complexity.",
+      "NVIDIA says Kumo Relational outperformed supervised machine learning on relational data without requiring training.",
+      "AT&T is collaborating with OpenAI to make legal knowledge easier to access and rethink intake and scaling legal judgment."
     ]
   },
   "items": [
+    {
+      "id": "blogs.nvidia.com/blog/european-public-sector-open-models",
+      "title": "NVIDIA Open Models Power a New Wave of European Public Sector Projects",
+      "link": "https://blogs.nvidia.com/blog/european-public-sector-open-models/",
+      "date": "2026-10-22T05:00:02.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "European governments are adapting open AI models for local-language public services.",
+      "summary": "NVIDIA says public agencies can adapt open models to local languages, operate them on controlled infrastructure, and apply their own safeguards for sensitive data.",
+      "why": "Open models could let smaller suppliers serve governments without surrendering control of sensitive information.",
+      "takeaway": "Watch for government procurement opportunities tied to locally operated open models.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "open models",
+        "public sector",
+        "sovereign ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them",
+      "title": "5 production challenges in multi-agent systems and how Deep Insight solved them",
+      "link": "https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/",
+      "date": "2026-10-21T23:36:47.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Multi-agent prototypes encounter reliability, orchestration, security, and monitoring problems in production.",
+      "summary": "AWS identifies five production challenges for multi-agent AI and presents Deep Insight, an open-source system on AWS, as a solution.",
+      "why": "Freelancers building agent workflows can use the identified failure points to avoid costly prototype-to-production problems.",
+      "takeaway": "Use the five challenges as an architecture review before deploying multi-agent systems.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "multi-agent",
+        "production ai",
+        "aws"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents",
+      "title": "Adaptive agentic intelligence framework using Strands Agents",
+      "link": "https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/",
+      "date": "2026-10-21T21:23:26.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Routine requests can stay local while demanding ones move to cloud models.",
+      "summary": "AWS describes a framework using Strands Agents, local small language models through Ollama, and Amazon Bedrock to route work according to complexity.",
+      "why": "Routing tasks this way may help small teams control latency and cloud-model usage.",
+      "takeaway": "Test whether task complexity justifies a local-to-cloud model routing setup.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "agentic ai",
+        "small models",
+        "routing"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/broad-access-through-consistent-standards",
+      "title": "Broad access through consistent standards",
+      "link": "https://openai.com/index/broad-access-through-consistent-standards",
+      "date": "2026-10-21T21:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Policy & Safety",
+      "hook": "Distribution partners are being asked to apply consistent access and safety standards.",
+      "summary": "OpenAI explains how it works with distribution partners to uphold safeguards, support responsible access, and clarify expectations in its Usage Policies.",
+      "why": "Clearer standards may affect how companies distribute and enforce access to OpenAI products.",
+      "takeaway": "Check distributor guidance against your own usage policies.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "usage policies",
+        "access",
+        "safety"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/nvidia/kumo-relational",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "date": "2026-10-21T18:26:30.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Relational data can reportedly be handled without conventional supervised training.",
+      "summary": "Hugging Face’s NVIDIA article says Kumo Relational outperformed supervised machine learning on relational data without requiring training.",
+      "why": "The approach could offer another option for teams working with structured, interconnected business data.",
+      "takeaway": "Evaluate Kumo Relational against your existing supervised-learning approach.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "relational data",
+        "machine learning",
+        "nvidia"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "date": "2026-10-21T17:35:36.000Z",
+      "source": "Hugging Face",
+      "section": "Research",
+      "hook": "Narrowing a model’s vocabulary may substantially lower real-world inference costs.",
+      "summary": "Dharma AI reports that vocabulary specialization can cut inference cost by 77% in real applications.",
+      "why": "Lower inference costs could improve the economics of frequently used small-language-model applications.",
+      "takeaway": "Measure whether domain-specific vocabulary specialization reduces your inference bill.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Dharma AI",
+      "ticker": "",
+      "tags": [
+        "small models",
+        "inference",
+        "specialization"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/att-legal",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "link": "https://openai.com/index/att-legal",
+      "date": "2026-10-21T17:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Products",
+      "hook": "AT&T is reorganizing legal intake around AI-assisted access to internal knowledge.",
+      "summary": "AT&T is collaborating with OpenAI to make legal knowledge easier to access and help its LegalEdge team rethink intake and scale legal judgment.",
+      "why": "The example shows how an enterprise team could apply AI to internal legal workflows.",
+      "takeaway": "Identify a bounded legal intake workflow suitable for a limited pilot.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AT&T",
+      "ticker": "T",
+      "tags": [
+        "legal ai",
+        "enterprise",
+        "knowledge access"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "date": "2026-10-21T16:04:43.000Z",
+      "source": "Hugging Face",
+      "section": "Research",
+      "hook": "System-level profiling may reveal why AI workloads behave differently on Trainium.",
+      "summary": "Hugging Face’s Amazon article begins a series on system-level profiling for TorchNeuron running on AWS Trainium.",
+      "why": "The findings could help AI teams diagnose performance issues on AWS’s custom AI infrastructure.",
+      "takeaway": "Follow the profiling series for practical Trainium optimization guidance.",
+      "impact": "fyi",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "trainium",
+        "profiling",
+        "ai infrastructure"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "date": "2026-10-21T13:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Products",
+      "hook": "ChatGPT advertising is spreading globally as more than 100,000 advertisers join",
+      "summary": "OpenAI expanded ChatGPT Ads to 26 additional countries, citing adoption by local businesses and global brands as users explore products and make buying decisions.",
+      "why": "Small businesses can now promote themselves inside an AI assistant where customers may actively research purchases.",
+      "takeaway": "Check whether ChatGPT Ads is available for your market.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "chatgpt",
+        "advertising",
+        "small-business"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "date": "2026-10-21T10:50:37.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA is bringing agent-ready AI hardware closer to personal and enterprise computing",
+      "summary": "At GTC Berlin, NVIDIA showcased RTX Spark for personal agents on Windows, DGX Spark for Linux development, and DGX Station for enterprise workloads, with a Windows version planned for December.",
+      "why": "Freelancers and small businesses can potentially run local AI agents on hardware designed for personal or organizational use.",
+      "takeaway": "Compare NVIDIA’s local systems against your existing AI development setup.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "local-ai",
+        "agents",
+        "hardware"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "link": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "date": "2026-10-21T10:45:17.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "Google Cloud is preparing next-generation NVIDIA infrastructure for demanding AI workloads",
+      "summary": "Google Cloud and NVIDIA plan general availability of Vera Rubin-based instances next month, followed by European expansion, combining advanced networking and liquid cooling for training, inference, and reinforcement learning.",
+      "why": "The new cloud infrastructure could expand access to powerful AI systems for startups and smaller development teams.",
+      "takeaway": "Watch next month’s Google Cloud launch and European availability updates.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "cloud-ai",
+        "infrastructure",
+        "compute"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026",
       "title": "Southeast Asia’s digital economy to hit $368 billion",
@@ -3347,320 +3611,80 @@
       "readMins": 2,
       "ai": true,
       "v": 2
-    },
-    {
-      "id": "openai.com/index/how-we-will-do-better-for-australia",
-      "title": "How we will do better for Australia",
-      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "date": "2026-09-28T19:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Policy & Safety",
-      "hook": "OpenAI is rewriting its rules after Australian government sites got hit.",
-      "summary": "OpenAI apologized for incidents affecting Australian government websites and committed to stronger safeguards and support for Australia's cyber defenses.",
-      "why": "Shows AI companies face real accountability when their tools interact with government systems.",
-      "takeaway": "Watch how OpenAI's new safeguards might tighten access controls for all users.",
-      "impact": "notable",
-      "forYou": false,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "safety",
-        "government",
-        "cybersecurity"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "title": "Towards safety cases for frontier AI training",
-      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "date": "2026-09-28T19:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Policy & Safety",
-      "hook": "OpenAI just published its first blueprint for proving frontier models are safe.",
-      "summary": "OpenAI released early guidelines for safety cases in frontier AI training, covering technical safeguards, operational practices, and misalignment investigations.",
-      "why": "If these guidelines stick, future model releases may come with more transparency and fewer surprises.",
-      "takeaway": "Watch whether other labs adopt similar safety case frameworks for their own releases.",
-      "impact": "notable",
-      "forYou": false,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "safety",
-        "frontier-ai",
-        "governance"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/lenfest-ai-collaborative-expansion",
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "date": "2026-09-28T07:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Companies",
-      "hook": "OpenAI is doubling down on AI training for underserved communities.",
-      "summary": "OpenAI is expanding the Lenfest AI program with $5 million in funding plus up to $5 million in software credits and engineering support.",
-      "why": "More free or subsidized AI training means more skilled competitors and collaborators in your market.",
-      "takeaway": "Check if your local community qualifies for the expanded Lenfest program.",
-      "impact": "fyi",
-      "forYou": true,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "education",
-        "access",
-        "community"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/basis-tax-workbook-with-astra",
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "date": "2026-09-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Models",
-      "hook": "The newest GPT model just cut a complex tax task in half.",
-      "summary": "GPT-6 Astra completed a complex 50-tab tax workbook twice as fast as GPT-5.6 Sol, boosting confidence in real-world application.",
-      "why": "Faster model performance on structured tasks means you can automate more of your back-office work.",
-      "takeaway": "Test your most repetitive spreadsheet or document tasks on the latest available model.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "gpt-6",
-        "productivity",
-        "automation"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/form/codex-originals",
-      "title": "Are you a Codex Original?",
-      "link": "https://openai.com/form/codex-originals",
-      "date": "2026-09-28T00:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Products",
-      "hook": "OpenAI wants to hear how you actually use Codex in the wild.",
-      "summary": "OpenAI is collecting real stories from builders, tinkerers, researchers, and creators using Codex for the Codex Originals program.",
-      "why": "Participating can get your work featured and may unlock early access to new Codex features.",
-      "takeaway": "Submit a short story of a project you built with Codex if you have one.",
-      "impact": "fyi",
-      "forYou": true,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "codex",
-        "community",
-        "showcase"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/proaction",
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "link": "https://openai.com/index/proaction",
-      "date": "2026-09-25T19:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Products",
-      "hook": "One team used Codex to build a fleet tool and save 75 hours.",
-      "summary": "Proaction boosted sales by 60% and saved over 75 hours using Codex and GPT models to build fleet management faster.",
-      "why": "Proof that a small team can ship product features in days, not months, with AI coding tools.",
-      "takeaway": "Map one repetitive internal task to see if Codex could build a quick tool for it.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Proaction",
-      "ticker": "",
-      "tags": [
-        "codex",
-        "case-study",
-        "productivity"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/two-years-of-openai-academy",
-      "title": "Two years of OpenAI Academy",
-      "link": "https://openai.com/index/two-years-of-openai-academy",
-      "date": "2026-09-23T16:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Companies",
-      "hook": "OpenAI's free AI training program just hit its two-year mark.",
-      "summary": "OpenAI is marking two years of OpenAI Academy, a program dedicated to bringing AI skills to more communities.",
-      "why": "Free structured AI education lowers the barrier for freelancers to upskill without paying for courses.",
-      "takeaway": "Enroll in an OpenAI Academy module if you have not tried one yet.",
-      "impact": "fyi",
-      "forYou": true,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "education",
-        "openai-academy",
-        "skills"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "date": "2026-09-23T13:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Policy & Safety",
-      "hook": "OpenAI is giving Ukraine's government access to its cyber defense tools.",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "why": "Sets a precedent for AI companies providing defensive tools to governments in conflict zones.",
-      "takeaway": "Watch how this shapes AI export and access policies in other conflict regions.",
-      "impact": "notable",
-      "forYou": false,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "cybersecurity",
-        "government",
-        "policy"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/sam-altman-un-security-council-remarks",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "date": "2026-09-23T12:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Policy & Safety",
-      "hook": "Altman just told the UN Security Council what he thinks about AI control.",
-      "summary": "OpenAI CEO Sam Altman addressed the UN Security Council, discussing AI safety, human control, and international cooperation.",
-      "why": "High-level diplomatic engagement signals AI governance will shape regulations that affect your tools and costs.",
-      "takeaway": "Watch for follow-up policy proposals from member states after this address.",
-      "impact": "notable",
-      "forYou": false,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "policy",
-        "governance",
-        "un"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/ringg",
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "link": "https://openai.com/index/ringg",
-      "date": "2026-09-23T12:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Products",
-      "hook": "AI agents are now handling two-thirds of customer calls at one company.",
-      "summary": "Ringg powers multilingual AI agents across voice, chat, WhatsApp, and web using GPT-5.6, cutting costs by 90% compared to GPT-4.1.",
-      "why": "If you run customer-facing operations, AI agents are now cost-effective enough to replace most support tiers.",
-      "takeaway": "Evaluate whether your support volume justifies an AI agent pilot this quarter.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Ringg",
-      "ticker": "",
-      "tags": [
-        "ai-agents",
-        "customer-support",
-        "cost-savings"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
     }
   ],
   "headlines": [
     {
-      "source": "The Verge",
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
-      "date": "2026-10-20T23:04:19.000Z"
-    },
-    {
       "source": "TechCrunch",
-      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
-      "link": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
-      "date": "2026-10-20T23:01:23.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Hugging Face CEO warns that Netflix's OpenAI hack documentary isn't accurate",
-      "link": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-      "date": "2026-10-20T22:24:02.000Z"
+      "title": "Blackstone's Jas Khaira says fears over AI-buildout debt are overblown",
+      "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "date": "2026-10-21T22:51:22.000Z"
     },
     {
       "source": "The Verge",
-      "title": "Google’s more personalized Gemini AI is heading to your car",
-      "link": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
-      "date": "2026-10-20T22:11:34.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Anthropic’s cloud partnerships are getting messy",
-      "link": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-      "date": "2026-10-20T21:25:22.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "SpaceX's AI business is beating expectations",
-      "link": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-      "date": "2026-10-20T20:40:41.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
-      "date": "2026-10-20T20:07:58.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Gemini's Personal Intelligence is coming to cars",
-      "link": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
-      "date": "2026-10-20T20:00:33.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
-      "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
-      "date": "2026-10-20T18:22:54.000Z"
+      "title": "Data centers could erase decades of air quality gains",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "date": "2026-10-21T22:33:44.000Z"
     },
     {
       "source": "The Verge",
-      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
-      "link": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-      "date": "2026-10-20T18:07:34.000Z"
+      "title": "Meta to create a new class of shares to fund AI push",
+      "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "date": "2026-10-21T21:30:02.000Z"
     },
     {
-      "source": "Ars Technica",
-      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
-      "date": "2026-10-20T17:40:20.000Z"
+      "source": "TechCrunch",
+      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
+      "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
+      "date": "2026-10-21T21:16:20.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Meta says Muse has over 10M users, with shopping a top activity",
+      "link": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "date": "2026-10-21T21:14:19.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+      "link": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "date": "2026-10-21T20:27:41.000Z"
     },
     {
       "source": "The Verge",
-      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
-      "link": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-      "date": "2026-10-20T14:18:37.000Z"
+      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
+      "date": "2026-10-21T19:53:20.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+      "date": "2026-10-21T19:44:40.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Walmart is inviting AI agents to shop for you",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015715/walmart-ai-shopping-agents",
+      "date": "2026-10-21T19:30:00.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "date": "2026-10-21T18:51:42.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+      "date": "2026-10-21T18:20:40.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+      "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+      "date": "2026-10-21T15:14:07.000Z"
     }
   ],
   "skipped": [
@@ -3670,6 +3694,8 @@
     "blogs.microsoft.com/blog/2026/10/01/microsoft-365-and-linkedin-leadership-update",
     "blogs.nvidia.com/blog/geforce-now-thursday-october-2026-games-list",
     "aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter",
-    "blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day"
+    "blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day",
+    "aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink",
+    "sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm"
   ]
 }
