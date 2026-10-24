@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-24T05:01:25.043Z",
-  "model": "liquid/lfm-2.5-2.6b:free",
+  "updated": "2026-10-24T07:21:44.165Z",
+  "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-24T05:01:24.495Z",
+    "date": "2026-10-24T07:21:43.707Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "AI updates for freelancers and small businesses",
+    "headline": "Top AI news for small businesses and founders",
     "bullets": [
       "OpenAI released a Decisions API for fast, low-cost decision-making in applications.",
-      "Amazon SageMaker now offers serverless model customization that manages GPUs automatically.",
-      "Hugging Face lists which models support AWS Trainium hardware for developers."
+      "Amazon SageMaker introduced serverless model customization that manages GPUs automatically.",
+      "Hugging Face lists model support for AWS Trainium hardware."
     ]
   },
   "items": [
@@ -103,6 +103,30 @@
         "quick_sight",
         "geo_json",
         "visualization"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations",
+      "title": "How Bayer Crop Science built an agentic decision engine on Amazon Bedrock AgentCore with AWS Unified Operations",
+      "link": "https://aws.amazon.com/blogs/machine-learning/how-bayer-crop-science-built-an-agentic-decision-engine-on-amazon-bedrock-agentcore-with-aws-unified-operations/",
+      "date": "2026-10-23T16:21:36.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "How crop scientists query data using natural language AI agents",
+      "summary": "Bayer Crop Science created a multi-agent AI platform on Amazon Bedrock AgentCore. Researchers can ask natural language questions about their analytics data. The post details its architecture and production setup.",
+      "why": "Shows how small teams can build internal AI agents to query business data without coding.",
+      "takeaway": "Explore Amazon Bedrock AgentCore for building internal data-query agents for your team.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "aws",
+        "bedrock",
+        "agents"
       ],
       "readMins": 2,
       "ai": true,
@@ -451,19 +475,22 @@
       "date": "2026-10-22T16:25:57.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Rescale built an AI test-triage agent using AWS tools in weeks",
+      "summary": "Rescale used AWS AI-DLC and Strands Agents to create an intelligent test-triage agent quickly. The post explains the framework and how it scales across engineering teams.",
+      "why": "Small engineering teams can adopt similar AI agent frameworks to automate testing and triage work.",
+      "takeaway": "Try Strands Agents or AWS AI-DLC to automate test triage in your projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "aws",
+        "strands",
+        "agents"
+      ],
       "readMins": 2,
-      "raw": "Rescale used the AI-Driven Development Lifecycle (AI-DLC) framework on AWS, with Strands Agents and Amazon Bedrock, to build an intelligent test-triage agent in weeks. Learn how AI-DLC structures AI-assisted development and how Rescale is scaling the practice across its engineering organization.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "huggingface.co/blog/allenai/olmoearth-v1-3",
@@ -472,19 +499,22 @@
       "date": "2026-10-22T16:11:31.000Z",
       "source": "Hugging Face",
       "section": "Models",
-      "hook": "",
-      "summary": "",
-      "why": "",
-      "takeaway": "",
+      "hook": "New AI embeddings model covers the whole planet",
+      "summary": "AllenAI released OlmoEarth v1.3, described as state-of-the-art embeddings for the whole planet.",
+      "why": "Useful for location-based AI features in apps or freelance projects.",
+      "takeaway": "Test OlmoEarth v1.3 embeddings for location-aware features in your applications.",
       "impact": "fyi",
-      "forYou": false,
-      "company": "",
+      "forYou": true,
+      "company": "AllenAI",
       "ticker": "",
-      "tags": [],
+      "tags": [
+        "embeddings",
+        "allenai",
+        "models"
+      ],
       "readMins": 2,
-      "raw": "",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "blogs.nvidia.com/blog/minerva-platform-infrastructure",
@@ -1213,19 +1243,22 @@
       "date": "2026-10-21T10:00:07.000Z",
       "source": "NVIDIA",
       "section": "Companies",
-      "hook": "",
-      "summary": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "NVIDIA releases open AI models for European industries and languages",
+      "summary": "NVIDIA expanded its open model portfolio with Nemotron 3.5 Super VL, Nemotron 3.5 Bolt, and Nemotron Retriever models for language, robotics, biology, and quantum computing.",
+      "why": "Businesses can build localized AI apps using NVIDIA's open models tailored to European markets.",
+      "takeaway": "Explore NVIDIA Nemotron open models for localized industry-specific AI applications.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "nvidia",
+        "open models",
+        "nemotron"
+      ],
       "readMins": 2,
-      "raw": "NVIDIA is expanding its family of open models across language, robotics, biology, and quantum computing, giving developers, researchers and enterprises what they need to build applications tailored to local languages and industries The portfolio includes the new NVIDIA Nemotron 3.5 Super VL and Nemotron 3.5 Bolt models; new NVIDIA Nemotron Retriever models for embedding, reranking […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "blogs.nvidia.com/blog/gtc-berlin-2026-keynote",
@@ -3574,30 +3607,6 @@
         "omniverse",
         "simulation",
         "ai-agents"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments",
-      "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
-      "link": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
-      "date": "2026-10-08T18:33:29.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "BlockRun and Incarna pay per AI inference using Bedrock AgentCore’s built‑in billing.",
-      "summary": "Amazon Bedrock AgentCore payments let AI agents pay for services on demand with spending limits; Incarna’s agents pay BlockRun for model inference via x402, cutting integration work from months to days.",
-      "why": "Freelancers can monetize AI agents easily, charging users per call without building custom payment code.",
-      "takeaway": "Set up AgentCore payments to test a pay‑per‑use AI service in a sandbox.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Amazon",
-      "ticker": "AMZN",
-      "tags": [
-        "payments",
-        "agentcore",
-        "inference"
       ],
       "readMins": 2,
       "ai": true,
