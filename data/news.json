@@ -1,17 +1,161 @@
 {
-  "updated": "2026-10-23T09:10:32.721Z",
-  "model": "nvidia/nemotron-3.5-super-vl:free",
+  "updated": "2026-10-24T05:01:25.043Z",
+  "model": "liquid/lfm-2.5-2.6b:free",
   "brief": {
-    "date": "2026-10-23T09:10:32.414Z",
+    "date": "2026-10-24T05:01:24.495Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "OpenAI, AWS, and IBM announce new AI tools",
+    "headline": "AI updates for freelancers and small businesses",
     "bullets": [
-      "OpenAI models are coming to Google Cloud and will be available through Google Cloud Marketplace.",
-      "AWS presents Deep Insight, an open-source system that addresses five production challenges for multi-agent AI.",
-      "IBM Research presented Granite time-series models that combine multiple forecasts to analyze temporal data."
+      "OpenAI released a Decisions API for fast, low-cost decision-making in applications.",
+      "Amazon SageMaker now offers serverless model customization that manages GPUs automatically.",
+      "Hugging Face lists which models support AWS Trainium hardware for developers."
     ]
   },
   "items": [
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide",
+      "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+      "link": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+      "date": "2026-10-23T17:48:54.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Multi‑turn reinforcement learning on SageMaker trains agents from whole task outcomes.",
+      "summary": "A hands‑on guide walks through building a multi‑turn reinforcement learning pipeline on Amazon SageMaker using Wordle.",
+      "why": "It gives small teams a concrete path to embed adaptive decision making in custom applications.",
+      "takeaway": "Start a simple MTRL prototype on SageMaker this week to prototype adaptive logic.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "machine_learning",
+        "sagemaker",
+        "ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/scaling-storage-one-billion-users-part-two",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "date": "2026-10-23T17:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "OpenAI doubled read speeds for ChatGPT by scaling multi‑tenancy and global caching.",
+      "summary": "OpenAI achieved twelve times faster reads for ChatGPT after improving Habitat storage with multi‑tenancy and Azure Cosmos DB.",
+      "why": "Faster responses help businesses reduce latency for large user bases and improve customer experience.",
+      "takeaway": "Monitor cloud storage scaling techniques to keep application performance optimal.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "OPENAI",
+      "tags": [
+        "scaling",
+        "storage",
+        "chatgpt"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk",
+      "title": "Orchestrating SageMaker AI endpoint auto scaling with AWS CDK",
+      "link": "https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/",
+      "date": "2026-10-23T16:30:10.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Automate SageMaker endpoint auto‑scaling with a single AWS CDK construct.",
+      "summary": "The guide shows how to create a reusable CDK construct that automatically updates endpoint auto‑scaling during deployments.",
+      "why": "It reduces manual ops overhead and ensures resilient scaling for variable traffic.",
+      "takeaway": "Adopt the CDK pattern to simplify managing dynamic ML service scaling.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "AMZN",
+      "tags": [
+        "cdk",
+        "auto_scaling",
+        "sagemaker"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps",
+      "title": "Visualize points and routes with GeoJSON in Amazon Quick Sight layer maps",
+      "link": "https://aws.amazon.com/blogs/machine-learning/visualize-points-and-routes-with-geojson-in-amazon-quick-sight-layer-maps/",
+      "date": "2026-10-23T16:24:55.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Plot store locations and delivery routes directly in Quick Sight layer maps using GeoJSON.",
+      "summary": "Amazon Quick Sight now accepts both point and line string geometries from GeoJSON for mapping stores and routes.",
+      "why": "Freelancers can visualize logistics data without building custom dashboards.",
+      "takeaway": "Try creating a Quick Sight map layer with your own GeoJSON dataset this week.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "AWS",
+      "ticker": "AMZN",
+      "tags": [
+        "quick_sight",
+        "geo_json",
+        "visualization"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/allenai/litpivot",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "link": "https://huggingface.co/blog/allenai/litpivot",
+      "date": "2026-10-23T16:15:50.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Dynamic contextualization lets researchers update their knowledge instantly through literature pivots.",
+      "summary": "AllenAI introduced LitPivot, a system that generates research ideas by continuously adjusting contextual understanding.",
+      "why": "It streamlines the idea generation phase for academics and startups alike.",
+      "takeaway": "Experiment with dynamic literature summarization tools to accelerate project ideation.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "research",
+        "contextualization",
+        "ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/securing-our-frontier-model-training-environment",
+      "title": "Securing our frontier model training environment",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "date": "2026-10-23T10:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "OpenAI strengthened containment for frontier model training with offline setups and high‑compute red‑teaming.",
+      "summary": "OpenAI details new isolation methods and red‑team exercises used during frontier model training.",
+      "why": "Safer training environments protect against leakage and misuse, critical for commercial AI products.",
+      "takeaway": "Apply similar isolation practices when fine‑tuning sensitive models internally.",
+      "impact": "big",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "OPENAI",
+      "tags": [
+        "security",
+        "training",
+        "safety"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem",
       "title": "Kazakhstan Expands Compute for Its AI Future",
@@ -19,19 +163,22 @@
       "date": "2026-10-23T02:00:13.000Z",
       "source": "NVIDIA",
       "section": "Companies",
-      "hook": "",
-      "summary": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
+      "hook": "Kazakhstan expands its AI compute infrastructure toward production use.",
+      "summary": "NVIDIA reports that Kazakhstan is shifting from planning to deploying AI compute resources regionally.",
+      "why": "The move signals growing demand for accelerated computing in emerging economies.",
+      "takeaway": "Watch for new talent and services as the ecosystem matures.",
+      "impact": "notable",
       "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "compute",
+        "ai",
+        "region"
+      ],
       "readMins": 2,
-      "raw": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. Together, the ecosystem announcements below point to the nation’s increasing supply of accelerated computing — along with its growing demand for what comes next. Read All NVIDIA in Europe […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "openai.com/index/openai-nask-ai-safety-security-partnership",
@@ -40,19 +187,46 @@
       "date": "2026-10-23T00:00:00.000Z",
       "source": "OpenAI",
       "section": "Models",
-      "hook": "",
-      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "OpenAI partners with Poland’s NASK to boost AI safety and security research.",
+      "summary": "OpenAI announced a collaboration with NASK to develop joint AI safety and security initiatives.",
+      "why": "Stronger safety measures increase trust and compliance for deployed foundation models.",
+      "takeaway": "Stay informed about partnership milestones to anticipate regulatory changes.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "OPENAI",
+      "tags": [
+        "partnership",
+        "safety",
+        "policy"
+      ],
       "readMins": 2,
-      "raw": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/torch-neuronx-model-support",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "date": "2026-10-23T00:00:00.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Verify which models run efficiently on AWS Trainium accelerators.",
+      "summary": "Hugging Face lists model support status for AWS Trainium hardware, helping developers choose compatible frameworks.",
+      "why": "Choosing trainium‑optimized models can cut inference costs for edge and cloud workloads.",
+      "takeaway": "Test candidate models on Trainium to assess performance before committing to AWS.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "hardware",
+        "aws",
+        "trainium"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
     },
     {
       "id": "huggingface.co/blog/microsoft/thinkingbox-training",
@@ -61,19 +235,22 @@
       "date": "2026-10-22T22:24:34.000Z",
       "source": "Hugging Face",
       "section": "Models",
-      "hook": "",
-      "summary": "",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
+      "hook": "Turn database grading into reinforcement learning rewards with ThinkingBox training.",
+      "summary": "Hugging Face explains how to convert database quality scores into RL rewards for post‑training agents.",
+      "why": "This approach automates model improvement using real‑world data feedback loops.",
+      "takeaway": "Implement ThinkingBox to generate training signals from existing database metrics.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
       "ticker": "",
-      "tags": [],
+      "tags": [
+        "rl",
+        "fine_tuning",
+        "database"
+      ],
       "readMins": 2,
-      "raw": "",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "openai.com/index/decisions-api",
@@ -82,19 +259,22 @@
       "date": "2026-10-22T19:00:00.000Z",
       "source": "OpenAI",
       "section": "Models",
-      "hook": "",
-      "summary": "Fast, focused, low-cost decisions for any application.",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
+      "hook": "Build more responsive apps with a fast, low‑cost decisions engine.",
+      "summary": "OpenAI released a Decisions API that provides fast, focused, low‑cost decision‑making capabilities for any application.",
+      "why": "Freelancers can integrate real‑time decision logic into web tools faster and cheaper.",
+      "takeaway": "Test the Decisions API in your current app prototype this week.",
+      "impact": "big",
+      "forYou": true,
+      "company": "OpenAI",
       "ticker": "",
-      "tags": [],
+      "tags": [
+        "decisionmaking",
+        "lowcost",
+        "applications"
+      ],
       "readMins": 2,
-      "raw": "Fast, focused, low-cost decisions for any application.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine",
@@ -103,19 +283,22 @@
       "date": "2026-10-22T18:06:35.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Amazon Polly’s generative engine now offers richer, more accurate speech with new voices worldwide.",
+      "summary": "The Amazon Polly Generative engine received a major upgrade delivering more expressive, accurate speech and additional language support.",
+      "why": "Improved speech quality helps multilingual customers and reduces translation costs.",
+      "takeaway": "Evaluate the new Hindi and Finnish voices for multilingual projects this week.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "polly",
+        "generative",
+        "multilingual"
+      ],
       "readMins": 2,
-      "raw": "The Amazon Polly Generative engine gets a major upgrade: more expressive, more accurate speech with low latency, plus 14 new voices across 9 locales and general availability of Hindi and Finnish. This drop-in upgrade requires no code changes and is now generally available in production.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/how-iskaypet-unified-corporate-knowledge-with-amazon-bedrock-managed-knowledge-bases",
@@ -124,19 +307,22 @@
       "date": "2026-10-22T18:01:53.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
+      "hook": "A pet care firm built a multilingual knowledge assistant on Amazon Bedrock, answering employees across languages.",
+      "summary": "IskayPet deployed Amazon Bedrock Managed Knowledge Bases to create a unified corporate knowledge assistant serving four languages.",
+      "why": "Small teams can automate internal Q&A, freeing staff for higher‑value work.",
+      "takeaway": "Try setting up a Bedrock knowledge base for your team’s most common questions.",
+      "impact": "big",
+      "forYou": true,
+      "company": "IskayPet",
       "ticker": "",
-      "tags": [],
+      "tags": [
+        "knowledge",
+        "bedrock",
+        "corporate"
+      ],
       "readMins": 2,
-      "raw": "Learn how IskayPet, a leading pet care company in Iberia, built a multilingual corporate knowledge assistant on Amazon Bedrock Managed Knowledge Bases. The assistant answers employee questions across retail, veterinary, onboarding, and procurement in four languages and three countries, with no RAG infrastructure to manage.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus",
@@ -145,19 +331,22 @@
       "date": "2026-10-22T18:00:04.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery,…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "SageMaker AI lets you train custom LLMs while the service handles GPU allocation and fault recovery.",
+      "summary": "Amazon SageMaker introduced serverless model customization where you define loss functions and let SageMaker manage GPUs automatically.",
+      "why": "Freelancers can build fine‑tuned models without managing infrastructure.",
+      "takeaway": "Experiment with a SageMaker training session today to fine‑tune a model for your niche.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "sagemaker",
+        "custom",
+        "training"
+      ],
       "readMins": 2,
-      "raw": "Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions",
@@ -166,19 +355,22 @@
       "date": "2026-10-22T18:00:01.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Developers can write their own reinforcement learning loops using SageMaker training session APIs without GPU management.",
+      "summary": "Amazon SageMaker now supports writing custom LLM training loops via Python scripts while the platform runs GPUs.",
+      "why": "Small businesses can iterate model performance locally without dedicated hardware.",
+      "takeaway": "Create a simple SFT loop with SageMaker training sessions this week.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "sagemaker",
+        "training",
+        "loops"
+      ],
       "readMins": 2,
-      "raw": "Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/deploy-ai-in-a-hipaa-eligible-environment-with-amazon-quick",
@@ -187,19 +379,22 @@
       "date": "2026-10-22T17:48:22.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Amazon Quick enables compliant AI agents deployment in healthcare settings, addressing HIPAA concerns directly.",
+      "summary": "AWS Quick provides a HIPAA‑eligible service guide for deploying regulated AI agents safely.",
+      "why": "Healthcare freelancers can adopt secure AI tools without breaking compliance rules.",
+      "takeaway": "Review the compliance checklist and start piloting AI assistants in your client work.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "quick",
+        "hipaa",
+        "compliance"
+      ],
       "readMins": 2,
-      "raw": "Amazon Quick is a HIPAA-eligible service, but eligibility is not the same as compliance. This post explains who HIPAA applies to, how PHI flows through Amazon Quick, what the platform provides for regulated environments, and a step-by-step guide to deploying compliant AI agents in a healthcare environment.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/stream-low-latency-speech-from-ai-agents-using-kokoro-tts-on-amazon-sagemaker-ai",
@@ -208,19 +403,22 @@
       "date": "2026-10-22T17:45:58.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it,…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Voice agents can stream sentences to a TTS model as they generate, cutting latency dramatically.",
+      "summary": "This post shows streaming each sentence from an AI agent to a Kokoro TTS model on SageMaker for near‑real‑time audio.",
+      "why": "Improving response speed boosts user satisfaction for chatbot and virtual assistant experiences.",
+      "takeaway": "Implement a streaming TTS pipeline in your prototype this week.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "kokoro",
+        "tts",
+        "latency"
+      ],
       "readMins": 2,
-      "raw": "Voice agents often wait for an agent's full response before starting speech synthesis, adding latency users feel directly. This post shows how to stream each sentence to a Kokoro-82M text-to-speech model on Amazon SageMaker AI as the agent produces it, and how to get that audio back to a browser over Server-Sent Events or a unified binary transport.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/stop-guessing-auto-scaling-targets-for-tts-on-amazon-sagemaker-ai",
@@ -229,19 +427,22 @@
       "date": "2026-10-22T16:30:06.000Z",
       "source": "AWS Machine Learning",
       "section": "Products",
-      "hook": "",
-      "summary": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Accurate autoscaling policies prevent wasted GPU spend and keep TTS latency under control.",
+      "summary": "Teams can derive optimal scaling thresholds for custom TTS models by measuring live endpoint metrics instead of guesswork.",
+      "why": "Cost efficiency and reliable voice responses matter for scalable AI services.",
+      "takeaway": "Set up measurement dashboards for your TTS endpoints this week.",
+      "impact": "big",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "scaling",
+        "tts",
+        "optimization"
+      ],
       "readMins": 2,
-      "raw": "Teams deploying custom text-to-speech models on Amazon SageMaker AI often guess at autoscaling thresholds, and a wrong guess either wastes GPU spend or breaches a latency SLO. This post deploys Kokoro-82M as a custom container and derives a measured autoscaling policy from two live-endpoint measurements, Q_max and T_total, instead of guesswork.",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "aws.amazon.com/blogs/machine-learning/how-rescale-built-an-ai-triage-agent-with-strands-agents-and-ai-dlc",
@@ -292,19 +493,22 @@
       "date": "2026-10-22T15:00:02.000Z",
       "source": "NVIDIA",
       "section": "Companies",
-      "hook": "",
-      "summary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely,…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "NVIDIA launches Minerva, an end‑to‑end observability platform for AI factories turning telemetry into insight.",
+      "summary": "NVIDIA introduced Minerva, an end‑to‑end observability system for AI factories that uses purpose‑built models to turn telemetry into actionable insights.",
+      "why": "Helps optimize AI workloads, reducing downtime and improving productivity in data‑driven projects.",
+      "takeaway": "Evaluate Minerva’s observability features for your own AI infrastructure to catch issues early.",
+      "impact": "big",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "ai",
+        "observability",
+        "infrastructure"
+      ],
       "readMins": 2,
-      "raw": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight. AI factories are among the most complex operations in the world, with vast […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
@@ -313,40 +517,22 @@
       "date": "2026-10-22T14:30:24.000Z",
       "source": "Google DeepMind",
       "section": "Research",
-      "hook": "",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
+      "hook": "DeepMind maps every ten‑meter land patch globally to distinct forest types.",
+      "summary": "Google DeepMind released a global map categorizing each 10‑meter land area into specific forest types.",
+      "why": "Offers a scalable approach to environmental analysis that can inspire data‑driven decision making.",
+      "takeaway": "Explore open‑source forest classification models to add eco‑data insights to your projects.",
+      "impact": "notable",
       "forYou": false,
-      "company": "",
+      "company": "DeepMind",
       "ticker": "",
-      "tags": [],
+      "tags": [
+        "research",
+        "ecology",
+        "mapping"
+      ],
       "readMins": 2,
-      "raw": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "ai": false,
-      "v": 1
-    },
-    {
-      "id": "blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4",
-      "title": "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
-      "link": "https://blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4/",
-      "date": "2026-10-22T13:00:20.000Z",
-      "source": "NVIDIA",
-      "section": "Companies",
-      "hook": "",
-      "summary": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
-      "readMins": 2,
-      "raw": "Lock in and load out this GFN Thursday. Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and DMZ, high-stakes extraction mode to supported devices. The campaign also gets an enhanced look: GeForce RTX 5080-class performance arrives for Ultimate members, bringing support for ray-tracing features in […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
@@ -931,19 +1117,22 @@
       "date": "2026-10-21T10:30:40.000Z",
       "source": "NVIDIA",
       "section": "Companies",
-      "hook": "",
-      "summary": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
+      "hook": "European manufacturers are adopting NVIDIA CUDA‑X, Omniverse, Cosmos, and Nemotron across the factory floor.",
+      "summary": "NVIDIA’s suite of libraries and open models is being integrated by European industrial leaders to boost engineering and manufacturing productivity.",
+      "why": "Improves workflow efficiency and innovation for small‑scale production operations.",
+      "takeaway": "Test NVIDIA’s Factory Operations Blueprint to see how AI‑driven optimization can streamline your own production lines.",
+      "impact": "big",
       "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "manufacturing",
+        "industry",
+        "AI"
+      ],
       "readMins": 2,
-      "raw": "To increase productivity, accelerate innovation and create new opportunities for economic growth, Europe’s industrial leaders are tapping NVIDIA CUDA-X and Omniverse libraries, as well as NVIDIA Cosmos and Nemotron open models, across the engineering and manufacturing lifecycle. Bringing those capabilities together on the factory floor, the NVIDIA Factory Operations Blueprint (FOX) is now available in […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation",
@@ -1000,19 +1189,22 @@
       "date": "2026-10-21T10:10:01.000Z",
       "source": "NVIDIA",
       "section": "Companies",
-      "hook": "",
-      "summary": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "Enterprises expand NVIDIA’s open agent toolkit to ground AI agents in internal company data.",
+      "summary": "NVIDIA broadened its open‑source Agent Toolkit, enabling enterprises to tailor AI agents with proprietary data.",
+      "why": "Allows freelancers to build reliable AI assistants that understand client context.",
+      "takeaway": "Start experimenting with NVIDIA’s Agent Toolkit to embed client data into your AI services.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "agents",
+        "enterprise",
+        "AI"
+      ],
       "readMins": 2,
-      "raw": "Agents are only as useful as what they know, and only as trustworthy as the boundaries they run within. Leading enterprises are using the open source NVIDIA Agent Toolkit — now expanded with new tools — to customize and control agents, use company data to inform their answers and actions, monitor what they do and […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "blogs.nvidia.com/blog/open-models-europe-industry",
@@ -1042,19 +1234,22 @@
       "date": "2026-10-21T09:30:16.000Z",
       "source": "NVIDIA",
       "section": "Companies",
-      "hook": "",
-      "summary": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
+      "hook": "NVIDIA CEO Jensen Huang delivers GTC Berlin 2026 keynote highlighting agentic AI and robotics breakthroughs.",
+      "summary": "NVIDIA’s GTC Berlin 2026 keynote outlines advances in agentic AI, robotics, and related technologies.",
+      "why": "Provides early insight into emerging AI capabilities that could reshape freelance workflows.",
+      "takeaway": "Monitor NVIDIA’s roadmap after the keynote to identify near‑term opportunities for integrating agentic AI.",
+      "impact": "big",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "keynote",
+        "agentic",
+        "robotics"
+      ],
       "readMins": 2,
-      "raw": "Founded in a tent near the Berlin Wall in 1980, the Tempodrom moved several times before settling near Anhalter Bahnhof in 2001. Its permanent home has since hosted concerts, galas and political events. Today, it hosts a different kind of spectacle. GTC Berlin runs three days, with more than 100 sessions on agentic AI, robotics, […]",
-      "ai": false,
-      "v": 1
+      "ai": true,
+      "v": 2
     },
     {
       "id": "openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -3407,200 +3602,68 @@
       "readMins": 2,
       "ai": true,
       "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod",
-      "title": "Share GPU clusters across teams with isolation and fairness using Amazon SageMaker HyperPod",
-      "link": "https://aws.amazon.com/blogs/machine-learning/share-gpu-clusters-across-teams-with-isolation-and-fairness-using-amazon-sagemaker-hyperpod/",
-      "date": "2026-10-08T16:20:04.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "SageMaker HyperPod lets teams share GPU clusters securely with fair resource allocation.",
-      "summary": "A reference architecture shows how to isolate teams using IAM Identity Center, SageMaker Domains, Kubernetes namespaces, and HyperPod Task Governance for fairness and chargeback.",
-      "why": "Freelancers sharing GPU resources can avoid conflicts and track costs without extra DevOps overhead.",
-      "takeaway": "Deploy a HyperPod cluster with IAM and namespaces to isolate your team’s GPU work.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Amazon",
-      "ticker": "AMZN",
-      "tags": [
-        "sagemaker",
-        "hyperpod",
-        "gpu"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/oracle",
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "link": "https://openai.com/index/oracle",
-      "date": "2026-10-08T16:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Models",
-      "hook": "AI tools enable Oracle to streamline recruiting and engineering tasks.",
-      "summary": "Oracle is using ChatGPT Work and Codex to turn specialist knowledge into fast, repeatable workflows across recruiting, engineering, and operations.",
-      "why": "Freelancers can adopt similar AI tools to save time on repetitive tasks.",
-      "takeaway": "Explore AI assistants for your business workflows.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Oracle",
-      "ticker": "ORCL",
-      "tags": [
-        "ai",
-        "automation",
-        "oracle"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/pollo-ai",
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "link": "https://openai.com/index/pollo-ai",
-      "date": "2026-10-08T12:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Models",
-      "hook": "Pollo AI turns ideas into video ads using GPT‑5.6, GPT‑6 Astra and GPT‑Image‑2.5.",
-      "summary": "With GPT‑5.6, GPT‑6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "why": "Freelancers can produce high‑quality video campaigns faster, lowering the need for expensive production teams.",
-      "takeaway": "Try Pollo AI’s prompt‑to‑video tool on a small campaign to gauge speed and quality.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "polloai",
-        "video",
-        "gpt-6"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/legalon-halves-codex-costs",
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "link": "https://openai.com/index/legalon-halves-codex-costs",
-      "date": "2026-10-08T12:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Models",
-      "hook": "LegalOn cuts daily Codex expenses by 65% while keeping development speed.",
-      "summary": "LegalOn reduced estimated daily Codex costs by 65% by matching models Astra, Sol, and Luna to tasks and managing budgets strategically, without slowing development.",
-      "why": "Shows freelancers how to trim AI API bills without sacrificing project velocity.",
-      "takeaway": "Audit your model usage and assign cheaper models to suitable tasks this week.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "OpenAI",
-      "ticker": "",
-      "tags": [
-        "legalon",
-        "codex",
-        "cost"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "huggingface.co/blog/tiiuae/falcon-emirati",
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "date": "2026-10-06T06:44:39.000Z",
-      "source": "Hugging Face",
-      "section": "Models",
-      "hook": "A new LLM masters Emirati Arabic dialect and cultural nuance.",
-      "summary": "Hugging Face blog announces Falcon-Emirati, a language model trained to understand Emirati Arabic dialect and cultural nuances.",
-      "why": "Helps freelancers create content or serve customers in Emirati Arabic, improving local relevance and communication.",
-      "takeaway": "Explore Falcon-Emirati on Hugging Face for Arabic‑language projects.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Hugging Face",
-      "ticker": "",
-      "tags": [
-        "llm",
-        "arabic",
-        "huggingface"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock",
-      "title": "Introducing GLM 5.3 on Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/",
-      "date": "2026-10-05T23:25:17.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Z.ai's massive GLM 5.3 model lands on Amazon Bedrock for coding agents.",
-      "summary": "Z.ai's GLM 5.3, a 753B‑parameter mixture‑of‑experts model, is now available on Amazon Bedrock, accessible via OpenAI‑compatible APIs with prompt caching for lower cost and latency, and can be evaluated using the open‑source Strix agent.",
-      "why": "Gives freelancers access to a powerful coding model via Bedrock, reducing need for expensive self‑hosted AI and speeding agent development.",
-      "takeaway": "Test GLM 5.3 on Bedrock using the OpenAI‑compatible API and monitor latency/cost improvements.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Z.ai",
-      "ticker": "",
-      "tags": [
-        "bedrock",
-        "glm",
-        "coding"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
     }
   ],
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony.ai and Nvidia",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "date": "2026-10-23T23:05:49.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "date": "2026-10-23T21:59:19.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "date": "2026-10-23T21:11:07.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "date": "2026-10-23T20:19:55.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "date": "2026-10-23T19:32:39.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "date": "2026-10-23T19:06:23.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "date": "2026-10-23T17:18:31.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "The iPhone Duo should have been an iPad",
+      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "date": "2026-10-23T17:00:18.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "date": "2026-10-23T16:52:55.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
       "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "date": "2026-10-23T04:00:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "date": "2026-10-23T00:45:37.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "date": "2026-10-22T22:08:24.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
-      "date": "2026-10-22T21:51:25.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Meta's AI could still scrape news sites, legal experts say",
-      "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "date": "2026-10-22T20:32:05.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Meta turns Muse sharing back on",
-      "link": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-      "date": "2026-10-22T20:24:04.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
-      "date": "2026-10-22T19:45:00.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "date": "2026-10-22T19:07:09.000Z"
     },
     {
       "source": "Ars Technica",
@@ -3613,18 +3676,6 @@
       "title": "The new human-crafted Apple Music brand matters in an AI world",
       "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
       "date": "2026-10-21T19:44:40.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "date": "2026-10-21T18:51:42.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
-      "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-      "date": "2026-10-21T18:20:40.000Z"
     }
   ],
   "skipped": [
@@ -3636,6 +3687,7 @@
     "aws.amazon.com/blogs/machine-learning/simplify-dashboard-drill-down-with-the-amazon-quick-sight-hierarchy-filter",
     "blogs.nvidia.com/blog/geforce-now-thursday-gears-of-war-e-day",
     "aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink",
-    "sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm"
+    "sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
+    "blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4"
   ]
 }
