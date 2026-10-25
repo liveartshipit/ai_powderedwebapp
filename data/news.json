@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T08:24:30.818Z",
+  "updated": "2026-10-25T05:06:24.474Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
     "date": "2026-10-24T07:21:43.707Z",
@@ -3615,16 +3615,40 @@
   ],
   "headlines": [
     {
-      "source": "TechCrunch",
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "date": "2026-10-23T23:05:49.000Z"
+      "source": "The Verge",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "date": "2026-10-24T21:29:12.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "date": "2026-10-23T21:59:19.000Z"
+      "title": "The AI graveyard: a running list of projects and startups that didn't make it",
+      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "date": "2026-10-24T19:00:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "date": "2026-10-24T18:32:21.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Block's new voice model sounds eerily human",
+      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "date": "2026-10-24T16:00:00.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "date": "2026-10-24T15:00:00.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "date": "2026-10-24T14:00:00.000Z"
     },
     {
       "source": "The Verge",
@@ -3645,46 +3669,16 @@
       "date": "2026-10-23T19:32:39.000Z"
     },
     {
-      "source": "TechCrunch",
-      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
-      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
-      "date": "2026-10-23T19:06:23.000Z"
-    },
-    {
       "source": "Ars Technica",
       "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
       "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
       "date": "2026-10-23T17:18:31.000Z"
     },
     {
-      "source": "The Verge",
-      "title": "The iPhone Duo should have been an iPad",
-      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
-      "date": "2026-10-23T17:00:18.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "date": "2026-10-23T16:52:55.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
-      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
-      "date": "2026-10-23T04:00:00.000Z"
-    },
-    {
       "source": "Ars Technica",
       "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
       "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
       "date": "2026-10-22T15:25:02.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "The new human-crafted Apple Music brand matters in an AI world",
-      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-      "date": "2026-10-21T19:44:40.000Z"
     }
   ],
   "skipped": [
