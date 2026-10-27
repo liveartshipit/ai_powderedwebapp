@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-27T05:25:10.383Z",
+  "updated": "2026-10-27T07:56:33.173Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-27T05:25:09.988Z",
+    "date": "2026-10-27T07:56:32.687Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "AI cost savings and code security updates",
+    "headline": "Bedrock caching cuts AI costs; code tools boost security",
     "bullets": [
-      "Amazon Bedrock prompt caching lets AI agents reuse instructions and history, lowering input cost and latency per step.",
+      "Amazon Bedrock prompt caching lets AI agents reuse instructions and history, cutting input cost and latency per step.",
       "Greptile combines GPT-6 Astra, Daybreak, and Codex to test workflows, improve security, and reduce code rework.",
-      "CodeRabbit's security agent reviews complex codebases and proposed fixes using OpenAI's GPT-6.1 Sol model."
+      "CodeRabbit uses OpenAI's GPT-6.1 Sol to review complex codebases and proposed fixes for security."
     ]
   },
   "items": [
@@ -175,6 +175,78 @@
         "code-security",
         "coderabbit",
         "ai-models"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/chatgpt-expanding-world-of-work",
+      "title": "ChatGPT’s expanding world of work",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "date": "2026-10-26T10:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "How people in nearly 100 countries use ChatGPT at work",
+      "summary": "OpenAI shared data on how people use ChatGPT across 165 work activities in nearly 100 countries, showing usage patterns over time.",
+      "why": "Shows which work tasks AI is actually handling, helping you spot opportunities for your own business.",
+      "takeaway": "Review OpenAI's work activity data to see where ChatGPT fits your workflow.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "chatgpt",
+        "work",
+        "data"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/fanatics-streamline-fan-experience",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "date": "2026-10-26T07:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Products",
+      "hook": "Fanatics uses AI to suggest complete fan outfits",
+      "summary": "Fanatics uses OpenAI in its Shop the Look feature to suggest matching fan apparel. Tests across about 30,000 MLB products found 10% higher engagement.",
+      "why": "Shows how small retailers can use AI to recommend product bundles and boost customer interaction.",
+      "takeaway": "Test AI-powered product recommendations in your online store to measure engagement gains.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Fanatics",
+      "ticker": "",
+      "tags": [
+        "fanatics",
+        "retail",
+        "ai"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/openai-cut-incident-investigation",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "link": "https://openai.com/index/openai-cut-incident-investigation",
+      "date": "2026-10-26T07:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Products",
+      "hook": "OpenAI engineers use AI to investigate security incidents in minutes",
+      "summary": "OpenAI engineers use Codex Ultrafast to speed up security investigations, code refactoring, and daily tasks, reducing incident review time from hours to minutes.",
+      "why": "Shows how AI coding tools can cut technical troubleshooting time for small teams without dedicated security staff.",
+      "takeaway": "Try AI coding assistants to speed up debugging and security checks in your projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "codex",
+        "security",
+        "coding"
       ],
       "readMins": 2,
       "ai": true,
@@ -3535,78 +3607,6 @@
         "aws",
         "openai",
         "inference"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai",
-      "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
-      "link": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
-      "date": "2026-10-12T15:51:46.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Deploy decision models efficiently using llama.cpp on AWS SageMaker.",
-      "summary": "AWS provides a technical guide on deploying decision models with llama.cpp on SageMaker, enabling OpenAI-compatible completions and probability outputs on CPU or GPU.",
-      "why": "Freelancers can deploy AI models without managing infrastructure, saving time and costs.",
-      "takeaway": "Read the AWS guide to set up llama.cpp on SageMaker.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "AWS",
-      "ticker": "",
-      "tags": [
-        "aws",
-        "sagemaker",
-        "llama.cpp"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers",
-      "title": "Run multi-node inference workloads using Ray LLM Deep Learning Containers",
-      "link": "https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/",
-      "date": "2026-10-12T15:50:14.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Scale AI inference across multiple GPU nodes with Ray on AWS.",
-      "summary": "AWS offers a guide on deploying large language models across multiple nodes using Ray containers on EKS, simplifying setup with pre-built solutions.",
-      "why": "Enables efficient scaling of AI models, reducing infrastructure management for startups.",
-      "takeaway": "Explore Ray LLM containers for multi-node deployment.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "AWS",
-      "ticker": "",
-      "tags": [
-        "aws",
-        "eks",
-        "ray"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories",
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "date": "2026-10-12T15:00:25.000Z",
-      "source": "NVIDIA",
-      "section": "Companies",
-      "hook": "NVIDIA opens Vera Rubin architecture to scale AI factories worldwide.",
-      "summary": "At OCP Summit, NVIDIA announced partnerships and contributions to open-source Vera Rubin architecture for scaling AI infrastructure efficiently.",
-      "why": "Could lead to more affordable AI tools for small businesses through better infrastructure.",
-      "takeaway": "Watch for NVIDIA's open standards in AI hardware.",
-      "impact": "big",
-      "forYou": false,
-      "company": "NVIDIA",
-      "ticker": "NVDA",
-      "tags": [
-        "nvidia",
-        "vera-rubin",
-        "ai-factories"
       ],
       "readMins": 2,
       "ai": true,
