@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-27T07:56:33.173Z",
+  "updated": "2026-10-27T09:21:19.477Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-27T07:56:32.687Z",
+    "date": "2026-10-27T09:21:19.182Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "Bedrock caching cuts AI costs; code tools boost security",
+    "headline": "AI cost cuts, code security, and bug detection",
     "bullets": [
       "Amazon Bedrock prompt caching lets AI agents reuse instructions and history, cutting input cost and latency per step.",
-      "Greptile combines GPT-6 Astra, Daybreak, and Codex to test workflows, improve security, and reduce code rework.",
-      "CodeRabbit uses OpenAI's GPT-6.1 Sol to review complex codebases and proposed fixes for security."
+      "CodeRabbit uses OpenAI's GPT-6.1 Sol to review complex codebases and proposed fixes for security issues.",
+      "Greptile combines GPT-6 Astra, Daybreak, and Codex to test workflows, improve security, and reduce code rework."
     ]
   },
   "items": [
@@ -247,6 +247,30 @@
         "codex",
         "security",
         "coding"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/introducing-gpt-6-1-terra",
+      "title": "Introducing GPT-6.1 Terra",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "date": "2026-10-26T00:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "OpenAI's new model promises fast, capable computer use for everyone.",
+      "summary": "OpenAI announced GPT-6.1 Terra, a model intended to deliver fast and capable computer use to a broad audience.",
+      "why": "Could automate routine computer tasks, saving time on admin and workflows for small teams.",
+      "takeaway": "Watch for access details and test it on repetitive computer tasks.",
+      "impact": "notable",
+      "forYou": false,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "openai",
+        "computer-use",
+        "models"
       ],
       "readMins": 2,
       "ai": true,
@@ -3583,30 +3607,6 @@
         "agentic-ai",
         "enterprise",
         "international"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan",
-      "title": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
-      "link": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
-      "date": "2026-10-12T17:52:22.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Run OpenAI models on AWS Bedrock from Southeast Asia regions",
-      "summary": "AWS now lets users run OpenAI GPT-6 models via cross-Region inference from Southeast Asian regions like Singapore and Jakarta, covering API setup, permissions, and monitoring.",
-      "why": "Useful for teams needing lower latency or data residency in Southeast Asia without moving code.",
-      "takeaway": "Check regional latency and data residency requirements before migrating inference workloads.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "AWS",
-      "ticker": "AMZN",
-      "tags": [
-        "aws",
-        "openai",
-        "inference"
       ],
       "readMins": 2,
       "ai": true,
