@@ -1,17 +1,278 @@
 {
-  "updated": "2026-10-27T09:21:19.477Z",
+  "updated": "2026-10-28T06:06:30.045Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-27T09:21:19.182Z",
+    "date": "2026-10-28T06:06:29.689Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "AI cost cuts, code security, and bug detection",
+    "headline": "Top AI news for freelancers and small businesses",
     "bullets": [
-      "Amazon Bedrock prompt caching lets AI agents reuse instructions and history, cutting input cost and latency per step.",
-      "CodeRabbit uses OpenAI's GPT-6.1 Sol to review complex codebases and proposed fixes for security issues.",
-      "Greptile combines GPT-6 Astra, Daybreak, and Codex to test workflows, improve security, and reduce code rework."
+      "OpenAI and Oracle are adding Oracle business apps and AI agents to ChatGPT.",
+      "Amazon Bedrock removed evaluation bias, cutting image-quality attribute costs by 86%.",
+      "Liquid AI released LFM3 multimodal models built to run efficiently on devices."
     ]
   },
   "items": [
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service",
+      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
+      "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
+      "date": "2026-10-27T18:03:12.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "",
+      "summary": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on…",
+      "why": "",
+      "takeaway": "",
+      "impact": "fyi",
+      "forYou": false,
+      "company": "",
+      "ticker": "",
+      "tags": [],
+      "readMins": 2,
+      "raw": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.&nbsp;",
+      "ai": false,
+      "v": 1
+    },
+    {
+      "id": "huggingface.co/blog/LiquidAI/lfm3",
+      "title": "Build specialized multimodal models with LFM3",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "date": "2026-10-27T17:16:52.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Liquid AI unveils LFM3, a new line of multimodal models.",
+      "summary": "Liquid AI introduced LFM3, a family of specialized multimodal models designed for efficient on‑device deployment.",
+      "why": "Freelancers can integrate these models to build lightweight AI applications without heavy cloud costs.",
+      "takeaway": "Explore LFM3 capabilities to evaluate integration potential for on‑device AI applications.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Liquid AI",
+      "ticker": "",
+      "tags": [
+        "models",
+        "ai",
+        "multimodal"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs",
+      "title": "Announcing SOCI-indexed images for faster SageMaker AI jobs",
+      "link": "https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/",
+      "date": "2026-10-27T17:00:39.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "SOCI indexing lets SageMaker AI jobs start in seconds.",
+      "summary": "Amazon SageMaker now supports SOCI‑indexed images, enabling faster AI training and processing jobs.",
+      "why": "Faster job launches reduce time and resources for small teams using AI pipelines.",
+      "takeaway": "Track SOCI‑indexed image performance to see how faster job launches impact small‑business AI pipelines.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "ai",
+        "products",
+        "performance"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock",
+      "title": "Fix evaluation bias to unlock better models on Amazon Bedrock",
+      "link": "https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/",
+      "date": "2026-10-27T16:53:02.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Bedrock model accuracy improved after fixing evaluation bias.",
+      "summary": "Amazon Bedrock achieved higher accuracy by eliminating evaluation bias, cutting cost on image‑quality attributes by 86%.",
+      "why": "Freelancers can benefit from more reliable AI outputs when building image‑based services.",
+      "takeaway": "Validate evaluation‑bias fixes on Bedrock to improve model accuracy for freelance image projects.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Amazon",
+      "ticker": "AMZN",
+      "tags": [
+        "ai",
+        "evaluation",
+        "cost"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "huggingface.co/blog/allenai/novelty-bench",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "link": "https://huggingface.co/blog/allenai/novelty-bench",
+      "date": "2026-10-27T16:12:42.000Z",
+      "source": "Hugging Face",
+      "section": "Models",
+      "hook": "Hugging Face tests if LLMs can judge research novelty.",
+      "summary": "Hugging Face published a benchmark questioning whether large language models can reliably assess research idea originality.",
+      "why": "Understanding AI’s limits in evaluating novelty helps freelancers avoid over‑reliance on automated judgment.",
+      "takeaway": "Test the novelty benchmark on your own research to assess AI’s reliability in idea assessment.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Hugging Face",
+      "ticker": "",
+      "tags": [
+        "models",
+        "research",
+        "benchmark"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "title": "Genie 4: A new generation of world simulation",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "date": "2026-10-27T16:01:38.000Z",
+      "source": "Google DeepMind",
+      "section": "Research",
+      "hook": "Google DeepMind releases Genie 4, a new generation of world simulation.",
+      "summary": "DeepMind introduced Genie 4, a world model that promises unprecedented realism in real‑time simulation.",
+      "why": "Such simulations could inspire new AI tools for business forecasting and scenario planning.",
+      "takeaway": "Follow DeepMind’s Genie 4 releases for insights into future world‑simulation AI applications.",
+      "impact": "big",
+      "forYou": true,
+      "company": "DeepMind",
+      "ticker": "",
+      "tags": [
+        "research",
+        "ai",
+        "simulation"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier",
+      "title": "The platform approach to becoming Frontier",
+      "link": "https://blogs.microsoft.com/blog/2026/10/27/the-platform-approach-to-becoming-frontier/",
+      "date": "2026-10-27T16:01:38.000Z",
+      "source": "Microsoft",
+      "section": "Products",
+      "hook": "Microsoft outlines a platform strategy to become Frontier.",
+      "summary": "Microsoft described a platform‑first approach to achieving Frontier performance, emphasizing business outcomes over technology alone.",
+      "why": "The strategy may shape future AI services that freelancers can integrate into their workflows.",
+      "takeaway": "Study Microsoft’s platform strategy to understand emerging AI‑driven workflow automation trends.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Microsoft",
+      "ticker": "MSFT",
+      "tags": [
+        "ai",
+        "products",
+        "platform"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "link": "https://blogs.nvidia.com/blog/open-source-ai-tools-cbrain-dementia/",
+      "date": "2026-10-27T15:00:20.000Z",
+      "source": "NVIDIA",
+      "section": "Companies",
+      "hook": "NVIDIA opens source AI tools aimed at dementia research.",
+      "summary": "NVIDIA released open‑source AI tools designed to accelerate discovery for millions living with dementia.",
+      "why": "Accessible AI tools can help freelancers build specialized applications for healthcare or data analysis.",
+      "takeaway": "Experiment with NVIDIA’s open‑source tools to build custom models for niche business problems.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "NVIDIA",
+      "ticker": "NVDA",
+      "tags": [
+        "ai",
+        "tools",
+        "health"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/retell-ai",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "link": "https://openai.com/index/retell-ai",
+      "date": "2026-10-27T15:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Models",
+      "hook": "Retell uses OpenAI models to power 100 million monthly calls.",
+      "summary": "OpenAI’s Retell leverages its models to run a voice agent that handles 100 million monthly calls.",
+      "why": "Freelancers can adopt similar voice‑assistant architectures to improve customer interaction efficiency.",
+      "takeaway": "Integrate Retell’s voice agent capabilities to enhance customer interaction for your freelance services.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "ai",
+        "voice",
+        "assistants"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/oracle-apps-in-chatgpt",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "date": "2026-10-27T07:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Products",
+      "hook": "Oracle business apps are coming to ChatGPT through OpenAI",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring Oracle business applications and AI agents into ChatGPT, plus new Oracle AI offerings.",
+      "why": "Small teams could manage Oracle business tools inside ChatGPT, reducing app-switching and saving time.",
+      "takeaway": "Watch for Oracle app integrations inside ChatGPT over the next few months.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "OpenAI",
+      "ticker": "",
+      "tags": [
+        "openai",
+        "oracle",
+        "chatgpt"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "openai.com/index/check-point-daybreak",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "link": "https://openai.com/index/check-point-daybreak",
+      "date": "2026-10-27T00:00:00.000Z",
+      "source": "OpenAI",
+      "section": "Research",
+      "hook": "Check Point uses OpenAI Daybreak to speed up security research",
+      "summary": "Check Point is using OpenAI Daybreak to accelerate security vulnerability research, helping analysts turn threat intelligence into customer defenses faster.",
+      "why": "Faster vulnerability research means quicker security patches, lowering risk for small businesses without large IT teams.",
+      "takeaway": "Watch for security vendors releasing AI-powered patches and updates more quickly.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Check Point",
+      "ticker": "CHKP",
+      "tags": [
+        "check point",
+        "daybreak",
+        "security"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
     {
       "id": "openai.com/index/greptile-code-review-codex-astra",
       "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -3347,344 +3608,80 @@
       "readMins": 2,
       "ai": true,
       "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements",
-      "title": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
-      "link": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
-      "date": "2026-10-13T17:17:25.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "AWS guides users to activate private pricing offer entitlement in multi‑account environments.",
-      "summary": "A paper shows scripts and CDK automation to enable secure model access across many AWS accounts.",
-      "why": "Businesses can streamline billing and compliance for AI workloads.",
-      "takeaway": "Implement managed entitlements for your AI projects.",
-      "impact": "big",
-      "forYou": false,
-      "company": "AWS",
-      "ticker": "AMZN",
-      "tags": [
-        "pricing",
-        "multi-account",
-        "automation"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "date": "2026-10-13T17:05:48.000Z",
-      "source": "Hugging Face",
-      "section": "Models",
-      "hook": "Liquid AI releases LFM2.5‑24B‑A2B for fast, private on‑device intelligence.",
-      "summary": "The new LFM version runs efficiently on consumer hardware, enabling local AI applications.",
-      "why": "Freelancers can deploy private agents without cloud latency.",
-      "takeaway": "Experiment with LFM on‑device for offline projects.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Liquid AI",
-      "ticker": "",
-      "tags": [
-        "lfm",
-        "on-device",
-        "privacy"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock",
-      "title": "Natural language security queries at Orca Security using Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
-      "date": "2026-10-13T16:03:31.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Orca Security cuts query cost 90% with Bedrock-powered natural language agent.",
-      "summary": "Orca Security built Discovery AI on Amazon Bedrock, turning plain English questions into Sonar queries, achieving 90% lower query cost, 93% fewer input tokens, and 75% lower latency vs baseline.",
-      "why": "Freelancers can cut security query costs and latency using natural language on Bedrock, saving time and money.",
-      "takeaway": "Explore Amazon Bedrock agents to automate security queries in your workflow.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Orca Security",
-      "ticker": "",
-      "tags": [
-        "security",
-        "bedrock",
-        "nlp"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "deepmind.google/blog/gemini-4-argon-for-robotics",
-      "title": "Gemini 4 Argon for Robotics",
-      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "date": "2026-10-13T16:01:58.000Z",
-      "source": "Google DeepMind",
-      "section": "Research",
-      "hook": "Gemini 4 Argon model aims to power smarter robotic systems.",
-      "summary": "Google DeepMind unveiled Gemini 4 Argon, a model aimed at robotics tasks.",
-      "why": "Robotics-focused AI model could let freelancers build smarter automation or prototypes without deep ML expertise.",
-      "takeaway": "Test Gemini 4 Argon via Google Cloud for robotics prototyping projects.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Google",
-      "ticker": "GOOGL",
-      "tags": [
-        "gemini",
-        "robotics",
-        "research"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "date": "2026-10-13T16:00:00.000Z",
-      "source": "Google AI",
-      "section": "Products",
-      "hook": "Gemini 4 Argon model now available for developers and enterprises.",
-      "summary": "Google announced Gemini 4 Argon, its latest frontier model, now accessible to developers, enterprises, scientists, and consumers.",
-      "why": "Access to a cutting‑edge frontier model lets small businesses experiment with advanced AI for products or services.",
-      "takeaway": "Sign up for Gemini 4 Argon access to pilot AI features in your product.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Google",
-      "ticker": "GOOGL",
-      "tags": [
-        "gemini",
-        "model",
-        "release"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore",
-      "title": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
-      "date": "2026-10-13T15:54:49.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "ShipStation builds an AI IT help desk agent on Bedrock for Slack support.",
-      "summary": "The company created Deckhand, an AI assistant that resolves IT queries from screenshots.",
-      "why": "Small businesses can adapt similar AI chatbots for internal help desks.",
-      "takeaway": "Adapt ShipStation’s approach to create custom AI support bots.",
-      "impact": "big",
-      "forYou": true,
-      "company": "ShipStation",
-      "ticker": "",
-      "tags": [
-        "ai",
-        "helpdesk",
-        "slack"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock",
-      "title": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
-      "link": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
-      "date": "2026-10-13T15:52:20.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Grok 4.7 gets added to Bedrock, enabling longer‑horizon reasoning agents.",
-      "summary": "A demonstration shows improved accuracy and efficiency for complex tasks on Bedrock.",
-      "why": "Freelancers can leverage extended reasoning for better decision support.",
-      "takeaway": "Try Grok 4.7 on Bedrock for enhanced problem solving.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "AWS",
-      "ticker": "AMZN",
-      "tags": [
-        "reasoning",
-        "long-horizon",
-        "grok"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai",
-      "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
-      "link": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
-      "date": "2026-10-13T15:17:09.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "Engineers optimize MoE kernels on SageMaker for higher throughput.",
-      "summary": "Technical improvements yield up to ten percent faster response times on GPU clusters.",
-      "why": "Improved performance can reduce costs for scaling AI services.",
-      "takeaway": "Monitor MoE kernel tuning in your SageMaker pipelines.",
-      "impact": "big",
-      "forYou": false,
-      "company": "AWS",
-      "ticker": "AMZN",
-      "tags": [
-        "performance",
-        "moe",
-        "sagemaker"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "date": "2026-10-13T12:00:49.000Z",
-      "source": "NVIDIA",
-      "section": "Companies",
-      "hook": "NVIDIA RTX Spark chip packs 1 petaflop AI compute in a PC.",
-      "summary": "NVIDIA launched RTX Spark, a superchip combining gaming, creative, and AI PC capabilities with up to 128GB unified memory and 1 petaflop AI compute.",
-      "why": "A powerful all‑in‑one AI PC could replace separate workstations, lowering hardware costs for creators and freelancers.",
-      "takeaway": "Evaluate RTX Spark specs when upgrading your workstation for AI‑heavy tasks.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "NVIDIA",
-      "ticker": "NVDA",
-      "tags": [
-        "nvidia",
-        "rtx",
-        "spark"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "openai.com/index/higgsfield-longer-videos-voice",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "date": "2026-10-13T12:00:00.000Z",
-      "source": "OpenAI",
-      "section": "Models",
-      "hook": "Higgsfield extends AI video length using GPT-6 Astra and GPT-Image-2.5.",
-      "summary": "Higgsfield updated its AI video tools, enabling creators to produce videos longer than one minute using GPT-6 Astra for video, GPT-Image-2.5 for visuals, and GPT-Live for voice filmmaking.",
-      "why": "Longer AI‑generated video and voice tools let freelancers produce richer content faster, expanding service offerings.",
-      "takeaway": "Try Higgsfield’s extended video tools to create longer client promos.",
-      "impact": "notable",
-      "forYou": true,
-      "company": "Higgsfield",
-      "ticker": "",
-      "tags": [
-        "higgsfield",
-        "video",
-        "ai"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
-    },
-    {
-      "id": "blogs.nvidia.com/blog/france-ecosystem-agentic-computing",
-      "title": "From Earth to Orbit, France’s Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-      "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "date": "2026-10-13T05:00:31.000Z",
-      "source": "NVIDIA",
-      "section": "Companies",
-      "hook": "France scales agentic AI across space, finance, and public sectors",
-      "summary": "French companies are deploying agentic computing in space, finance, public services, and research. Progress follows compute commitments anchored by the 2025 AI Action Summit and Choose France Summits.",
-      "why": "Shows enterprise-grade agentic AI is viable outside US tech hubs; watch for global adoption patterns.",
-      "takeaway": "Monitor how sovereign AI initiatives expand compute access for international teams.",
-      "impact": "notable",
-      "forYou": false,
-      "company": "NVIDIA",
-      "ticker": "NVDA",
-      "tags": [
-        "agentic-ai",
-        "enterprise",
-        "international"
-      ],
-      "readMins": 2,
-      "ai": true,
-      "v": 2
     }
   ],
   "headlines": [
     {
       "source": "TechCrunch",
-      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-      "link": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
-      "date": "2026-10-27T02:00:00.000Z"
+      "title": "VCs will make billions on Anthropic's IPO, but Amazon is set to make much (much) more",
+      "link": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "date": "2026-10-28T01:15:28.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "link": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "date": "2026-10-27T01:12:21.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "date": "2026-10-26T23:34:58.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Anthropic is burning gas to feed the AI boom",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-      "date": "2026-10-26T21:45:31.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-      "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-      "date": "2026-10-26T20:04:16.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "ICE plan to buy robot dogs spurs protest from hundreds of Boston Dynamics employees",
-      "link": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-      "date": "2026-10-26T18:50:41.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "The RealReal won’t let AI agents hog designer clothing",
-      "link": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-      "date": "2026-10-26T17:30:55.000Z"
-    },
-    {
-      "source": "Ars Technica",
-      "title": "Highway thieves are spoofing GPS to steal millions in data center-bound cargo",
-      "link": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/",
-      "date": "2026-10-26T17:26:36.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Five weird details from Anthropic’s IPO filing",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018738/anthropic-ipo-s1-filing-weird-details",
-      "date": "2026-10-26T17:10:23.000Z"
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "date": "2026-10-27T23:34:27.000Z"
     },
     {
       "source": "TechCrunch",
-      "title": "Anthropic’s IPO filing reveals its strategy for keeping enterprise customers hooked",
-      "link": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
-      "date": "2026-10-26T16:49:42.000Z"
-    },
-    {
-      "source": "TechCrunch",
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "link": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "date": "2026-10-26T16:46:36.000Z"
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "date": "2026-10-27T22:55:41.000Z"
     },
     {
       "source": "Ars Technica",
-      "title": "Tesla gave up the EV crown. Now it wants to win the autonomy race.",
-      "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
-      "date": "2026-10-26T14:30:27.000Z"
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "date": "2026-10-27T21:50:04.000Z"
+    },
+    {
+      "source": "TechCrunch",
+      "title": "Bank of America kindly asks that you don't share your banking password with your AI assistant",
+      "link": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "date": "2026-10-27T21:44:34.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "date": "2026-10-27T21:31:14.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "date": "2026-10-27T20:48:58.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "link": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+      "date": "2026-10-27T18:49:08.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "date": "2026-10-27T17:30:00.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "date": "2026-10-27T16:51:22.000Z"
+    },
+    {
+      "source": "The Verge",
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "date": "2026-10-27T16:14:18.000Z"
+    },
+    {
+      "source": "Ars Technica",
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "link": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "date": "2026-10-27T16:00:22.000Z"
     }
   ],
   "skipped": [
@@ -3698,6 +3695,7 @@
     "aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink",
     "sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
     "blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4",
-    "blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer"
+    "blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer",
+    "sec.gov/Archives/edgar/data/1730168/000119312526434271/0001193125-26-434271-index.htm"
   ]
 }
