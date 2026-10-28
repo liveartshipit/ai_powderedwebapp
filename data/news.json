@@ -1,38 +1,17 @@
 {
-  "updated": "2026-10-28T06:06:30.045Z",
+  "updated": "2026-10-28T08:38:49.014Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-28T06:06:29.689Z",
+    "date": "2026-10-28T08:38:48.390Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "Top AI news for freelancers and small businesses",
+    "headline": "Top AI updates for small businesses",
     "bullets": [
-      "OpenAI and Oracle are adding Oracle business apps and AI agents to ChatGPT.",
-      "Amazon Bedrock removed evaluation bias, cutting image-quality attribute costs by 86%.",
-      "Liquid AI released LFM3 multimodal models built to run efficiently on devices."
+      "Amazon Bedrock cut image-quality attribute costs by 86 percent after fixing evaluation bias.",
+      "Liquid AI released LFM3, multimodal models built for efficient on-device deployment.",
+      "OpenAI and Oracle will bring Oracle business apps and AI agents into ChatGPT."
     ]
   },
   "items": [
-    {
-      "id": "aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service",
-      "title": "AWS named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service",
-      "link": "https://aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service/",
-      "date": "2026-10-27T18:03:12.000Z",
-      "source": "AWS Machine Learning",
-      "section": "Products",
-      "hook": "",
-      "summary": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on…",
-      "why": "",
-      "takeaway": "",
-      "impact": "fyi",
-      "forYou": false,
-      "company": "",
-      "ticker": "",
-      "tags": [],
-      "readMins": 2,
-      "raw": "AWS has been named a Leader in the 2026 Gartner Magic Quadrant for Contact Center as a Service (CCaaS) for AWS Connect Customer. This recognition marks an important milestone for our team, and it reflects years of work pushing on what's possible in customer experience.&nbsp;",
-      "ai": false,
-      "v": 1
-    },
     {
       "id": "huggingface.co/blog/LiquidAI/lfm3",
       "title": "Build specialized multimodal models with LFM3",
@@ -99,6 +78,30 @@
       "tags": [
         "ai",
         "evaluation",
+        "cost"
+      ],
+      "readMins": 2,
+      "ai": true,
+      "v": 2
+    },
+    {
+      "id": "aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization",
+      "title": "Exowatt beats frontier models on accuracy with SageMaker serverless model customization",
+      "link": "https://aws.amazon.com/blogs/machine-learning/exowatt-beats-frontier-models-on-accuracy-with-sagemaker-serverless-model-customization/",
+      "date": "2026-10-27T16:50:55.000Z",
+      "source": "AWS Machine Learning",
+      "section": "Products",
+      "hook": "Custom fine-tuned models outperform frontier AI at 49x lower cost",
+      "summary": "Exowatt used Amazon SageMaker serverless tools to build custom fine-tuned AI models for edge and cloud. They achieved higher accuracy than frontier models at up to 49 times lower cost.",
+      "why": "Small teams can create accurate, task-specific AI without paying frontier model prices, making custom AI more affordable.",
+      "takeaway": "Test SageMaker serverless customization for affordable, task-specific AI models in your business.",
+      "impact": "notable",
+      "forYou": true,
+      "company": "Exowatt",
+      "ticker": "",
+      "tags": [
+        "sagemaker",
+        "fine-tuning",
         "cost"
       ],
       "readMins": 2,
@@ -3696,6 +3699,7 @@
     "sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
     "blogs.nvidia.com/blog/geforce-now-thursday-call-of-duty-modern-warfare-4",
     "blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer",
-    "sec.gov/Archives/edgar/data/1730168/000119312526434271/0001193125-26-434271-index.htm"
+    "sec.gov/Archives/edgar/data/1730168/000119312526434271/0001193125-26-434271-index.htm",
+    "aws.amazon.com/blogs/machine-learning/aws-named-a-leader-in-the-2026-gartner-magic-quadrant-for-contact-center-as-a-service"
   ]
 }
