@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-29T06:18:11.771Z",
+  "updated": "2026-10-29T08:37:57.302Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-29T06:18:11.134Z",
+    "date": "2026-10-29T08:37:56.895Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "Today's top AI news for small business",
+    "headline": "Today's AI news for small businesses",
     "bullets": [
-      "OpenAI is studying how AI can work under, alongside, and between employees in company structures.",
-      "Microsoft described a platform-first approach to reaching Frontier performance, focusing on business outcomes rather than technology alone.",
-      "Legora is building an agentic system for legal work that analyzes contracts and speeds up legal tasks."
+      "OpenAI explores how AI might work under, alongside, and between employees in company structures.",
+      "Amazon Bedrock cut image-quality attribute costs by 86% after removing evaluation bias.",
+      "Microsoft described a platform-first approach to achieving Frontier performance focused on business outcomes."
     ]
   },
   "items": [
