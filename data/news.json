@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-30T08:51:57.326Z",
+  "updated": "2026-10-30T10:31:38.324Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-30T08:51:57.023Z",
+    "date": "2026-10-30T10:31:38.039Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "Today's top AI news for small business",
+    "headline": "Top AI News: OpenAI, Microsoft, NVIDIA",
     "bullets": [
-      "OpenAI updated its Model Spec with five core values to guide AI judgment and human agency.",
-      "Microsoft introduced a Copilot harness to run agentic work across multiple AI models while balancing performance, quality, and cost.",
-      "NVIDIA released Nemotron 3.5 Transcribe and Granary v2, multilingual speech-to-text models that users can prompt and fine-tune."
+      "OpenAI updated its Model Spec with five values to guide AI judgment and human agency.",
+      "Microsoft introduced a Copilot harness to run agentic work across multiple AI models, balancing performance, quality, and cost.",
+      "NVIDIA released Nemotron 3.5 Transcribe and Granary v2, multilingual speech-to-text models that can be prompted and fine-tuned."
     ]
   },
   "items": [
@@ -3585,6 +3585,12 @@
   ],
   "headlines": [
     {
+      "source": "The Verge",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "date": "2026-10-30T09:00:00.000Z"
+    },
+    {
       "source": "TechCrunch",
       "title": "You don't need to believe in a god to get a religious exemption from using AI at work",
       "link": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
@@ -3637,12 +3643,6 @@
       "title": "The NYT Cooking app is testing AI recipe modifications",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
       "date": "2026-10-29T14:39:37.000Z"
-    },
-    {
-      "source": "The Verge",
-      "title": "Anthropic is asking Wall Street to believe in AGI",
-      "link": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
-      "date": "2026-10-29T14:00:00.000Z"
     },
     {
       "source": "Ars Technica",
