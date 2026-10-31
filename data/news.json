@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-31T08:31:59.238Z",
+  "updated": "2026-10-31T10:01:57.612Z",
   "model": "nvidia/nemotron-3.5-super-vl:free",
   "brief": {
-    "date": "2026-10-31T08:31:58.724Z",
+    "date": "2026-10-31T10:01:57.124Z",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "headline": "OpenAI Model Spec, AI agents, and UI testing",
+    "headline": "Top AI news for freelancers and small businesses",
     "bullets": [
-      "OpenAI updated its Model Spec with five core values to guide AI judgment and human agency.",
-      "MoEngage converted over 400 private APIs into permission-scoped AI agent tools using Amazon Bedrock AgentCore Gateway.",
-      "Epsilon launched a managed UI testing service driven by natural language using Amazon Nova Act."
+      "OpenAI updated its Model Spec with five values to guide AI judgment and human agency.",
+      "Epsilon launched managed UI testing using Amazon Nova Act and natural language instructions.",
+      "MoEngage turned over 400 private APIs into permission-scoped AI agent tools using Amazon Bedrock."
     ]
   },
   "items": [
